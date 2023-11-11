@@ -1,6 +1,13 @@
-.vercel
-node_modules/
+# dependencies
+/ node_modules
+/ .pnp
+.pnp.js
 
-*.nod
+# testing
+/coverage
 
-node_modules/@next/swc-darwin-arm64/next-swc.darwin-arm64.node
+# production
+#  /build
+
+# misc
+.DS Storenp
