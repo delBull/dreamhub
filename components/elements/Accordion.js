@@ -92,8 +92,6 @@ export default function Accordion({oneCol}) {
                                     </div>
                                 </div>
 
-                                /* fin de primer columna de FAQs& */
-
                             </div>
                         </div>
                     </div>
