@@ -3,7 +3,9 @@ import Layout from "@/components/layout/Layout"
 import BrandSlider1 from "@/components/slider/BrandSlider1"
 import CardSlider2 from "@/components/slider/CardSlider2"
 import ProjectSlider1 from "@/components/slider/ProjectSlider1"
-import TestimonialSlider1 from "@/components/slider/TestimonialSlider1"
+import TestimonialSlider2 from "@/components/slider/TestimonialSlider2"
+import RoadmapSlider1 from "@/components/slider/RoadmapSlider1"
+import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
 export default function ZigzagCarousel() {
 
@@ -19,9 +21,9 @@ export default function ZigzagCarousel() {
                                 <div className="col-xl-6 col-md-12">
                                     <div className="banner__left">
                                         <div className="block-text">
-                                            <h2 className="heading">Transfórmate: <span className="arlo_tm_animation_text_word" /> Coneccta con el futuro</h2>
-                                            <p className="desc">Con DreamHub, el futuro de la tokenización está al alcance de tu mano</p>
-                                            <Link href="/contact" className="action-btn"><span>Empieza a Tokenizar</span></Link>
+                                            <h3 className="heading">Agencia <span className="arlo_tm_animation_text_word" /> de tokenización dedicada a convertir tus activos en valores digitales.</h3>
+                                            <p className="desc"></p>
+                                            <ScrollLink to="about" smooth={true} duration={100} className="action-btn"><span>Empieza a Tokenizar</span></ScrollLink>
                                         </div>
                                         <div className="pay">
                                             <h6>Todos somos crypto</h6>
@@ -44,7 +46,7 @@ export default function ZigzagCarousel() {
                     </section>
                     {/* End Banner */}
                     {/* About */}
-                    <section className="about">
+                    <section id="about" className="about">
                         <div className="shape" />
                         <div className="container">
                             <div className="row rev">
@@ -62,29 +64,128 @@ export default function ZigzagCarousel() {
                                 <div className="col-xl-6 col-md-12">
                                     <div className="block-text">
                                         <h6 className="sub-heading"><span>Dreamhub</span></h6>
-                                        <h3 className="heading wow" data-splitting>Transforma tus Sueños</h3>
-                                        <p className="mb-17">DreamHub es una plataforma que está liderando la revolución de la tokenización.</p>
-                                        <p className="mb-26">Conectamos a empresas y emprendedores con el emocionante mundo de los NFTs (Tokens No Fungibles) y la economía digital, brindando oportunidades únicas para transformar activos en tokens digitales.</p>
-                                        <Link href="/vision-mission" className="action-btn"><span>Adéntrate en las posibilidades</span></Link>
+                                        <h3 className="heading wow" data-splitting>Tokeniza tus activos</h3>
+                                        <p className="mb-17">Bienvenido a Dreamhub, la primera y única agencia de tokenización en México con su propio mercado de NFT.</p>
+                                        <p className="mb-26">Nos especializamos en convertir tus activos en oportunidades digitales, ofreciendo un espacio único donde emprendedores, empresas, artistas y soñadores pueden dar vida a sus proyectos de una manera revolucionaria.</p>
+                                        <ScrollLink to="tokenizar" smooth={true} duration={100} className="action-btn"> Adentrate en las posibilidades 👇</ScrollLink>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    {/* End About */}
-                    <section className="speciality">
+ {/* End About */}
+
+ {/* Tokenizar */}
+ <div style={{ height: '200px' }}></div>
+                    <section id="tokenizar" className="tokenizar">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-12">
+                            <div className="testimonials__main">
+                                <div className="block-text center">
+                                <h5 className="sub-heading"><span>¿Qué se puede Tokenizar?</span></h5>
+                                    <h5 className="heading">Versatilidad para impulsar el crecimiento y la innovación. <br />
+                                    Toma ventaja de acuerdo a tu perfil
+                                    </h5>
+                                <TestimonialSlider2 />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+ {/* End Tokenizar */}
+
+{/* Características */}
+<div style={{ height: '200px' }}></div>
+ <section id="características" className="token">
+                <div className="shape" />
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-6 col-md-12">
+                        <div style={{ height: '60px' }}></div>
+                            <div className="block-text pd-0">
+                                <h4 className="heading wow" data-splitting>Beneficios que
+                                    deberías saber
+                                    de la Tokenización</h4>
+                                <p className="mb-17">Dreamhub te permite tokenizar cualquier activo, cualquier servicios, bienes raíces, obras de arte, artículos de lujo, derechos de autor, patentes o contenido digital. Ediciones limitadas y accesos exclusivos.</p>
+                                <div style={{ height: '20px' }}></div>
+                                <Link href="#" className="action-btn"><span>Descubre cómo Dreamhub puede personalizar la tokenización para impulsar tu éxito y llevar tu visión a nuevas alturas</span></Link>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 col-md-12">
+                            <div className="token__main" data-aos="fade-left" data-aos-duration={2000}>
+                                <ul className="token-list">
+                                    <li>
+                                        <div className="name">
+                                            <svg width={12} height={16} viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.49933 4C8.49933 4.66304 8.23594 5.29893 7.7671 5.76777C7.29826 6.23661 6.66237 6.5 5.99933 6.5C5.33629 6.5 4.70041 6.23661 4.23157 5.76777C3.76273 5.29893 3.49933 4.66304 3.49933 4C3.49933 3.33696 3.76273 2.70107 4.23157 2.23223C4.70041 1.76339 5.33629 1.5 5.99933 1.5C6.66237 1.5 7.29826 1.76339 7.7671 2.23223C8.23594 2.70107 8.49933 3.33696 8.49933 4V4ZM1 13.412C1.02142 12.1002 1.55756 10.8494 2.49278 9.92936C3.42801 9.00929 4.68739 8.49365 5.99933 8.49365C7.31127 8.49365 8.57066 9.00929 9.50588 9.92936C10.4411 10.8494 10.9772 12.1002 10.9987 13.412C9.43026 14.1312 7.72477 14.5023 5.99933 14.5C4.21533 14.5 2.522 14.1107 1 13.412Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                            <p>👉 </p></div>
+                                        <h6>Aumenta la liquidez de tus activos</h6>
+                                    </li>
+                                    <li>
+                                        <div className="name">
+                                            <svg width={12} height={16} viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.49933 4C8.49933 4.66304 8.23594 5.29893 7.7671 5.76777C7.29826 6.23661 6.66237 6.5 5.99933 6.5C5.33629 6.5 4.70041 6.23661 4.23157 5.76777C3.76273 5.29893 3.49933 4.66304 3.49933 4C3.49933 3.33696 3.76273 2.70107 4.23157 2.23223C4.70041 1.76339 5.33629 1.5 5.99933 1.5C6.66237 1.5 7.29826 1.76339 7.7671 2.23223C8.23594 2.70107 8.49933 3.33696 8.49933 4V4ZM1 13.412C1.02142 12.1002 1.55756 10.8494 2.49278 9.92936C3.42801 9.00929 4.68739 8.49365 5.99933 8.49365C7.31127 8.49365 8.57066 9.00929 9.50588 9.92936C10.4411 10.8494 10.9772 12.1002 10.9987 13.412C9.43026 14.1312 7.72477 14.5023 5.99933 14.5C4.21533 14.5 2.522 14.1107 1 13.412Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                            <p>👉 </p></div>
+                                        <h6>Crea nuevos programas de fidelización</h6>
+                                    </li>
+                                    <li>
+                                        <div className="name">
+                                            <svg width={12} height={16} viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.49933 4C8.49933 4.66304 8.23594 5.29893 7.7671 5.76777C7.29826 6.23661 6.66237 6.5 5.99933 6.5C5.33629 6.5 4.70041 6.23661 4.23157 5.76777C3.76273 5.29893 3.49933 4.66304 3.49933 4C3.49933 3.33696 3.76273 2.70107 4.23157 2.23223C4.70041 1.76339 5.33629 1.5 5.99933 1.5C6.66237 1.5 7.29826 1.76339 7.7671 2.23223C8.23594 2.70107 8.49933 3.33696 8.49933 4V4ZM1 13.412C1.02142 12.1002 1.55756 10.8494 2.49278 9.92936C3.42801 9.00929 4.68739 8.49365 5.99933 8.49365C7.31127 8.49365 8.57066 9.00929 9.50588 9.92936C10.4411 10.8494 10.9772 12.1002 10.9987 13.412C9.43026 14.1312 7.72477 14.5023 5.99933 14.5C4.21533 14.5 2.522 14.1107 1 13.412Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                            <p>👉 </p></div>
+                                        <h6>Mejora la experiencia de tus clientes</h6>
+                                    </li>
+                                    <li>
+                                        <div className="name">
+                                            <svg width={12} height={16} viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.49933 4C8.49933 4.66304 8.23594 5.29893 7.7671 5.76777C7.29826 6.23661 6.66237 6.5 5.99933 6.5C5.33629 6.5 4.70041 6.23661 4.23157 5.76777C3.76273 5.29893 3.49933 4.66304 3.49933 4C3.49933 3.33696 3.76273 2.70107 4.23157 2.23223C4.70041 1.76339 5.33629 1.5 5.99933 1.5C6.66237 1.5 7.29826 1.76339 7.7671 2.23223C8.23594 2.70107 8.49933 3.33696 8.49933 4V4ZM1 13.412C1.02142 12.1002 1.55756 10.8494 2.49278 9.92936C3.42801 9.00929 4.68739 8.49365 5.99933 8.49365C7.31127 8.49365 8.57066 9.00929 9.50588 9.92936C10.4411 10.8494 10.9772 12.1002 10.9987 13.412C9.43026 14.1312 7.72477 14.5023 5.99933 14.5C4.21533 14.5 2.522 14.1107 1 13.412Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                            <p>👉 </p></div>
+                                        <h6>Genera nuevas fuentes de ingresos</h6>
+                                    </li>
+                                    <li>
+                                        <div className="name">
+                                            <svg width={12} height={16} viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.49933 4C8.49933 4.66304 8.23594 5.29893 7.7671 5.76777C7.29826 6.23661 6.66237 6.5 5.99933 6.5C5.33629 6.5 4.70041 6.23661 4.23157 5.76777C3.76273 5.29893 3.49933 4.66304 3.49933 4C3.49933 3.33696 3.76273 2.70107 4.23157 2.23223C4.70041 1.76339 5.33629 1.5 5.99933 1.5C6.66237 1.5 7.29826 1.76339 7.7671 2.23223C8.23594 2.70107 8.49933 3.33696 8.49933 4V4ZM1 13.412C1.02142 12.1002 1.55756 10.8494 2.49278 9.92936C3.42801 9.00929 4.68739 8.49365 5.99933 8.49365C7.31127 8.49365 8.57066 9.00929 9.50588 9.92936C10.4411 10.8494 10.9772 12.1002 10.9987 13.412C9.43026 14.1312 7.72477 14.5023 5.99933 14.5C4.21533 14.5 2.522 14.1107 1 13.412Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                            <p>👉 </p></div>
+                                        <h6>Obtén control sobre tu arte</h6>
+                                    </li>
+                                    <li>
+                                        <div className="name">
+                                            <svg width={12} height={16} viewBox="0 0 12 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.49933 4C8.49933 4.66304 8.23594 5.29893 7.7671 5.76777C7.29826 6.23661 6.66237 6.5 5.99933 6.5C5.33629 6.5 4.70041 6.23661 4.23157 5.76777C3.76273 5.29893 3.49933 4.66304 3.49933 4C3.49933 3.33696 3.76273 2.70107 4.23157 2.23223C4.70041 1.76339 5.33629 1.5 5.99933 1.5C6.66237 1.5 7.29826 1.76339 7.7671 2.23223C8.23594 2.70107 8.49933 3.33696 8.49933 4V4ZM1 13.412C1.02142 12.1002 1.55756 10.8494 2.49278 9.92936C3.42801 9.00929 4.68739 8.49365 5.99933 8.49365C7.31127 8.49365 8.57066 9.00929 9.50588 9.92936C10.4411 10.8494 10.9772 12.1002 10.9987 13.412C9.43026 14.1312 7.72477 14.5023 5.99933 14.5C4.21533 14.5 2.522 14.1107 1 13.412Z" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                            </svg>
+                                            <p>👉 </p></div>
+                                        <h6>Mayor reconocimiento y visibilidad</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+{/* End Tokenizar */}
+
+{/* Speciality */}
+<div style={{ height: '100px' }}></div>
+                    <section id="speciality" className="speciality">
                         <div className="shape right" />
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
                                     <div className="block-text center">
-                                        <h6 className="sub-heading"><span>Tecnología Innovadora</span></h6>
-                                        <h3 className="heading wow" data-splitting>Ventajas Clave<br/>
-                                        Que transforman.</h3>
-                                        <p >La importancia de la tokenización radica en su capacidad para transformar la manera en que las empresas interactúan con los activos y su valor:</p>
+                                        <h5 className="sub-heading"><span>Servicios y Personalización</span></h5>
+                                        <h5 className="heading wow" data-splitting>Con Dreamhub, no solo obtienes servicios de tokenización;
+                                        te asocias con un equipo apasionado que impulsa tu éxito digital con soluciones innovadoras y personalizadas.</h5>
                                     </div>
                                 </div>
-                                <div className="col-xl-8 col-md-6">
+                                <div className="col-xl-12 col-md-6">
                                     <div className="speciality-box" data-aos="fade-up" data-aos-duration={2000}>
                                         <div className="icon">
                                             <svg width={48} height={48} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -97,12 +198,12 @@ export default function ZigzagCarousel() {
                                                 </defs>
                                             </svg>
                                         </div>
-                                        <h5 className="title">Democratización de Inversión</h5>
-                                        <p>La tokenización permite que un mayor número de personas participen en la propiedad de activos que antes estaban fuera de tu alcance.</p>
+                                        <h5 className="title">Asesoría Estratégica</h5>
+                                        <p>Nuestro equipo de expertos te guía a través de cada paso del proceso de tokenización, asegurándose de que comprendas completamente el potencial y los beneficios para tu negocio.</p>
                                         <h3 className="number">01</h3>
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-md-6">
+                                <div className="col-xl-4 col-md-6">
                                     <div className="speciality-box" data-aos="fade-up" data-aos-duration={2400}>
                                         <div className="icon">
                                             <svg width={48} height={42} viewBox="0 0 48 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,12 +216,12 @@ export default function ZigzagCarousel() {
                                                 </defs>
                                             </svg>
                                         </div>
-                                        <h5 className="title">Aumento de Liquidez</h5>
-                                        <p>Los tokens digitales son más fáciles de comprar, vender y negociar en comparación con los activos físicos, lo que aumenta su liquidez.</p>
+                                        <h5 className="title">Bienes Inmuebles</h5>
+                                        <p>Transformamos propiedades físicas en tokens digitales, permitiéndote desbloquear liquidez sin perder la propiedad..</p>
                                         <h3 className="number">02</h3>
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-md-6">
+                                <div className="col-xl-4 col-md-6">
                                     <div className="speciality-box" data-aos="fade-up" data-aos-duration={2800}>
                                         <div className="icon">
                                             <svg width={48} height={42} viewBox="0 0 48 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -133,12 +234,12 @@ export default function ZigzagCarousel() {
                                                 </defs>
                                             </svg>
                                         </div>
-                                        <h5 className="title">Transparencia y Trazabilidad</h5>
-                                        <p>Con blockchain garantiza un registro transparente y rastreable de la propiedad y el historial de los activos, lo que genera confianza.</p>
+                                        <h5 className="title">Propiedad Intelectual</h5>
+                                        <p>Desde patentes hasta derechos de autor, tokenizamos activos intangibles para generar valor y oportunidades de inversión.</p>
                                         <h3 className="number">03</h3>
                                     </div>
                                 </div>
-                                <div className="col-xl-3 col-md-6">
+                                <div className="col-xl-4 col-md-6">
                                     <div className="speciality-box" data-aos="fade-up" data-aos-duration={3000}>
                                         <div className="icon">
                                             <svg width={42} height={48} viewBox="0 0 42 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -151,47 +252,34 @@ export default function ZigzagCarousel() {
                                                 </defs>
                                             </svg>
                                         </div>
-                                        <h5 className="title">Menos Fricción Financiera</h5>
-                                        <p>Los tokens digitales eliminan intermediarios innecesarios y agilizan los procesos de compra, venta y transferencia de activos.</p>
-                                        <h3 className="number">04</h3>
-                                    </div>
-                                </div>
-                                <div className="col-xl-3 col-md-6">
-                                    <div className="speciality-box" data-aos="fade-up" data-aos-duration={3000}>
-                                        <div className="icon">
-                                            <svg width={42} height={48} viewBox="0 0 616 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fillRule="evenodd" clipRule="evenodd" d="M148.6 304c8.2 68.5 67.4 115.5 146 111.3 51.2 43.3 136.8 45.8 186.4-5.6 69.2 1.1 118.5-44.6 131.5-99.5 14.8-62.5-18.2-132.5-92.1-155.1-33-88.1-131.4-101.5-186.5-85-57.3 17.3-84.3 53.2-99.3 109.7-7.8 2.7-26.5 8.9-45 24.1 11.7 0 15.2 8.9 15.2 19.5v20.4c0 10.7-8.7 19.5-19.5 19.5h-20.2c-10.7 0-19.5-6-19.5-16.7V240H98.8C95 240 88 244.3 88 251.9v40.4c0 6.4 5.3 11.8 11.7 11.8h48.9zm227.4 8c-10.7 46.3 21.7 72.4 55.3 86.8C324.1 432.6 259.7 348 296 288c-33.2 21.6-33.7 71.2-29.2 92.9-17.9-12.4-53.8-32.4-57.4-79.8-3-39.9 21.5-75.7 57-93.9C297 191.4 369.9 198.7 400 248c-14.1-48-53.8-70.1-101.8-74.8 30.9-30.7 64.4-50.3 114.2-43.7 69.8 9.3 133.2 82.8 67.7 150.5 35-16.3 48.7-54.4 47.5-76.9l10.5 19.6c11.8 22 15.2 47.6 9.4 72-9.2 39-40.6 68.8-79.7 76.5-32.1 6.3-83.1-5.1-91.8-59.2zM128 208H88.2c-8.9 0-16.2-7.3-16.2-16.2v-39.6c0-8.9 7.3-16.2 16.2-16.2H128c8.9 0 16.2 7.3 16.2 16.2v39.6c0 8.9-7.3 16.2-16.2 16.2zM10.1 168C4.5 168 0 163.5 0 157.9v-27.8c0-5.6 4.5-10.1 10.1-10.1h27.7c5.5 0 10.1 4.5 10.1 10.1v27.8c0 5.6-4.5 10.1-10.1 10.1H10.1zM168 142.7v-21.4c0-5.1 4.2-9.3 9.3-9.3h21.4c5.1 0 9.3 4.2 9.3 9.3v21.4c0 5.1-4.2 9.3-9.3 9.3h-21.4c-5.1 0-9.3-4.2-9.3-9.3zM56 235.5v25c0 6.3-5.1 11.5-11.4 11.5H19.4C13.1 272 8 266.8 8 260.5v-25c0-6.3 5.1-11.5 11.4-11.5h25.1c6.4 0 11.5 5.2 11.5 11.5z" />
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_939_899" x1={21} y1="0.666748" x2={21} y2="47.3334" gradientUnits="userSpaceOnUse">
-                                                        <stop offset={1} stopColor="white" />
-                                                        <stop offset={1} stopColor="white" stopOpacity="0.5" />
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                        </div>
-                                        <h5 className="title">Diversificación</h5>
-                                        <p>Permite a las empresas y los inversores diversificar sus carteras de activos de una manera más eficiente y accesible.</p>
+                                        <h5 className="title">Obras de Arte</h5>
+                                        <p>Los artistas pueden tokenizar sus creaciones, conectándose directamente con su audiencia y monetizando su arte de nuevas maneras.</p>
                                         <h3 className="number">04</h3>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
-                    <section className="portfolio">
+{/* End Speciality */}
+
+{/* Portfolio */}
+                    <section id="portfolio" className="portfolio">
                         <div className="shape" />
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
                                     <div className="block-text center">
-                                        <h6 className="sub-heading"><span>¿Qué se puede Tokenizar?</span></h6>
-                                        <h3 className="heading wow" data-splitting>Servicios Personalizados <br />
-                                            Dreamhub</h3>
+                                    <div style={{ height: '100px' }}></div>
+                                        <h5 className="sub-heading"><span>Servicios de Agencia Integral</span></h5>
+                                        <h5 className="heading wow" data-splitting>Convertimos métodos tradicionales. <br />
+                                        en experiencias digitales, mejorando la eficiencia y facilitando el acceso</h5>
                                     </div>
                                 </div>
+                                <div style={{ height: '50px' }}></div>
                                 <div className="col-xl-6 col-md-6">
                                     <div className="portfolio__left">
                                         <div className="portfolio-box">
-                                            <div className="step">Bienes Raíces</div>
+                                            <div className="step">Diseño</div>
                                             <div className="icon">
                                                 <svg width={38} height={40} viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M9.625 27.0312L1.11516 25.1201L0.25 22.3438L9.625 17.6562L19 22.3438L18.0232 25.1759L9.625 27.0312Z" fill="#1DE8F1" />
@@ -206,12 +294,12 @@ export default function ZigzagCarousel() {
                                                 </svg>
                                             </div>
                                             <div className="content">
-                                                <h5 className="title">Fraccionalización</h5>
-                                                <p>Propietarios de bienes raíces pueden dividir sus propiedades en tokens digitales, facilitar la inversión y la propiedad compartida. Esto es especialmente valioso para aquellos que buscan desbloquear el valor de sus propiedades y atraer a inversores.</p>
+                                               {/* <h5 className="title">Fraccionalización</h5> */}
+                                                <p>Desde la creación de NFTs hasta la interfaz de usuario, nuestro equipo de diseño trabaja para dar vida a tus ideas de manera visualmente impactante</p>
                                             </div>
                                         </div>
                                         <div className="portfolio-box">
-                                            <div className="step">Propiedad Intelectual</div>
+                                            <div className="step">Arte</div>
                                             <div className="icon">
                                                 <svg width={38} height={40} viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M2.95254 7.0368V9.32914H1.1348C0.494411 9.32914 0.120349 10.0513 0.489802 10.5744L4.47918 16.2224C4.79379 16.6679 5.45457 16.6679 5.76918 16.2224L9.75855 10.5744C10.128 10.0513 9.75394 9.32914 9.11355 9.32914H7.29582V7.0368C7.29582 5.55156 8.50418 4.3432 9.98949 4.3432C11.4748 4.3432 12.683 5.55156 12.683 7.0368V20.1065H17.0262V7.0368C17.0262 3.15672 13.8695 0 9.98941 0C6.10933 0 2.95254 3.15672 2.95254 7.0368Z" fill="#00E3FF" />
@@ -229,12 +317,12 @@ export default function ZigzagCarousel() {
                                                 </svg>
                                             </div>
                                             <div className="content">
-                                                <h5 className="title">100% en tus manos</h5>
-                                                <p>Artistas, músicos y creadores de todo tipo, la tokenización les permiten almacenar y comercializar tokens que representan la propiedad de sus creaciones. Esto brinda una forma directa de financiación y una mayor participación de sus seguidores en su éxito.</p>
+                                               {/* <h5 className="title">100% en tus manos</h5> */}
+                                                <p>Colaboramos con artistas para crear NFTs únicos y atractivos, potenciando su presencia en el mercado.</p>
                                             </div>
                                         </div>
                                         <div className="portfolio-box">
-                                            <div className="step">Activos Virtuales</div>
+                                            <div className="step">Asesoría</div>
                                             <div className="icon">
                                                 <svg width={40} height={36} viewBox="0 0 40 36" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M28.2031 32.0625C28.2031 32.7187 27.6876 33.2344 27.0312 33.2344H12.9688C12.3124 33.2344 11.7969 32.7187 11.7969 32.0625C11.7969 31.4062 12.3124 30.8906 12.9688 30.8906H27.0312C27.6876 30.8906 28.2031 31.4062 28.2031 32.0625Z" fill="#DEC7FF" />
@@ -267,12 +355,12 @@ export default function ZigzagCarousel() {
                                                 </svg>
                                             </div>
                                             <div className="content">
-                                                <h5 className="title">Sin Límite Digital</h5>
-                                                <p>Desde activos digitales en entornos virtuales, hasta objetos coleccionables. La tokenización de activos virtuales permite poseer y comerciar con estos elementos.</p>
+                                               {/* <h5 className="title">Sin Límite Digital</h5> */}
+                                                <p>Ofrecemos orientación estratégica para maximizar los beneficios de la tokenización y mejorar la posición de tu negocio en el mercado.</p>
                                             </div>
                                         </div>
                                         <div className="portfolio-box">
-                                            <div className="step">Sector Privado</div>
+                                            <div className="step">Marketing</div>
                                             <div className="icon">
                                                 <svg width={40} height={40} viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                     <path d="M1.17188 32.9688C0.524141 32.9688 0 32.4446 0 31.7969V27.1094C0 26.4616 0.524141 25.9375 1.17188 25.9375C1.81961 25.9375 2.34375 26.4616 2.34375 27.1094V31.7969C2.34375 32.4446 1.81961 32.9688 1.17188 32.9688Z" fill="#00D0FF" />
@@ -303,8 +391,8 @@ export default function ZigzagCarousel() {
                                                 </svg>
                                             </div>
                                             <div className="content">
-                                                <h5 className="title">Expansión de Sectores</h5>
-                                                <p>Empresas privadas pueden tokenizar sus acciones o participaciones en la empresa, lo que brinda una forma más accesible de inversión y financiamiento.</p>
+                                               {/* <h5 className="title">Expansión de Sectores</h5> */}
+                                                <p>Desarrollamos estrategias de marketing personalizadas para promocionar tus activos tokenizados, conectando con la audiencia adecuada.</p>
                                                 <Link href="/about" className="action-btn"><span>¿Cómo es el proceso de Tokenización?</span></Link>
                                             </div>
                                         </div>
@@ -320,102 +408,34 @@ export default function ZigzagCarousel() {
                             </div>
                         </div>
                     </section>
-                    <section className="roadmap">
-                        <img src="/assets/images/background/line.png" alt="" className="img-line" />
-                        <div className="shape" />
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-12">
-                                    <div className="block-text center">
-                                        <h6 className="sub-heading"><span>Road Map</span></h6>
-                                        <h3 className="heading wow" data-splitting>El viaje <br />
-                                            de Dreamhub</h3>
-                                    </div>
-                                    <div className="roadmap__main" data-aos="fade-up" data-aos-duration={2000}>
-                                        <div className="roadmap-box">
-                                            <div className="time">Q2, 2023</div>
-                                            <div className="content">
-                                                <h5 className="title">La idea de Dreamhub nace.</h5>
-                                                <p className="text">Un equipo interdisciplinario comienza a explorar la viabilidad de la plataforma.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box right">
-                                            <div className="time">Q2 P2, 2023</div>
-                                            <div className="content">
-                                                <h5 className="title">Desarrollo Inicial</h5>
-                                                <p className="text">Se lleva a cabo una investigación de mercado y se identifican oportunidades en el mundo de la tokenización.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box">
-                                            <div className="time">Q2 P3, 2023</div>
-                                            <div className="content">
-                                                <h5 className="title">Estructura y Plan</h5>
-                                                <p className="text">Se estructura un plan de negocios y se inician conversaciones con inversores potenciales.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box right">
-                                            <div className="time">Q3, 2023</div>
-                                            <div className="content">
-                                                <h5 className="title">Preparación para el Despegue</h5>
-                                                <p className="text">La plataforma Dreamhub se concibe y se desarrolla el MVP (Producto Mínimo Viable).</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box">
-                                            <div className="time">Q4, 2023</div>
-                                            <div className="content">
-                                                <h5 className="title">Todo listo</h5>
-                                                <p className="text">Se aseguran los primeros clientes y se completan las pruebas de concepto.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box right">
-                                            <div className="time">Q1, 2024</div>
-                                            <div className="content">
-                                                <h5 className="title">Despegue</h5>
-                                                <p className="text">Lanzamiento oficial. Se realizan las primeras transacciones y se prueban los procesos de tokenización.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box">
-                                            <div className="time">Q1 P2, 20244</div>
-                                            <div className="content">
-                                                <h5 className="title">Desarrollo</h5>
-                                                <p className="text">Se mejoran las características de la plataforma y se establece una base de usuarios inicial.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box right">
-                                            <div className="time">Q2, 2024</div>
-                                            <div className="content">
-                                                <h5 className="title">Expansión</h5>
-                                                <p className="text">Se amplía la oferta de servicios de tokenización de Dreamhub, incluyendo activos como propiedades, obras de arte, bienes raíces y más.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box">
-                                            <div className="time">Q2 P2, 20244</div>
-                                            <div className="content">
-                                                <h5 className="title">El Futuro de la Agencia</h5>
-                                                <p className="text">Dreamhub introduce nuevas tecnologías y procesos para mejorar la eficiencia de la tokenización. Se establecen alianzas estratégicas con socios comerciales.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box right">
-                                            <div className="time">Q3, 2024</div>
-                                            <div className="content">
-                                                <h5 className="title">Alcance Global</h5>
-                                                <p className="text">Dreamhub se expande a nivel global, atrayendo a clientes y socios en todo el mundo.</p>
-                                            </div>
-                                        </div>
-                                        <div className="roadmap-box">
-                                            <div className="time">Q3 P2, 20244</div>
-                                            <div className="content">
-                                                <h5 className="title">Crecimiento Continuo</h5>
-                                                <p className="text">Se incorporan características de tokenización más avanzadas y se refuerzan las relaciones con socios comerciales.</p>
-                                            </div>
-                                        </div>
-                                        <div className="icon" />
-                                        <div className="icon bottom" />
-                                    </div>
-                                </div>
+{/* End Portfolio */}
+
+{/* Roadmap */}
+
+            <section id="roadmap" className="roadmap s2">
+                <div className="shape" />
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12">
+                            <div className="block-text center">
+                                <h6 className="sub-heading"><span>Road Map</span></h6>
+                                <h3 className="heading wow" data-splitting>El Viaje de
+                                    <br />
+                                    Dreamhub</h3>
+                            </div>
+                            <div className="roadmap__main s1">
+                                <RoadmapSlider1 />
+                                {/* <div className="icon"></div>
+                  <div className="icon bottom"></div> */}
                             </div>
                         </div>
-                    </section>
+                    </div>
+                </div>
+            </section>        
+
+{/* End Roadmap*/}
+
+{/* FAQ */}
                     <section className="faq">
                         <div className="shape right" />
                         <div className="container">
@@ -432,6 +452,9 @@ export default function ZigzagCarousel() {
                             </div>
                         </div>
                     </section>
+{/* End FAQ */}
+
+{/* Create */}
                     <section className="create">
                         <div className="container">
                             <div className="row">
@@ -448,6 +471,8 @@ export default function ZigzagCarousel() {
                             </div>
                         </div>
                     </section>
+{/* End Create */}                    
+
                 </div>
 
             </Layout>

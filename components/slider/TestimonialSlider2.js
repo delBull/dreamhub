@@ -32,40 +32,41 @@ export default function TestimonialSlider2() {
                 <SwiperSlide>
                     <div className="box-testimonial center">
                         <div className="image">
-                            <img src="/assets/images/layouts/avt-08.png" alt="" />
+                            <img src="/assets/images/layouts/Beksinski_company.png" alt="" />
                         </div>
                         <div className="info">
-                            <h5 className="name">Annette Black</h5>
-                            <p>Founder &amp; CEO</p>
-                            <img src="/assets/images/icon/quote-2.png" alt="" />
+                            <h4 className="name">Emprendedores Visionarios</h4>
+                            <p></p>
+                            {/* <img src="/assets/images/icon/quote-2.png" alt="" /> */}       
                         </div>
-                        <p className="text">“ Praesent felis justo, porta id tortor vel, auctor aliquet ligula. Nam blandit mi vel pulvinar convallis. Nam at ligula a erat laoreet tincidunt ac ut lorem. “</p>
+                        <p className="text">Imagina que eres un emprendedor que busca expandir su empresa. Puedes tokenizar deuda, permitiendo que los inversores adquieran tokens respaldados por esa deuda. A cambio, obtienes la liquidez necesaria para impulsar nuevas inversiones y expandir tu negocio.</p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="box-testimonial center">
                         <div className="image">
-                            <img src="/assets/images/layouts/avt-09.png" alt="" />
+                            <img src="/assets/images/layouts/Beksinski_evolution.png" alt="" />
                         </div>
                         <div className="info">
-                            <h5 className="name">Leslie Alexander</h5>
-                            <p>CEO &amp; Founder at ThemeMu</p>
-                            <img src="/assets/images/icon/quote-2.png" alt="" />
+                            <h4 className="name">Empresas en Crecimiento</h4>
+                            <p></p>
+                            {/* <img src="/assets/images/icon/quote-2.png" alt="" /> */} 
                         </div>
-                        <p className="text">“ Curabitur eu est feugiat quam feugiat tristique non vel erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nunc nec suscipit fringilla, augue ligula eleifend velit. “</p>
+                        <p className="text">Si eres una empresa con activos valiosos, desde propiedades hasta maquinaria, la tokenización te permite convertir esos activos en tokens digitales. Al hacerlo, obtienes liquidez inmediata al tiempo que mantienes la propiedad y control de tus activos.
+ </p>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className="box-testimonial center">
                         <div className="image">
-                            <img src="/assets/images/layouts/avt-10.png" alt="" />
+                            <img src="/assets/images/layouts/Beksinski_creativity.png" alt="" />
                         </div>
                         <div className="info">
-                            <h5 className="name">Esther Howard</h5>
-                            <p>Chief Product Officer</p>
-                            <img src="/assets/images/icon/quote-2.png" alt="" />
+                            <h4 className="name">Artistas y Creadores</h4>
+                            <p></p>
+                            {/* <img src="/assets/images/icon/quote-2.png" alt="" /> */} 
                         </div>
-                        <p className="text">“ Etiam dignissim ex vitae tortor viverra, varius tincidunt sem vestibulum. Donec ex ante, sollicitudin sit amet posuere venenatis, consectetur facilisis nisi malesuada nisi nec ex. “</p>
+                        <p className="text">Los artistas pueden llevar su trabajo al siguiente nivel mediante la tokenización. ¿Cómo? Tokeniza tus creaciones artísticas, ofreciendo a tus seguidores la oportunidad de poseer partes exclusivas de tu obra. También puedes tokenizar accesos a eventos, membresías y contenido exclusivo, generando ingresos y construyendo una comunidad leal.</p>
                     </div>
                 </SwiperSlide>
             </Swiper>

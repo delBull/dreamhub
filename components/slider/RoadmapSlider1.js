@@ -45,66 +45,102 @@ export default function RoadmapSlider1() {
         <>
             <Swiper {...swiperOptions} className="swiper roadmap-swiper">
                 <SwiperSlide>
-                    <div className="roadmap-box">
-                        <div className="time">February 01, 2022</div>
-                        <div className="content">
-                            <h5 className="title">Idea Generation</h5>
-                            <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
-                        </div>
+                <div className="roadmap-box">
+                                            <div className="time">Q2, 2023</div>
+                                            <div className="content">
+                                                <h5 className="title">La idea de Dreamhub nace.</h5>
+                                                <p className="text">Un equipo interdisciplinario comienza a explorar la viabilidad de la plataforma.</p>
+                                            </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="roadmap-box">
-                        <div className="time">February 01, 2022</div>
-                        <div className="content">
-                            <h5 className="title">Initial Release</h5>
-                            <p className="text">Quisque ornare massa congue est cursus molestie. Suspendisse commodo enim turpis</p>
-                        </div>
+                <div className="roadmap-box">
+                                            <div className="time">Q2 P2, 2023</div>
+                                            <div className="content">
+                                                <h5 className="title">Desarrollo Inicial</h5>
+                                                <p className="text">Se lleva a cabo una investigación de mercado y se identifican oportunidades en el mundo de la tokenización.</p>
+                                            </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="roadmap-box">
-                        <div className="time">February 01, 2022</div>
-                        <div className="content">
-                            <h5 className="title">Design &amp; Development</h5>
-                            <p className="text">Nulla id dolor dignissim lectus semper sollicitudin at vitae magna. Aliquam non arcu iaculis, auctor eros eget, fermentum lorem. In hac habitasse platea dictumst. Maecenas varius ligula a volutpat ornare</p>
-                        </div>
+                <div className="roadmap-box">
+                                            <div className="time">Q2 P3, 2023</div>
+                                            <div className="content">
+                                                <h5 className="title">Estructura y Plan</h5>
+                                                <p className="text">Se estructura un plan de negocios y se inician conversaciones con inversores potenciales.</p>
+                                            </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="roadmap-box">
-                        <div className="time">February 01, 2022</div>
-                        <div className="content">
-                            <h5 className="title">Result &amp; Final Report</h5>
-                            <p className="text">Curabitur malesuada enim odio, nec gravida urna fermentum vitae. Maecenas euismod, risus a interdum rhoncus, ante mauris volutpat nisi, sit amet dignissim ex lorem vel nibh</p>
-                        </div>
+                <div className="roadmap-box">
+                                            <div className="time">Q3, 2023</div>
+                                            <div className="content">
+                                                <h5 className="title">Preparación para el Despegue</h5>
+                                                <p className="text">La plataforma Dreamhub se concibe y se desarrolla el MVP (Producto Mínimo Viable).</p>
+                                            </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="roadmap-box">
-                        <div className="time">February 01, 2022</div>
-                        <div className="content">
-                            <h5 className="title">Idea Generation</h5>
-                            <p className="text">Est et mattis eleifend, justo purus accumsan ante, finibus porta diam tortor et mi. Nullam egestas felis et dolor lobortis</p>
-                        </div>
+                <div className="roadmap-box">
+                                            <div className="time">Q4, 2023</div>
+                                            <div className="content">
+                                                <h5 className="title">Todo listo</h5>
+                                                <p className="text">Se aseguran los primeros clientes y se completan las pruebas de concepto.</p>
+                                            </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="roadmap-box">
-                        <div className="time">February 01, 2022</div>
-                        <div className="content">
-                            <h5 className="title">Idea Generation</h5>
-                            <p className="text">Aenean auctor nisl at nisi suscipit bibendum. Ut mollis nibh id blandit commodo. Maecenas euismod, risus a interdum rhoncus, ante mauris volutpat</p>
-                        </div>
+                <div className="roadmap-box">
+                                            <div className="time">Q1, 2024</div>
+                                            <div className="content">
+                                                <h5 className="title">Despegue</h5>
+                                                <p className="text">Lanzamiento oficial. Se realizan las primeras transacciones y se prueban los procesos de tokenización.</p>
+                                            </div>
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div className="roadmap-box">
-                        <div className="time">February 01, 2022</div>
-                        <div className="content">
-                            <h5 className="title">Idea Generation</h5>
-                            <p className="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis diam enim, scelerisque sit amet diam ut, molestie ultrices nisi. Suspendisse in ipsum ante. Ut rhoncus ligula dictum gravida.</p>
-                        </div>
+                <div className="roadmap-box">
+                                            <div className="time">Q1 P2, 20244</div>
+                                            <div className="content">
+                                                <h5 className="title">Desarrollo</h5>
+                                                <p className="text">Se mejoran las características de la plataforma y se establece una base de usuarios inicial.</p>
+                                            </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className="roadmap-box">
+                                            <div className="time">Q2, 2024</div>
+                                            <div className="content">
+                                                <h5 className="title">Expansión</h5>
+                                                <p className="text">Se amplía la oferta de servicios de tokenización de Dreamhub, incluyendo activos como propiedades, obras de arte, bienes raíces y más.</p>
+                                            </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className="roadmap-box">
+                                            <div className="time">Q2 P2, 20244</div>
+                                            <div className="content">
+                                                <h5 className="title">El Futuro de la Agencia</h5>
+                                                <p className="text">Dreamhub introduce nuevas tecnologías y procesos para mejorar la eficiencia de la tokenización. Se establecen alianzas estratégicas con socios comerciales.</p>
+                                            </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className="roadmap-box">
+                                            <div className="time">Q3, 2024</div>
+                                            <div className="content">
+                                                <h5 className="title">Alcance Global</h5>
+                                                <p className="text">Dreamhub se expande a nivel global, atrayendo a clientes y socios en todo el mundo.</p>
+                                            </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                <div className="roadmap-box">
+                                            <div className="time">Q3 P2, 20244</div>
+                                            <div className="content">
+                                                <h5 className="title">Crecimiento Continuo</h5>
+                                                <p className="text">Se incorporan características de tokenización más avanzadas y se refuerzan las relaciones con socios comerciales.</p>
+                                            </div>
                     </div>
                 </SwiperSlide>
 
