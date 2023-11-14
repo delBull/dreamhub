@@ -10,10 +10,14 @@ export default function About3() {
                     <div className="row">
                         <div className="col-xl-6 col-md-12">
                             <div className="block-text pd-0">
-                                <h6 className="sub-heading"><span>Dreamhub</span></h6>
-                                <h3 className="heading wow" data-splitting>Transforma tus sueños</h3>
-                                <p className="mb-17">DreamHub es una plataforma que está liderando la revolución de la tokenización.</p>
-                                <p className="mb-26">Conectamos a empresas y emprendedores con el emocionante mundo de los NFTs (Tokens No Fungibles) y la economía digital, brindando oportunidades únicas para transformar activos en tokens digitales</p>
+                                <h6 className="sub-heading"><span>Tokenización</span></h6>
+                                <h3 className="heading wow" data-splitting>Y, ¿Qué es la Tokenización?</h3>
+                                <p className="mb-17">Estamos hablando de tomar cosas tangibles, cosas que poseen y aman, 
+                                y convertirlas en algo aún más sorprendente: oportunidades digitales. 
+                                ¿Cómo? A través de algo mágico llamado tokenización en nuestra increíble plataforma blockchain.</p>
+                                <p className="mb-26">Estamos creando "tokens", como pequeñas joyas digitales, 
+                                que representan tus activos. ¿Qué hace esto por ti? Pues, lo hace seguro, verificable 
+                                y completamente revolucionario.</p>
                                 <Link href="/about" className="action-btn"><span>Nuestro Ecosistema</span></Link>
                             </div>
                         </div>
