@@ -10,7 +10,7 @@ export default function Footer1() {
                             <div className="footer__main">
                                 <div className="block-text center">
                                     <h3 className="heading">No seas un extraño</h3>
-                                    <p>Manténte a la vanguardia con los últmos tips &amp; actualizaciones</p>
+                                    <p>Aprende y vuélvete experto ¡No te pierdas las útlimas noticias!</p>
                                 </div>
                                 <form action="#" className="form">
                                     <div className="form-group">
