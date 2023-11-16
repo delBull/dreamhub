@@ -11,6 +11,12 @@
         "sass": "sass --watch public/assets/scss/main.scss:public/assets/css/main.css"
     },
     "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@floating-ui/dom": "^1.5.3",
+        "@floating-ui/react": "^0.26.2",
+        "@floating-ui/react-native": "^0.10.1",
+        "@mui/material": "^5.14.18",
         "aos": "^2.3.4",
         "eslint": "8.41.0",
         "eslint-config-next": "13.4.3",
