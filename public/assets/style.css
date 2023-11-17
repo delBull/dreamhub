@@ -377,6 +377,9 @@
       padding-top: 400px !important;
       /* Otros estilos absolutos aquí */
   }
+  body {
+    font-size: 16px !important; /* Ejemplo: reduce el tamaño de fuente para pantallas más pequeñas */
+  }
 }
 
 /* Estilos para pantallas más pequeñas (móvil) */
@@ -389,4 +392,9 @@
       padding-top: 0px !important;
       /* Otros estilos relativos aquí */
   }
+  body {
+    font-size: 14px !important; /* Ejemplo: reduce el tamaño de fuente para pantallas más pequeñas */
+    width: 100%;
+  }
 }
+

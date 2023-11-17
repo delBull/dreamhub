@@ -57,14 +57,14 @@ export default function ZigzagCarousel() {
                             <div className="block-text center pd-0">
                             </div>
                             <div className="about__main center" data-aos="fade-up" data-aos-duration={3000}>
-                            <img src="/assets/images/layouts/horseaquiles.png" alt="" style={{ width: '40%', height: 'auto' }} />
+                            <img src="/assets/images/layouts/horseaquiles.png" alt="" />
                             <div style={{ height: '50px' }}></div>
                                 <h5>¡Soñadores digitales! 🚀 </h5>
-                                <p className="mb-17" style={{ fontSize: '20px' }}>¿Y si les dijera que existe una industria que cambiará 
+                                <p className="mb-17" >¿Y si les dijera que existe una industria que cambiará 
                                 la forma en que vemos el mundo digital? ¡Eso es exactamente lo que está haciendo Dreamhub, estamos a las puertas 
                                 de la próxima gran revolución!</p>
                                 <h5>El "big why" </h5>
-                                <p className="mb-30" style={{ fontSize: '20px' }}>Simple pero poderoso: estamos llevando 
+                                <p className="mb-30" >Simple pero poderoso: estamos llevando 
                                 la tokenización a la vanguardia. ¿Por qué? Porque creemos en dar poder a todos para convertir 
                                 sus sueños en activos digitales, desde emprendedores que quieren expandirse hasta artistas que 
                                 desean compartir su magia con el mundo. ¿Quieres ser parte de esta revolución o te quedas fuera?</p>
@@ -113,7 +113,7 @@ export default function ZigzagCarousel() {
                                     </div>
                                     <div className="content">
                                     <div className="block-text pd-0">
-                                    <p className="mb-17" style={{ fontSize: '16px' }}>Imagina un diario secreto que nunca puedes perder, 
+                                    <p className="mb-17">Imagina un diario secreto que nunca puedes perder, 
                                     ¡así es Blockchain! Es como un mega-diario digital, donde escribes cosas importantes y todos pueden 
                                     verlo, pero nadie puede cambiar lo que has escrito. ¡Es como un superhéroe de la información!</p>
                                         </div>
@@ -144,7 +144,7 @@ export default function ZigzagCarousel() {
                                     </div>
                                     <div className="content">
                                     <div className="block-text pd-1">
-                                    <p className="mb-17" style={{ fontSize: '16px' }}>¡Vamos a descifrar los tokens!, 
+                                    <p className="mb-17">¡Vamos a descifrar los tokens!, 
                                      Imagina que Dreamhub es tu casino digital, y los tokens son tus fichas para jugar. 
                                      Al igual que las fichas simplifican y aseguran tus apuestas en un casino, los tokens digitales 
                                      representan y facilitan la gestión de tus activos. Obtienes seguridad, facilidad de intercambio 
@@ -175,7 +175,7 @@ export default function ZigzagCarousel() {
                             <div style={{ height: '0px' }}></div>
                                     <div className="block-text">
                                         <h3 className="heading wow" data-splitting>Formas de tokenización</h3>
-                                        <p className="mb-17" style={{ fontSize: '18px' }}>Primero, exploremos el mundo de "security". Al tokenizar deuda, 
+                                        <p className="mb-17">Primero, exploremos el mundo de "security". Al tokenizar deuda, 
                                         equity o royalties, es como dividir esas partes de una empresa o propiedad intelectual 
                                         en pequeñas unidades digitales. Estos tokens se transforman en inversiones, dándote derechos 
                                         proporcionales y una sensación de seguridad sobre esos activos. Es como tener acciones de 
@@ -295,7 +295,7 @@ export default function ZigzagCarousel() {
                                     <div className="block-text center">
                                     <div style={{ height: '100px' }}></div>
                                         <h3 className="heading wow" data-splitting>La Tokenización Redefine la Realidad</h3>
-                                        <p style={{ fontSize: '20px' }}>Somos la primera agencia en México con un mercado
+                                        <p>Somos la primera agencia en México con un mercado
                                         de NFTs propio. Desbloquea oportunidades emocionantes, imaginen esto como un viaje transformador</p>
                                     </div>
                                 </div>
@@ -525,7 +525,6 @@ export default function ZigzagCarousel() {
 {/* End FAQ */}                 
 
                 </div>
-
             </Layout>
         </>
     )
