@@ -51,14 +51,12 @@ export default function ZigzagCarousel() {
                 <div className="shape" />
                 <div className="shape right" />
                 <div className="container">
-                <div style={{ height: '150px' }}></div>
                     <div className="row">
-                        <div className="col-12">
+                    <div className="col-xl-12 col-md-12">
                             <div className="block-text center pd-0">
                             </div>
                             <div className="about__main center" data-aos="fade-up" data-aos-duration={3000}>
                             <img src="/assets/images/layouts/horseaquiles.png" alt="" />
-                            <div style={{ height: '50px' }}></div>
                                 <h5>¡Soñadores digitales! 🚀 </h5>
                                 <p className="mb-17" >¿Y si les dijera que existe una industria que cambiará 
                                 la forma en que vemos el mundo digital? ¡Eso es exactamente lo que está haciendo Dreamhub, estamos a las puertas 
@@ -179,7 +177,7 @@ export default function ZigzagCarousel() {
                                         equity o royalties, es como dividir esas partes de una empresa o propiedad intelectual 
                                         en pequeñas unidades digitales. Estos tokens se transforman en inversiones, dándote derechos 
                                         proporcionales y una sensación de seguridad sobre esos activos. Es como tener acciones de 
-                                        una empresa, pero en lugar de papel, son pequeñas piezas digitales que llevas contigo a todas partes</p>
+                                        una empresa, pero en lugar de papel, son pequeñas piezas digitales que llevas contigo a todas partes.</p>
 
                                         <div className="shape right"/>
                         <div className="container">
