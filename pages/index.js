@@ -5,7 +5,6 @@ import Layout from "@/components/layout/Layout"
 import CardSlider2 from "@/components/slider/CardSlider2"
 import RoadmapSlider1 from "@/components/slider/RoadmapSlider1"
 import { Link as ScrollLink } from 'react-scroll';
-
 import Link from "next/link"
 
 export default function ZigzagCarousel() {
@@ -70,7 +69,7 @@ export default function ZigzagCarousel() {
                                 sus sueños en activos digitales, desde emprendedores que quieren expandirse hasta artistas que 
                                 desean compartir su magia con el mundo. ¿Quieres ser parte de esta revolución o te quedas fuera?</p>
                                 <div style={{ height: '20px' }}></div>
-                                <ScrollLink to="tokenización" smooth={true} duration={100} className="action-btn"> Adentrate en las posibilidades 👇</ScrollLink>
+                                <ScrollLink to="tokenización" smooth={true} duration={100} className="action-btn"> ⥥ </ScrollLink>
                             </div>
                         </div>
                     </div>
@@ -83,15 +82,30 @@ export default function ZigzagCarousel() {
                 <div className="shape" />
                 <div className="container">
                 <div style={{ height: '150px' }}></div>
-                {/* cardbox 1 */}
+                    <div className="row">
+                        <div className="col-xl-6 col-md-12">
+                            <div className="block-text pd-0">
+                                <h3 className="heading wow" data-splitting>Y, ¿Qué es la Tokenización?</h3>
+                                <p className="mb-17">En el corazón de Dreamhub, la tokenización es la llave que transforma 
+                                tus activos en oportunidades digitales. Con nosotros, no solo obtienes tecnología, sino la magia 
+                                de compartir, intercambiar y construir algo verdaderamente extraordinario. ¡Es el poder de reinventar
+                                lo cotidiano! 🚀 </p>
+                            </div>
+                            <div>
+                            <Accordion3 oneCol/>
+                        </div>
+                        <div style={{ height: '20px' }}></div>
+                        <ScrollLink to="security" className="action-btn"><span>Explora Tokenización</span></ScrollLink>
+                        </div>
+                         {/* cardbox 1 */}
                 <div className="row position-relative">
-                          <div className="col-md-3"></div>
-                          <div className="col-md-3 position-absolute top-0 end-0">
-                          <div style={{ height: '100px' }}></div>
+                          <div className="col-md-5"></div>
+                          <div className="col-md-5">
+                          <div style={{ height: '110px' }}></div>
                             <div className="about__right" data-aos="fade-left" data-aos-duration={2000}>
                                 <div className="card-box md">
                                     <div className="top d-flex">
-                                        <span className="icon-logo-01" />
+                                        <span className="icon-logo-01"/>
                                         <div>
                                             <h6></h6>
                                             <h6 className="price">¿Qué es Blockchain?</h6>
@@ -99,13 +113,14 @@ export default function ZigzagCarousel() {
                                     </div>
                                     <div className="content">
                                     <div className="block-text pd-0">
-                                    <p className="mb-17">Imagina un diario secreto que nunca puedes perder, ¡así es Blockchain! Es como un mega-diario digital, donde escribes cosas importantes y todos pueden verlo, pero nadie puede cambiar lo que has escrito. ¡Es como un superhéroe de la información!</p>
+                                    <p className="mb-17" style={{ fontSize: '16px' }}>Imagina un diario secreto que nunca puedes perder, 
+                                    ¡así es Blockchain! Es como un mega-diario digital, donde escribes cosas importantes y todos pueden 
+                                    verlo, pero nadie puede cambiar lo que has escrito. ¡Es como un superhéroe de la información!</p>
                                         </div>
                                         <div className="info d-flex">
                                             <img src="/assets/images/layouts/avt-06.png" alt="" />
                                             <div>
-                                                <h6 className="name">Dreamhub.art</h6>
-                                                <p>100% en tus manos</p>
+                                            <Link href="/blockchain" className="action-btn"><span>Dime más!</span></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -114,23 +129,10 @@ export default function ZigzagCarousel() {
                                 </div>
                                 </div>
                             {/* end cardbox 1 */}
-                    <div className="row">
-                        <div className="col-xl-6 col-md-12">
-                            <div className="block-text pd-0">
-                                <h3 className="heading wow" data-splitting>Y, ¿Qué es la Tokenización?</h3>
-                                <p className="mb-17">Es como convertir algo ordinario en un superpoder digital. 
-                                En Dreamhub, transformamos lo común en extraordinario, permitiéndote compartir, 
-                                intercambiar y construir algo increíble con otros soñadores digitales. 
-                                ¡Es más que tecnología, es la revolución de tus posesiones! 🚀. </p>
-                            </div>
-                            <div>
-                            <Accordion3 oneCol/>
-                        </div>
-                        </div>
                       {/* cardbox 2 */}
                         <div className="col-md-3"></div>
-                          <div className="col-md-5 position-absolute top-0 end-0">
-                          <div style={{ height: '600px' }}></div>
+                        <div className="col-md-5 mobile-relative">
+                          <div style={{ height: '0px' }}></div>
                             <div className="about__right" data-aos="fade-left" data-aos-duration={2000}>
                             <div className="card-box md">
                                     <div className="top d-flex">
@@ -141,20 +143,19 @@ export default function ZigzagCarousel() {
                                         </div>
                                     </div>
                                     <div className="content">
-                                    <div className="block-text pd-0">
-                                    <p className="mb-17">¡Vamos a descifrar los tokens!, 
-                                    cada uno es como una pieza de un rompecabezas digital que contribuye a la construcción 
-                                    de algo más grande y emocionante. Imagina que eres el arquitecto de tu propia ciudad digital, 
-                                    y cada Token que posees es un edificio que añade carácter y valor a tu paisaje. 
-                                    Puedes intercambiar estas piezas maestras sin perder la esencia, creando una ciudad en constante 
-                                    evolución en el fascinante terreno de la blockchain. 
-                                    ¡Es la creación y la interconexión de estos Tokens lo que hace que tu experiencia sea tan excepcional! 🏙️🧩</p>
+                                    <div className="block-text pd-1">
+                                    <p className="mb-17" style={{ fontSize: '16px' }}>¡Vamos a descifrar los tokens!, 
+                                     Imagina que Dreamhub es tu casino digital, y los tokens son tus fichas para jugar. 
+                                     Al igual que las fichas simplifican y aseguran tus apuestas en un casino, los tokens digitales 
+                                     representan y facilitan la gestión de tus activos. Obtienes seguridad, facilidad de intercambio 
+                                     y un valor universal dentro de nuestro ecosistema. Así como canjeas las fichas por moneda 
+                                     corriente en un casino, los tokens se pueden intercambiar por valor real o utilizarse para 
+                                     explorar más oportunidades.💎</p>
                                         </div>
                                         <div className="info d-flex">
                                             <img src="/assets/images/layouts/avt-06.png" alt="" />
                                             <div>
-                                                <h6 className="name">Dreamhub.art</h6>
-                                                <p>@100% en tus manos</p>
+                                            <Link href="/tokens" className="action-btn"><span>Quiero saber más!</span></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -171,7 +172,7 @@ export default function ZigzagCarousel() {
 <section id="security" className="about">
                         <div className="container">
                             <div className="row">
-                            <div style={{ height: '150px' }}></div>
+                            <div style={{ height: '0px' }}></div>
                                     <div className="block-text">
                                         <h3 className="heading wow" data-splitting>Formas de tokenización</h3>
                                         <p className="mb-17" style={{ fontSize: '18px' }}>Primero, exploremos el mundo de "security". Al tokenizar deuda, 
@@ -256,10 +257,9 @@ export default function ZigzagCarousel() {
                                 <div className="col-xl-6 col-md-12">
                                     <div className="about__right">
                                         <div className="images">
-                                            <img className="img1" src="/assets/images/layouts/about-01.png" alt="" />
+                                            <img className="img1" src="/assets/images/layouts/about-01.jpg" alt="" />
                                             <img className="img2" src="/assets/images/layouts/about-02.png" alt="" />
-                                            <img className="img3" src="/assets/images/layouts/about-07.png" alt="" />
-                                            <img className="img4" src="/assets/images/layouts/about-04.png" alt="" />
+                                            <img className="img3" src="/assets/images/layouts/about-05.png" alt="" />
                                             <img className="img5" src="/assets/images/layouts/about-04.png" alt="" />
                                         </div>
                                     </div>
@@ -417,6 +417,7 @@ export default function ZigzagCarousel() {
                                             <div className="content">
                                                <h5 className="title">Soñadores</h5>
                                                 <p>Para aquellos con grandes sueños pero sin recursos para materializarlos, Dreamhub ofrece una puerta de entrada. Tokenizar sus ideas les permite convertirse en participantes activos en la revolución digital, haciendo realidad sus proyectos de una manera nunca antes vista.</p>
+                                                <div style={{ height: '20px' }}></div>
                                                 <Link href="/about" className="action-btn"><span>¿Cómo es el proceso de Tokenización?</span></Link>
                                             </div>
                                         </div>
@@ -425,7 +426,7 @@ export default function ZigzagCarousel() {
                                 <div className="col-xl-6 col-md-6">
                                     <div className="portfolio__right">
                                         <div className="image" data-aos="fade-left" data-aos-duration={2000}>
-                                            <img src="/assets/images/layouts/customnft.png" alt="" style={{ maxWidth: '150%', height: 'auto' }} />
+                                            <img src="/assets/images/layouts/customnft.png" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -441,7 +442,7 @@ export default function ZigzagCarousel() {
                     <div className="row">
                     <div className="col-xl-6 col-md-12">
                             <div className="image" data-aos="fade-left" data-aos-duration={2000}>
-                                <img src="/assets/images/layouts/erfeo.png" alt="" width="500" height="auto"/>
+                                <img src="/assets/images/layouts/erfeo.png" />
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
@@ -471,7 +472,7 @@ export default function ZigzagCarousel() {
                                             <h4 className="heading">¡Empieza ahora!</h4>
                                             <Link href="/contact" className="action-btn"><span>Agenda con un experto para Tokenizar tus activos</span></Link>
                                         </div>
-                                        <img src="/assets/images/layouts/create.png" alt="" />
+                                        <img src="/assets/images/layouts/create1.png" alt="" />
                                     </div>
                                 </div>
                             </div>

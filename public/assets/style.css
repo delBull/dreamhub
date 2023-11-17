@@ -366,3 +366,27 @@
   content: "\e908";
   color: #fff;
 }
+
+/* Estilos para pantallas más grandes (web) */
+@media only screen and (min-width: 768px) {
+  .mobile-relative {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding-left: 150px !important;
+      padding-top: 400px !important;
+      /* Otros estilos absolutos aquí */
+  }
+}
+
+/* Estilos para pantallas más pequeñas (móvil) */
+@media only screen and (max-width: 767px) {
+  .mobile-relative {
+      position: relative;
+      top: auto;
+      right: auto;
+      padding-left: 0px !important;
+      padding-top: 0px !important;
+      /* Otros estilos relativos aquí */
+  }
+}

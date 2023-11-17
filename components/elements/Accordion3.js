@@ -1,4 +1,5 @@
 
+import Link from "next/link"
 import { useState } from 'react'
 export default function Accordion3({oneCol}) {
     const [isActive, setIsActive] = useState({
@@ -31,11 +32,10 @@ export default function Accordion3({oneCol}) {
                     <div className="content-inner"style={{ display: `${activeIndex == 1 ? "block" : "none"}` }}>
                         <div className="flat-accordion row">
                             <div className={`col-xl-12 ${oneCol?"col-md-9":"col-sm-12"} `}>
-                            <div className="block-text pd-0">
-                            <h5 className="sub-heading"><span>La "magia" de la tokenización</span></h5>
+                            <div className="block-text pd-0">                     
                             </div>
                                 <div className={isActive.key == 1 ? "flat-toggle active" : "flat-toggle"} onClick={() => handleToggle(1)}>
-                                    <h6 className={isActive.key == 1 ? "toggle-title active" : "toggle-title"}><span>1</span> Transforma tu Casa en una Fortaleza Digital<span className="icon-plus" /></h6>
+                                    <h6 className={isActive.key == 1 ? "toggle-title active" : "toggle-title"}><span>1</span> Transforma Propiedades<span className="icon-plus" /></h6>
                                     <div className="toggle-content" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                                         <p>
                                         Imagina que quieres tokenizar tu hogar. Al hacerlo, creamos "tokens" que representan partes 
@@ -46,24 +46,24 @@ export default function Accordion3({oneCol}) {
                                     </div>
                                 </div>
                                 <div className={isActive.key == 2 ? "flat-toggle active" : "flat-toggle"} onClick={() => handleToggle(2)}>
-                                    <h6 className={isActive.key == 2 ? "toggle-title active" : "toggle-title"}><span>2</span> Tus ideas como Monedas Digitales<span className="icon-plus" /></h6>
+                                    <h6 className={isActive.key == 2 ? "toggle-title active" : "toggle-title"}><span>2</span> Tus Logros = Tesoros Digitales<span className="icon-plus" /></h6>
                                     <div className="toggle-content" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
-                                        <p>
-                                        Eres un creador o un artista. Al tokenizar tu arte o tus ideas, creamos "tokens" que representan 
-                                        cada obra. Estos tokens se convierten en monedas digitales que puedes intercambiar. 
-                                        ¿La magia? No solo estás vendiendo tu arte, estás compartiendo monedas digitales únicas 
-                                        que se vuelven valiosas para quienes las poseen. ¡Es como tener tu propia moneda artística!
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className={isActive.key == 3 ? "flat-toggle active" : "flat-toggle"} onClick={() => handleToggle(3)}>
-                                    <h6 className={isActive.key == 3 ? "toggle-title active" : "toggle-title"}><span>3</span> Haz que tus Logros sean Tesoros Digitales<span className="icon-plus" /></h6>
-                                    <div className="toggle-content" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                                         <p>
                                         Eres un emprendedor exitoso. Al tokenizar tus logros, creamos "tokens" que representan 
                                         cada hito alcanzado. Estos tokens se convierten en tesoros digitales que otros pueden poseer. 
                                         ¿La magia? No solo estás mostrando tus éxitos, estás permitiendo que otros se unan a tu viaje 
                                         al poseer una parte de tus logros. ¡Es como compartir tesoros digitales!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className={isActive.key == 3 ? "flat-toggle active" : "flat-toggle"} onClick={() => handleToggle(3)}>
+                                    <h6 className={isActive.key == 3 ? "toggle-title active" : "toggle-title"}><span>3</span> Digitaliza tus ideas<span className="icon-plus" /></h6>
+                                    <div className="toggle-content" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
+                                        <p>
+                                        Eres un creador o un artista. Al tokenizar tu arte o tus ideas, creamos "tokens" que representan 
+                                        cada obra. Estos tokens se convierten en monedas digitales que puedes intercambiar. 
+                                        ¿La magia? No solo estás vendiendo tu arte, estás compartiendo monedas digitales únicas 
+                                        que se vuelven valiosas para quienes las poseen. ¡Es como tener tu propia moneda artística!
                                         </p>
                                     </div>
                                 </div>
@@ -191,7 +191,6 @@ export default function Accordion3({oneCol}) {
                                         </p>
                                     </div>
                                 </div>
-                               
                             </div>
                         </div>
                     </div>
@@ -253,7 +252,6 @@ export default function Accordion3({oneCol}) {
                                         </p>
                                     </div>
                                 </div>
-                    
                             </div>
                         </div>
                     </div>

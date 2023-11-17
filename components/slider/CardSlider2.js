@@ -84,7 +84,7 @@ export default function CardSlider2() {
                                                 <SwiperSlide>
                                                     <div className="card-box s2">
                                                         <div className="image">
-                                                            <img src="/assets/images/layouts/item-08.png" alt="" />
+                                                            <img src="/assets/images/layouts/item-08.jpg" alt="" />
                                                         </div>
                                                         <div className="content">
                                                             <div className="info d-flex">
