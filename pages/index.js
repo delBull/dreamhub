@@ -47,16 +47,17 @@ export default function ZigzagCarousel() {
                     {/* End Banner */}
 
 {/* Intro */}
-<section id="intro" className="intro">
-                <div className="shape" />
-                <div className="shape right" />
+            <section id="intro" className="about s2">
                 <div className="container">
+                <div style={{ height: '30px' }}></div>
                     <div className="row">
-                    <div className="col-xl-12 col-md-12">
+                    <div className="col-12">
                             <div className="block-text center pd-0">
                             </div>
                             <div className="about__main center" data-aos="fade-up" data-aos-duration={3000}>
+                            <div className="mobile-head-imgs">
                             <img src="/assets/images/layouts/horseaquiles.png" alt="" />
+                            </div>
                                 <h5>¡Soñadores digitales! 🚀 </h5>
                                 <p className="mb-17" >¿Y si les dijera que existe una industria que cambiará 
                                 la forma en que vemos el mundo digital? ¡Eso es exactamente lo que está haciendo Dreamhub, estamos a las puertas 
@@ -79,7 +80,6 @@ export default function ZigzagCarousel() {
  <section id="tokenización" className="about s3">
                 <div className="shape" />
                 <div className="container">
-                <div style={{ height: '150px' }}></div>
                     <div className="row">
                         <div className="col-xl-6 col-md-12">
                             <div className="block-text pd-0">
@@ -254,7 +254,7 @@ export default function ZigzagCarousel() {
                             <div className="row rev">
                                 <div className="col-xl-6 col-md-12">
                                     <div className="about__right">
-                                        <div className="images">
+                                        <div className="images mobile-head-imgs">
                                             <img className="img1" src="/assets/images/layouts/about-01.jpg" alt="" />
                                             <img className="img2" src="/assets/images/layouts/about-02.png" alt="" />
                                             <img className="img3" src="/assets/images/layouts/about-05.png" alt="" />
@@ -423,7 +423,7 @@ export default function ZigzagCarousel() {
                                 </div>
                                 <div className="col-xl-6 col-md-6">
                                     <div className="portfolio__right">
-                                        <div className="image" data-aos="fade-left" data-aos-duration={2000}>
+                                        <div className="image mobile-absolute" data-aos="fade-left" data-aos-duration={2000}>
                                             <img src="/assets/images/layouts/customnft.png" alt="" />
                                         </div>
                                     </div>
@@ -436,10 +436,10 @@ export default function ZigzagCarousel() {
 {/* Agencia */}
 <section id="agencia" className="faq s3">
                 <div className="container">
-                <div style={{ height: '200px' }}></div>
+                <div style={{ height: '150px' }}></div>
                     <div className="row">
                     <div className="col-xl-6 col-md-12">
-                            <div className="image" data-aos="fade-left" data-aos-duration={2000}>
+                            <div className="image mobile-head-imgs" data-aos="fade-left" data-aos-duration={2000}>
                                 <img src="/assets/images/layouts/erfeo.png" />
                             </div>
                         </div>
@@ -470,7 +470,9 @@ export default function ZigzagCarousel() {
                                             <h4 className="heading">¡Empieza ahora!</h4>
                                             <Link href="/contact" className="action-btn"><span>Agenda con un experto para Tokenizar tus activos</span></Link>
                                         </div>
+                                        <div className="mobile-head-imgs" >
                                         <img src="/assets/images/layouts/create1.png" alt="" />
+                                        </div>
                                     </div>
                                 </div>
                             </div>

@@ -396,5 +396,25 @@
     font-size: 14px !important; /* Ejemplo: reduce el tamaño de fuente para pantallas más pequeñas */
     width: 100%;
   }
+  .mobile-head-imgs {
+    width: 50%; 
+    margin: 0 auto;
+  }
+  .mobile-head-imgs img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+  }
+  .mobile-absolute {
+      width: 200% !important;
+      position: absolute !important;
+      top: 0;
+      right: 0;
+      z-index: -1;
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      height: 200vh;
+      opacity: .4 !important; 
+  }
 }
-
