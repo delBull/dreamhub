@@ -28,7 +28,7 @@ export default function Footer1() {
                                         <li><a href="/roadmap">Roadmap</a></li>
                                         <li><a href="/team">Team</a></li>
                                     </ul>
-                                    <p>Copyright © {new Date().getFullYear()}, Dreamhub. Trademark by AGOD Ecosystem S.A. de C.V.</p>
+                                    <p>Copyright © {new Date().getFullYear()}, Dreamhub. Trademark by mxHub S.A. de C.V.</p>
                                 </div>
                                 <ul className="list-social">
                                     <li><a href="#">

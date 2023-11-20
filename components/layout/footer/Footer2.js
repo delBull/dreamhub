@@ -38,25 +38,25 @@ export default function Footer2() {
                                 <div className="right">
                                     <div className="top">
                                         <ul className="widget">
-                                            <li><h5 className="title">Quick link</h5></li>
-                                            <li><Link href="/nft">NFT Trading</Link></li>
-                                            <li><Link href="#">Development</Link></li>
-                                            <li><Link href="#">Advertisement</Link></li>
-                                            <li><Link href="#">Carrer</Link></li>
+                                            <li><h5 className="title">Explora</h5></li>
+                                            <li><Link href="/nft">Tokenización</Link></li>
+                                            <li><Link href="#">Blockchain</Link></li>
+                                            <li><Link href="#">NFTs</Link></li>
+                                            <li><Link href="#">Ecosistema</Link></li>
                                         </ul>
                                         <ul className="widget">
-                                            <li><h5 className="title">Help</h5></li>
-                                            <li><Link href="/about">About Us</Link></li>
-                                            <li><Link href="/team">Team Members</Link></li>
-                                            <li><Link href="#">Support</Link></li>
-                                            <li><Link href="#">Refund Policv</Link></li>
+                                            <li><h5 className="title">Dreamhub</h5></li>
+                                            <li><Link href="/about">Nuestro Hub</Link></li>
+                                            <li><Link href="/team">El Equipo</Link></li>
+                                            <li><Link href="#">Roadmap</Link></li>
+                                            <li><Link href="#">FAQ</Link></li>
                                         </ul>
                                         <div className="widget">
-                                            <h5 className="title">Newsletter</h5>
+                                            <h5 className="title">No seas un extraño</h5>
                                             <form action="#" className="form">
-                                                <p>Get udpated with news, tips &amp; tricks</p>
+                                                <p>Aprende y vuélvete experto ¡No te pierdas las útlimas noticias!</p>
                                                 <div className="form-group">
-                                                    <input type="email" className="form-control" placeholder="Your email" />
+                                                    <input type="email" className="form-control" placeholder="Tu email" />
                                                     <button><svg width={20} height={18} viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M11.5 1.5L19 9M19 9L11.5 16.5M19 9H1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                                                     </svg>
@@ -66,7 +66,7 @@ export default function Footer2() {
                                         </div>
                                     </div>
                                     <div className="bottom">
-                                        <p>Copyright © {new Date().getFullYear()}, Cyfonii. Designed by Themesflat</p>
+                                        <p>© {new Date().getFullYear()}, Dreamhub. Trademark by mxHub S.A. de C.V.</p>
                                         <ul className="list">
                                             <li><Link href="#">Terms &amp; Condition</Link></li>
                                             <li><Link href="#">Privacy Policy</Link></li>

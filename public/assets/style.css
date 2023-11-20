@@ -367,6 +367,14 @@
   color: #fff;
 }
 
+
+.traslucid-card {
+  background-color: transparent !important;
+  border: solid !important;
+  border-color: rgba(128, 128, 128, 0.2) !important;
+  border-width: 0.1px !important;
+}
+
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
   .mobile-relative {

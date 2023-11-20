@@ -46,6 +46,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                 </div>
                                 <div className="header__action">
                                     <Link href="/contact" className="action-btn"><span>Agenda para Tokenizar</span></Link>
+                                    <Link href="/contact" className="action-btn"><span>dApp</span></Link>
                                 </div>
                             </div>
                         </div>
