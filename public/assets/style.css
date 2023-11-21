@@ -370,9 +370,6 @@
 
 .traslucid-card {
   background-color: transparent !important;
-  border: solid !important;
-  border-color: rgba(128, 128, 128, 0.2) !important;
-  border-width: 0.1px !important;
 }
 
 /* Estilos para pantallas más grandes (web) */
@@ -382,11 +379,42 @@
       top: 0;
       right: 0;
       padding-left: 150px !important;
-      padding-top: 400px !important;
+      padding-top: 300px !important;
       /* Otros estilos absolutos aquí */
   }
   body {
     font-size: 16px !important; /* Ejemplo: reduce el tamaño de fuente para pantallas más pequeñas */
+  }
+  .mobile-coverimg {
+    position: absolute !important;
+    padding-left: 50px !important;
+    top: 0 !important;
+    z-index: 1;
+  }
+  .web-divspace {
+    margin-top: 250px !important;
+  }
+  .web-divspace2 {
+    margin-top: 250px !important;
+  }
+  .web-textalign-right {
+    text-align: right !important;
+  }
+  .web-agave-img {
+    position: absolute;
+   top: 10%;
+    left: 0;
+    z-index: -1;
+  }
+  .web-cause-txt {
+    position: absolute;
+    text-align: left;
+    left: 10%;
+  }
+  .web-cloudquetza-img {
+    position: absolute;
+    left: 0;
+    top: 0;
   }
 }
 
@@ -405,13 +433,13 @@
     width: 100%;
   }
   .mobile-head-imgs {
-    width: 50%; 
-    margin: 0 auto;
+    width: 90% !important; 
+    text-align: left;
   }
   .mobile-head-imgs img {
     width: 100%;
     height: auto; 
-    display: block; 
+    display: absolute; 
   }
   .mobile-absolute {
       width: 200% !important;
@@ -424,5 +452,28 @@
       justify-content: center; 
       height: 200vh;
       opacity: .4 !important; 
+  }
+  .mobile-coverimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .web-divspace {
+    margin-top: 350px !important;
+  }
+  .web-cause-img {
+    position:absolute;
+    top: 0;
+  }
+  .web-agave-img {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    z-index: -1;
+  }
+  .web-cloudquetza-img {
+    position: absolute;
+    z-index: -1;
+    opacity: .2;
   }
 }
