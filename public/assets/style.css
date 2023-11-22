@@ -366,11 +366,44 @@
   content: "\e908";
   color: #fff;
 }
-
-
 .traslucid-card {
-  background-color: transparent !important;
+  background-color: rgba(89, 48, 211, 0.48) !important;
+  border: solid;
+  border-color: blueviolet;
+  border-width: .25px;
 }
+.white-background {
+  background-color: rgba(255, 255, 255, 0.919);
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+.white-background h1,
+        .white-background h2,
+        .white-background h3,
+        .white-background h4,
+        .white-background h5 {
+            color: black;
+}
+.form-mine {
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+  .floating-element {
+  position: absolute !important;
+  top: 0;
+  right: 2%;
+}
+.portalQuetza {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: .9c !important;
+}
+
+
 
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
@@ -380,10 +413,9 @@
       right: 0;
       padding-left: 150px !important;
       padding-top: 300px !important;
-      /* Otros estilos absolutos aquí */
   }
   body {
-    font-size: 16px !important; /* Ejemplo: reduce el tamaño de fuente para pantallas más pequeñas */
+    font-size: 18px !important;
   }
   .mobile-coverimg {
     position: absolute !important;
@@ -402,7 +434,7 @@
   }
   .web-agave-img {
     position: absolute;
-   top: 10%;
+    top: 18%;
     left: 0;
     z-index: -1;
   }
@@ -413,8 +445,9 @@
   }
   .web-cloudquetza-img {
     position: absolute;
-    left: 0;
-    top: 0;
+    top: 10;
+    padding-left: 300px;
+    z-index: 1;
   }
 }
 
@@ -453,6 +486,16 @@
       height: 200vh;
       opacity: .4 !important; 
   }
+  .mobile-absolute2 {
+    display: absolute !important;
+    top: 0;
+    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height: 100vh;
+    opacity: .3 !important; 
+}
   .mobile-coverimg {
     position: absolute;
     top: 0;
@@ -464,6 +507,7 @@
   .web-cause-img {
     position:absolute;
     top: 0;
+    z-index: -1;
   }
   .web-agave-img {
     position: absolute;
@@ -475,5 +519,18 @@
     position: absolute;
     z-index: -1;
     opacity: .2;
+  }
+  .mobile-none {
+    display: none;
+  }
+  .mobile-space {
+    margin-top: 20px;
+  }
+  .mobile-padding {
+    padding-top: 100px;
+  }
+  .portalQuetza {
+    width: 200%;
+    opacity: .3 !important;
   }
 }

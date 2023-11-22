@@ -6,6 +6,7 @@ import CardSlider2 from "@/components/slider/CardSlider2"
 import RoadmapSlider1 from "@/components/slider/RoadmapSlider1"
 import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
+import { FormLabel, InputLabel, StepLabel } from "@mui/material"
 
 export default function ZigzagCarousel() {
 
@@ -22,11 +23,11 @@ export default function ZigzagCarousel() {
                                     <div className="banner__left">
                                         <div className="block-text">
                                             <h3 className="heading">NFT LAB;<span className="arlo_tm_animation_text_word" /> Tokenización en el mundo real</h3>
-                                            <h6 className="desc">“El balance de la Complejidad de lo infinito “</h6>
-                                            <ScrollLink to="intro" smooth={true} duration={100} className="action-btn"><span>MINT YOUR DREAMS</span></ScrollLink>
+                                            <h5>“MINT YOUR DREAMS; Sueña Diferente “</h5>
                                         </div>
                                         <div className="pay">
-                                            <h6>Todos somos crypto</h6>
+                                            <p>Todos somos crypto</p>
+                                            <div style={{ height: '10px' }}></div>
                                             <div className="list">
                                                 <p>Aceptamos:</p>
                                                 <ul>
@@ -38,7 +39,7 @@ export default function ZigzagCarousel() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-6 col-md-12">
+                                <div className="col-xl-6 col-md-12 mobile-none">
                                     <CardSlider2 />
                                 </div>
                             </div>
@@ -106,6 +107,45 @@ export default function ZigzagCarousel() {
             </section>
  {/* End Intro */}
 
+{/* Sección1 */}
+<div style={{ height: '100px' }}></div>
+ <section id="sección1" className="token white-background">
+                <div className="shape" />
+                <div className="container">
+                    <div className="row">
+                        <div className="col-xl-6 col-md-12">
+                            <div className="block-text pd-0">
+                                <h6 className="sub-heading"><span></span></h6>
+                                <h3 className="heading wow" data-splitting>4 formas de éxito en Dreamhub; Incubadora NFT</h3>
+                                <p className="mb-17">Agenda una llamada para aprender cómo combinar arte, negocios e inversiones 
+                                inmobiliarias en nuestro mercado de NFT para soñadores exitosos.</p>
+                                <Link href="#" className="action-btn"><span>Da el primer paso</span></Link>
+                            </div>
+                        </div>
+                        <div className="col-xl-6 col-md-12">
+                            <div className="token__main" data-aos="fade-left" data-aos-duration={2000}>
+                                <ul className="token-list">
+                                    <li>
+                                            <h6>Transforma tu arte en una oportunidad de inversión para negocios.</h6>
+                                    </li>
+                                    <li>
+                                            <h6>Escala tu negocio en el arte de las inversiones tokenizadas en NFT.</h6>
+                                    </li>
+                                    <li>
+                                            <h6>Haz crecer tus inversiones para negocios con el arte de la tokenización inmobiliaria en NFT.</h6>
+                                    </li>
+                                    <li> 
+                                        <h6>TRANSFORMA TUS IDEALES EN UNA REALIDAD</h6>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{ height: '50px' }}></div>
+            </section>
+{/* End Sección1 */}
+
 {/* Tokenización */}
  <section id="tokenización" className="about s3">
                 <div className="shape" />
@@ -122,7 +162,9 @@ export default function ZigzagCarousel() {
                           {/* }  <div>
                             <Accordion3 oneCol/>
                         </div> */}
+                        <p>¿Quieres sabe más del tema?</p>
                         <div style={{ height: '20px' }}></div>
+                        
                         <ScrollLink to="security" className="action-btn"><span>Adéntrate en la Tokenización</span></ScrollLink>
                         </div>
                         
@@ -182,7 +224,7 @@ export default function ZigzagCarousel() {
                                         <div className="info d-flex">
                                             <img src="/assets/images/layouts/avt-06.png" alt="" />
                                             <div>
-                                            <Link href="/tokens" className="action-btn"><span>Quiero saber más!</span></Link>
+                                            <Link href="/nfts" className="action-btn"><span>Quiero saber más!</span></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -205,11 +247,11 @@ export default function ZigzagCarousel() {
                                         <div className="content">
                                             <h4 className="heading">¿Tienes en menta algun proyecto?</h4>
                                             <p>Contamos con los mejores profesionales 
-                                                de la industria listos para brindarte una consulta gratuita.</p>
-                                                <p>Cuéntanos acerca de tu proyecto y te asesoraremos para llevarlo al 
+                                                de la industria listos </p> <p>para brindarte una consulta gratuita.
+                                                Cuéntanos acerca de tu proyecto </p><p>y te asesoraremos para llevarlo al 
                                                 mundo Web3 y la tokenización.</p>
                                                 <div className="mobile-head-imgs">
-                                            <Link href="/np" className="action-btn"><span>Agenda con un Experto</span></Link>
+                                            <Link href="/" className="action-btn"><span>Agenda con un Experto</span></Link>
                                             </div>
                                         </div>
                                         <div className="mobile-head-imgs">
@@ -236,8 +278,8 @@ export default function ZigzagCarousel() {
                                             <img className="img5" src="/assets/images/layouts/agavemini.png" alt="" />
                                         </div>
                                         </div>
-                                        <div className="web-agave-img">
-                                            <img className="img5" src="/assets/images/layouts/agaveland.png" alt="" />
+                                        <div className="web-agave-img mobile-none">
+                                            <img className="" src="/assets/images/layouts/agaveland.png" alt="" />
                                             </div>
                                 </div>
                                 <div className="col-xl-6 col-md-12">
@@ -262,22 +304,22 @@ export default function ZigzagCarousel() {
                             <div className="row rev">
                             <div className="col-xl-6 col-md-12">
                                     <div className="block-text">
-                                        <h3 className="heading wow" data-splitting>La Moneda de la Propiedad </h3>
-                                        <p className="mb-17">Visualiza tu propiedad como una moneda única, y tokenizarla 
-                                        es como dividir esa moneda en - fracciones = NFTs - que representan partes de su valor. 
-                                        Ahora, puedes vender o intercambiar estos NFTs para construir nuevas propiedades o fortalecer 
-                                        las existentes. Es como tener una moneda inmobiliaria que puede multiplicarse y evolucionar 
-                                        en el mundo digital.</p>
-                                        <p className="mb-26">Imagina que quieres vender tu propiedad, pero como muchos, el problema 
-                                        es que no está al alcance de todos. Sin embargo, al tokenizarla y obtener tus "NFTs" o fracciones 
-                                        independientes propones un modelo novedoso además de accesibilidad para participar en el sector 
+                                        <h3 className="heading wow" data-splitting>Dos Escenas, Un Camino</h3>
+                                        <p className="mb-17">Imaginen una escena familiar, la herencia de propiedades puede 
+                                        volverse un caos. Ahí es donde la tokenización entra en juego, convirtiendo esas propiedades 
+                                        en "tokens". En lugar de enredados desacuerdos, los herederos obtienen fracciones representadas 
+                                        por estos tokens. ¡Imagina, una transición sin problemas y justa sin tener que vender 
+                                        propiedades enteras! La tokenización es la solución elegante para herencias sin dramas.</p>
+                                        <p className="mb-26">Imagina que quieres vender tu propiedad, pero los inmuebles no siempre 
+                                        están al alcance de todos. Sin embargo, al tokenizarla y obtener tus "NFTs" o partes de la
+                                        propiedad, propones un modelo novedoso además de accesibilidad para participar en el sector 
                                         inmobiliario.</p>
                                         <h6 className="sub-heading"><span> Y juntos, construir algo más grande.</span></h6>
                                     </div>
                                 </div>
-                                <div className="col-xl-6 col-md-12">
-                                        <div className="images mobile-head-imgs">
-                                            <img className="img3" src="/assets/images/layouts/about-05.png" alt="" />
+                                <div className="about__right">
+                                        <div className="images floating-element mobile-absolute2">
+                                            <img className="img1" src="/assets/images/layouts/houseNFT.png" alt="" />
                                         </div>
                                 </div>
                             </div>
@@ -290,7 +332,7 @@ export default function ZigzagCarousel() {
                                 <div className="col-xl-6 col-md-12">
                                     <div className="about__right">
                                         <div className="images mobile-head-imgs">
-                                            <img className="img1" src="/assets/images/layouts/about-01.jpg" alt="" />
+                                            <img className="img1" src="/assets/images/layouts/dacceshome.png" alt="" />
                                             <img className="img2" src="/assets/images/layouts/about-02.png" alt="" />
                                             <img className="img3" src="/assets/images/layouts/about-05.png" alt="" />
                                             <img className="img5" src="/assets/images/layouts/about-04.png" alt="" />
@@ -304,7 +346,7 @@ export default function ZigzagCarousel() {
                                         los accesos e incentivos en todas las industrias? Desde menús de restaurantes hasta lavado 
                                         de automóviles, reuniones con amigos, invitaciones especiales para aquellos que amas, 
                                         membresías VIP para tiendas de ropa y mucho más.</p>
-                                        <h6 className="sub-heading"><span> Las posibilidades son realmente infinita.</span></h6>
+                                        <h6 className="sub-heading"><span> Las posibilidades son realmente infinitas.</span></h6>
                                     </div>
                                 </div>
                             </div>
@@ -322,7 +364,7 @@ export default function ZigzagCarousel() {
                                     <div className="block-text center">
                                     <div style={{ height: '200px' }}></div>
                                     <h6 className="sub-heading"><span> Somos la primera agencia en México con un mercado de NFTs propio.</span></h6>
-                                        <h4>¿Por qué te interesa Tokenizar tus actvos y tu modelo de negocio?</h4>
+                                        <h4>¿Por qué te interesa Tokenizar tus activos y tu modelo de negocio?</h4>
                                     </div>
                                 </div>
                                 <div style={{ height: '50px' }}></div>
@@ -444,7 +486,7 @@ export default function ZigzagCarousel() {
                                                <h5 className="title">Soñadores</h5>
                                                 <p>Para aquellos con grandes sueños pero sin recursos para materializarlos, Dreamhub ofrece una puerta de entrada. Tokenizar sus ideas les permite convertirse en participantes activos en la revolución digital, haciendo realidad sus proyectos de una manera nunca antes vista.</p>
                                                 <div style={{ height: '20px' }}></div>
-                                                <Link href="/about" className="action-btn"><span>¿Cómo es el proceso de Tokenización?</span></Link>
+                                                <Link href="" className="action-btn"><span>¿Cómo es el proceso de Tokenización?</span></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -467,101 +509,27 @@ export default function ZigzagCarousel() {
                 <div style={{ height: '150px' }}></div>
                     <div className="row">
                     <div className="col-xl-6 col-md-12">
-                            <div className="image mobile-head-imgs" data-aos="fade-left" data-aos-duration={2000}>
-                                <img src="/assets/images/layouts/erfeo.png" />
+                            <div className="image portalQuetza" data-aos="fade-left" data-aos-duration={2000}>
+                                <img src="/assets/images/layouts/QuetzaAgave.png" />
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
                             <div className="block-text">
-                                <h6 className="sub-heading"><span>Lo Que Creamos Para Ti</span></h6>
-                                <h3 className="heading wow" data-splitting>Servicios Integrales</h3>
-                                <p>Además de la tokenización y el NFT Marketplace, ofrecemos servicios complementarios como; 
+                                <h6 className="sub-heading"><span>¿Por qué Dreamhub?</span></h6>
+                                <h3 className="heading wow" data-splitting>Incubadora Integral</h3>
+                                <p> Además de la tokenización y el NFT Marketplace, requieres una guía para una transformación exitosa en web3. Y Dreamhub tiene el paquete completo; 
                                     Digitalización y Arte, Marketing Web3, Desarrollo de Smart Contracts, y más. 
                                     Estamos aquí para llevar tus ideas al siguiente nivel en el universo blockchain.</p>                                 
                             </div>
                             <Accordion2 oneCol/>
+                            <div style={{ height: '10px' }}></div>
                             <Link href="/servicios" className="action-btn"><span>Explora los servicios</span></Link>
                         </div>
                     </div>
                 </div>
+                <div style={{ height: '150px' }}></div>
             </section>
 {/* End Agencia */}
-
-{/* Por qué */}
-<section id="porque" className="about">
-                        <div className="container">
-                            <div className="row">
-                                    <div className="block-text">
-                                        <h4>¿Por qué elegir Dreamhub para liderar tu exitosa transformación digital en Web3?</h4>
-                                        <div className="shape right"/>
-                                        <div style={{ height: '50px' }}></div>
-                        <div className="container">
-                            <div className="row">
-                                <div className="col-md-4 col-md-4">
-                                    <div className="speciality-box" data-aos="fade-up" data-aos-duration={2000}>
-                                        <div className="icon">
-                                            <svg width={48} height={48} viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fillRule="evenodd" clipRule="evenodd" d="M25.4995 11.1667H14.666V10.0001C14.666 4.84542 18.8447 0.666748 23.9994 0.666748H37.9994C43.1539 0.666748 47.3327 4.84542 47.3327 10.0001V24.0001C47.3327 29.1546 43.1539 33.3334 37.9994 33.3334H36.8327V22.5C36.8327 16.2409 31.7586 11.1667 25.4995 11.1667ZM9.99935 47.3334H23.9994C29.1539 47.3334 33.3327 43.1547 33.3327 38.0001V24.0001C33.3327 18.8454 29.1539 14.6667 23.9994 14.6667H9.99935C4.84469 14.6667 0.666016 18.8454 0.666016 24.0001V38.0001C0.666016 43.1547 4.84469 47.3334 9.99935 47.3334ZM25.1518 25.0165C25.8791 25.6528 25.9528 26.7586 25.3163 27.4859L18.6199 35.139C17.181 36.7835 14.7024 37.0035 12.996 35.6385L8.90614 32.3667C8.15142 31.7628 8.02906 30.6615 8.63283 29.9069C9.23658 29.1521 10.3378 29.0298 11.0926 29.6337L15.1825 32.9055C15.4262 33.1006 15.7803 33.069 15.9859 32.8341L22.6824 25.181C23.3187 24.4537 24.4243 24.3799 25.1518 25.0165Z" fill="url(#paint0_linear_939_616)" />
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_939_616" x1="23.9993" y1="0.666748" x2="23.9993" y2="47.3334" gradientUnits="userSpaceOnUse">
-                                                        <stop offset={1} stopColor="white" />
-                                                        <stop offset={1} stopColor="white" stopOpacity="0.5" />
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                        </div>
-                                        <h5 className="title">Inciativa</h5>
-                                        <p>En Dreamhub, no solo ofrecemos soluciones tecnológicas, entendemos tu negocio. 
-                                            Más que vender, creamos una experiencia personalizada para tokenizar tus activos, 
-                                            adaptándonos a tus necesidades y llevando tus sueños a la realidad digital.</p>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-md-4">
-                                    <div className="speciality-box" data-aos="fade-up" data-aos-duration={2400}>
-                                        <div className="icon">
-                                            <svg width={48} height={42} viewBox="0 0 48 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M39.2612 1.68623L46.0794 9.45348C47.6617 11.256 47.7559 13.9428 46.3037 15.8544L27.9319 40.0393C25.9458 42.6536 22.0529 42.6536 20.0667 40.0393L1.6949 15.8544C0.242769 13.9428 0.33692 11.256 1.91922 9.45348L8.73743 1.68623C9.67896 0.613667 11.0285 0 12.4457 0H19.5891H28.9607H35.5531C36.9701 0 38.3197 0.613667 39.2612 1.68623Z" fill="url(#paint0_linear_939_5927)" />
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_939_5927" x1="23.9993" y1={0} x2="23.9993" y2={42} gradientUnits="userSpaceOnUse">
-                                                        <stop offset={1} stopColor="white" />
-                                                        <stop offset={1} stopColor="white" stopOpacity="0.5" />
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                        </div>
-                                        <h5 className="title">Expertise</h5>
-                                        <p>Eligir Dreamhub para tokenizar tus activos con expertise en Web3, es transformamor 
-                                            tus sueños en oportunidades digitales de forma segura y revolucionaria. Con nosotros, 
-                                            cada token es una puerta a un futuro lleno de posibilidades."</p>
-                                    </div>
-                                </div>
-                                <div className="col-md-4 col-md-4">
-                                    <div className="speciality-box" data-aos="fade-up" data-aos-duration={2800}>
-                                        <div className="icon">
-                                            <svg width={48} height={42} viewBox="0 0 48 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path fillRule="evenodd" clipRule="evenodd" d="M9.99935 4.66667C9.99935 2.08934 12.0887 0 14.666 0H33.3327C35.9101 0 37.9994 2.08934 37.9994 4.66667V7H9.99935V4.66667ZM5.33268 15.1667C5.33268 12.5893 7.42202 10.5 9.99935 10.5H37.9994C40.5768 10.5 42.666 12.5893 42.666 15.1667V17.5H5.33268V15.1667ZM0.666016 25.6667C0.666016 23.0893 2.75535 21 5.33268 21H42.666C45.2434 21 47.3327 23.0893 47.3327 25.6667V32.6667C47.3327 37.8212 43.1539 42 37.9994 42H9.99935C4.84469 42 0.666016 37.8212 0.666016 32.6667V25.6667ZM17.5827 28C17.5827 27.0335 18.3662 26.25 19.3327 26.25H28.666C29.6325 26.25 30.416 27.0335 30.416 28C30.416 28.9665 29.6325 29.75 28.666 29.75H19.3327C18.3662 29.75 17.5827 28.9665 17.5827 28Z" fill="url(#paint0_linear_939_156)" />
-                                                <defs>
-                                                    <linearGradient id="paint0_linear_939_156" x1="23.9993" y1={0} x2="23.9993" y2={42} gradientUnits="userSpaceOnUse">
-                                                        <stop offset={1} stopColor="white" />
-                                                        <stop offset={1} stopColor="white" stopOpacity="0.5" />
-                                                    </linearGradient>
-                                                </defs>
-                                            </svg>
-                                        </div>
-                                        <h5 className="title">Marketplace</h5>
-                                        <p>Disfruta la tokenización: contamos NFT marketplace propio, 
-                                            eliminando complicaciones y retrasos innecesarios. Simplificamos el proceso 
-                                            para que puedas aprovechar al máximo la revolución digital de manera rápida y efectiva.</p>
-                                            <Link href="/servicios" className="action-btn btnfull"><span>Conéctate</span></Link>  
-                                    </div>
-                                    </div>    
-                                 </div> 
-                              </div>
-                            </div>
-                        </div>
-                        </div>
-                        </section>
-{/* End por qué */}
 
 {/* Causa */}
 <section id="causa" className="about">
@@ -575,15 +543,15 @@ export default function ZigzagCarousel() {
                                         </div>
                                     </div>
                                     </div>
-                                    <div className="col-3 web-cause-txt">
-                                            <p className="mb-17">En el vasto paisaje digital, Dreamhub se erige como mucho más que una 
+                                    <div className="col-md-3 web-cause-txt">
+                                            <p className="mb-17 mobile-space">En el vasto paisaje digital, Dreamhub se erige como mucho más que una 
                                         plataforma de tokenización; se convierte en un faro de cambio y significado. En un mundo donde 
                                         las conexiones digitales definen nuestras interacciones, Dreamhub adopta una causa significativa: 
                                         la protección y el bienestar de nuestros compañeros de cuatro patas. Nuestra causa va más allá de los bits y bytes.</p>
                                             </div>
                                 <div className="col-3 web-divspace2">
                                             <h3 className="heading wow" data-splitting>Guardianes Digitales: Impacto Positivo en el Mundo Animal </h3>
-                                            <h6 className="sub-heading"><span> Es una expresión de compasión y responsabilidad digital en un mundo que necesita más de ambas.</span></h6> 
+                                            <h6 className="sub-heading mobile-space"><span> Es una expresión de compasión y responsabilidad digital en un mundo que necesita más de ambas.</span></h6> 
                                 </div>
                             </div>
                         </div>
@@ -591,7 +559,7 @@ export default function ZigzagCarousel() {
  {/* End Causa */}
 
 {/* CTA */}
-                      <section className="touch">
+                      <section className="touch create__main">
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
@@ -601,30 +569,25 @@ export default function ZigzagCarousel() {
                                         a tus sueños en el mundo digital! 🚀💎
                                         </h4>
                                     </div>
-                                    <div className="touch__main traslucid-card">
-                                        <div className="info">
-                                            <div className="image web-cloudquetza-img">
-                                                <img src="/assets/images/layouts/ovaloDreamQuetza.png" alt="" />
-                                            </div>
-                                        </div>
+                                    <div className="touch__main traslucid-card form-mine">
                                         <form action="#" className="form-box">
-                                            <div className="row">
+                                            <div className="row rev">
                                                 <div className="col">
-                                                    <label>Tu nombre</label>
+                                                    <FormLabel>Tu nombre</FormLabel>
                                                     <input type="text" className="form-control" />
                                                 </div>
                                                 <div className="col">
-                                                    <label>Tu email</label>
+                                                    <FormLabel>Tu email</FormLabel>
                                                     <input type="email" className="form-control" />
                                                 </div>
                                             </div>
                                             <div className="row">
                                                 <div className="col">
-                                                    <label>Tu celular</label>
+                                                    <FormLabel>Tu celular</FormLabel>
                                                     <input type="text" className="form-control" />
                                                 </div>
                                                 <div className="col">
-                                                    <label>Nicho de Mercado</label>
+                                                    <FormLabel>Nicho de Mercado</FormLabel>
                                                     <select className="form-control">
                                                         <option>Selecciona</option>
                                                         <option>Inmobiliario</option>
@@ -634,23 +597,20 @@ export default function ZigzagCarousel() {
                                                     </select>
                                                 </div>
                                             </div>
-                                            <div className="row">
-                                                <div className="col">
-                                                    <label>Algo importante de ti o de tu proyecto</label>
+                                            <div className="row rev">
+                                                <div className="col-xl-12 col-md-12">
+                                                    <FormLabel>Algo importante de ti o de tu proyecto</FormLabel>
                                                     <textarea name="mess" id="mess" cols={30} rows={10} />
                                                 </div>
                                             </div>
-                                            <div className="row mb-0">
-                                                <div className="col">
                                                     <button className="action-btn"><span>Agenda tu asesoría ¡Sin costo!</span></button>
-                                                </div>
-                                            </div>
                                         </form>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </section>
+                    <div style={{ height: '150px' }}></div>
 {/* End CTA */}   
 
                 </div>

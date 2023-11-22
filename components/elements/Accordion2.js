@@ -32,26 +32,33 @@ export default function Accordion2({oneCol}) {
                         <div className="flat-accordion row">
                             <div className={`col-md-6 ${oneCol?"col-md-12":"col-sm-12"} `}>
                                 <div className={isActive.key == 1 ? "flat-toggle active" : "flat-toggle"} onClick={() => handleToggle(1)}>
-                                    <h6 className={isActive.key == 1 ? "toggle-title active" : "toggle-title"}><span></span> Diseño<span className="icon-plus" /></h6>
+                                    <h6 className={isActive.key == 1 ? "toggle-title active" : "toggle-title"}><span></span> Entendemos tu Negocio<span className="icon-plus" /></h6>
                                     <div className="toggle-content" style={{ display: `${isActive.key == 1 ? "block" : "none"}` }}>
                                         <p>
-                                        Desde la creación de NFTs hasta la interfaz de usuario, nuestro equipo de diseño trabaja para dar vida a tus ideas de manera visualmente impactante.
+                                            En Dreamhub, no solo ofrecemos soluciones tecnológicas. 
+                                            Más que vender, creamos una experiencia personalizada para tokenizar tus activos, 
+                                            adaptándonos a tus necesidades y llevando una orientación estratégica para maximizar 
+                                            los beneficios de la tokenización y mejorar la posición de tu negocio en el mercado.
                                         </p>
                                     </div>
                                 </div>
                                 <div className={isActive.key == 2 ? "flat-toggle active" : "flat-toggle"} onClick={() => handleToggle(2)}>
-                                    <h6 className={isActive.key == 2 ? "toggle-title active" : "toggle-title"}><span></span> Arte<span className="icon-plus" /></h6>
+                                    <h6 className={isActive.key == 2 ? "toggle-title active" : "toggle-title"}><span></span> Marketplace Propio<span className="icon-plus" /></h6>
                                     <div className="toggle-content" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                                         <p>
-                                        Colaboramos con artistas para crear NFTs únicos y atractivos, potenciando su presencia en el mercado.
+                                            Tu solo disfruta de la tokenización. Contamos con NFT marketplace propio para una 
+                                            comercialización sin complicaciones ni retrasos innecesarios. Simplificamos el proceso 
+                                            para que puedas aprovechar al máximo la revolución digital de manera rápida y efectiva.
                                         </p>
                                     </div>
                                 </div>
                                 <div className={isActive.key == 3 ? "flat-toggle active" : "flat-toggle"} onClick={() => handleToggle(3)}>
-                                    <h6 className={isActive.key == 3 ? "toggle-title active" : "toggle-title"}><span></span> Asesoría<span className="icon-plus" /></h6>
+                                    <h6 className={isActive.key == 3 ? "toggle-title active" : "toggle-title"}><span></span> Diseño y Arte<span className="icon-plus" /></h6>
                                     <div className="toggle-content" style={{ display: `${isActive.key == 3 ? "block" : "none"}` }}>
                                         <p>
-                                        Ofrecemos orientación estratégica para maximizar los beneficios de la tokenización y mejorar la posición de tu negocio en el mercado.
+                                        Colaboramos con artistas para crear NFTs únicos y atractivos, desde la creación de NFTs 
+                                        hasta la interfaz de usuario, nuestro equipo de diseño trabaja para dar vida a tus ideas 
+                                        de manera visualmente impactante.
                                         </p>
                                     </div>
                                 </div>
@@ -59,7 +66,8 @@ export default function Accordion2({oneCol}) {
                                     <h6 className={isActive.key == 4 ? "toggle-title active" : "toggle-title"}><span></span> Marketing<span className="icon-plus" /></h6>
                                     <div className="toggle-content" style={{ display: `${isActive.key == 4 ? "block" : "none"}` }}>
                                         <p>
-                                        Desarrollamos estrategias de marketing personalizadas para promocionar tus activos tokenizados, conectando con la audiencia adecuada.
+                                        Desarrollamos estrategias de marketing personalizadas para promocionar tus activos tokenizados, 
+                                        conectando con la audiencia adecuada. 
                                         </p>
                                     </div>
                                 </div>
