@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/4Lm8NH2MUo63jnh1R_MqE/_buildManifest.js",
-    "static/4Lm8NH2MUo63jnh1R_MqE/_ssgManifest.js"
+    "static/bGUJKMHJLCrzCq0hDG8OC/_buildManifest.js",
+    "static/bGUJKMHJLCrzCq0hDG8OC/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -19,8 +19,7 @@
       "static/css/ef46db3751d8e999.css",
       "static/chunks/904-ac88d3a897854b12.js",
       "static/chunks/780-b2776be418a5b4ed.js",
-      "static/chunks/901-918a102d0cb59aa3.js",
-      "static/chunks/pages/index-32b7272b13359364.js"
+      "static/chunks/pages/index-3d13f8573224308a.js"
     ],
     "/3dcarousel": [
       "static/chunks/webpack-dc1e9df83766571d.js",
@@ -31,14 +30,14 @@
       "static/css/ef46db3751d8e999.css",
       "static/chunks/780-b2776be418a5b4ed.js",
       "static/chunks/901-918a102d0cb59aa3.js",
-      "static/chunks/660-7d4c1cf77af79787.js",
-      "static/chunks/pages/3dcarousel-e9397021f1ca277a.js"
+      "static/chunks/154-c00a05c797b01d47.js",
+      "static/chunks/pages/3dcarousel-2639bb40043d3a67.js"
     ],
     "/_app": [
       "static/chunks/webpack-dc1e9df83766571d.js",
       "static/chunks/framework-0c7baedefba6b077.js",
       "static/chunks/main-7af7d5359a6145de.js",
-      "static/css/0cc7a145a8a6eb95.css",
+      "static/css/bb8ae614e14b8fec.css",
       "static/chunks/pages/_app-9a9ee75e2346ce0e.js"
     ],
     "/_error": [
@@ -91,8 +90,8 @@
       "static/css/ef46db3751d8e999.css",
       "static/chunks/780-b2776be418a5b4ed.js",
       "static/chunks/901-918a102d0cb59aa3.js",
-      "static/chunks/660-7d4c1cf77af79787.js",
-      "static/chunks/pages/cardcarousel-b6722d75f6e921bb.js"
+      "static/chunks/154-c00a05c797b01d47.js",
+      "static/chunks/pages/cardcarousel-d0c9f1b644e8a722.js"
     ],
     "/contact": [
       "static/chunks/webpack-dc1e9df83766571d.js",
@@ -112,15 +111,16 @@
       "static/css/ef46db3751d8e999.css",
       "static/chunks/780-b2776be418a5b4ed.js",
       "static/chunks/901-918a102d0cb59aa3.js",
-      "static/chunks/632-8d2a57cfe919c367.js",
-      "static/chunks/pages/coverflowcarousel-717c5cf983510589.js"
+      "static/chunks/154-c00a05c797b01d47.js",
+      "static/chunks/170-b11a1eec56518de1.js",
+      "static/chunks/pages/coverflowcarousel-40fd86f61ba44d7e.js"
     ],
     "/help-center": [
       "static/chunks/webpack-dc1e9df83766571d.js",
       "static/chunks/framework-0c7baedefba6b077.js",
       "static/chunks/main-7af7d5359a6145de.js",
       "static/chunks/908-9efb7ff7650f3402.js",
-      "static/chunks/569-2f24801b9254fed3.js",
+      "static/chunks/569-312c9cc7d05f7355.js",
       "static/chunks/780-b2776be418a5b4ed.js",
       "static/chunks/901-918a102d0cb59aa3.js",
       "static/css/0f9f4fd29e0d7902.css",
@@ -135,9 +135,9 @@
       "static/css/ef46db3751d8e999.css",
       "static/chunks/780-b2776be418a5b4ed.js",
       "static/chunks/901-918a102d0cb59aa3.js",
-      "static/chunks/660-7d4c1cf77af79787.js",
+      "static/chunks/154-c00a05c797b01d47.js",
       "static/chunks/319-bcc071a18bf4f733.js",
-      "static/chunks/pages/home-v2-307d0b73d5baa7b5.js"
+      "static/chunks/pages/home-v2-8a3fee61c70abf23.js"
     ],
     "/home-v3": [
       "static/chunks/webpack-dc1e9df83766571d.js",
@@ -147,9 +147,10 @@
       "static/chunks/502-172ae205e2399127.js",
       "static/chunks/780-b2776be418a5b4ed.js",
       "static/chunks/901-918a102d0cb59aa3.js",
+      "static/chunks/154-c00a05c797b01d47.js",
       "static/chunks/319-bcc071a18bf4f733.js",
-      "static/chunks/632-8d2a57cfe919c367.js",
-      "static/chunks/pages/home-v3-3dc2af14bed28f78.js"
+      "static/chunks/170-b11a1eec56518de1.js",
+      "static/chunks/pages/home-v3-e7e78c9b3e4edb9e.js"
     ],
     "/itemcarousel": [
       "static/chunks/webpack-dc1e9df83766571d.js",
@@ -160,8 +161,8 @@
       "static/css/ef46db3751d8e999.css",
       "static/chunks/780-b2776be418a5b4ed.js",
       "static/chunks/901-918a102d0cb59aa3.js",
-      "static/chunks/660-7d4c1cf77af79787.js",
-      "static/chunks/pages/itemcarousel-95178fda4bc63605.js"
+      "static/chunks/154-c00a05c797b01d47.js",
+      "static/chunks/pages/itemcarousel-68d1d9e1ef8880d9.js"
     ],
     "/nft": [
       "static/chunks/webpack-dc1e9df83766571d.js",

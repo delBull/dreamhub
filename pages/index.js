@@ -1,10 +1,8 @@
-import Accordion from "@/components/elements/Accordion"
 import Accordion2 from "@/components/elements/Accordion2"
-import Accordion3 from "@/components/elements/Accordion3"
 import Layout from "@/components/layout/Layout"
 import CardSlider2 from "@/components/slider/CardSlider2"
-import RoadmapSlider1 from "@/components/slider/RoadmapSlider1"
 import { Link as ScrollLink } from 'react-scroll';
+
 import Link from "next/link"
 import { FormLabel, InputLabel, StepLabel } from "@mui/material"
 
@@ -245,7 +243,7 @@ export default function ZigzagCarousel() {
                                 <div className="col-12">
                                     <div className="create__main">
                                         <div className="content">
-                                            <h4 className="heading">¿Tienes en menta algun proyecto?</h4>
+                                            <h4 className="heading">¿Tienes en mente algun proyecto?</h4>
                                             <p>Contamos con los mejores profesionales 
                                                 de la industria listos </p> <p>para brindarte una consulta gratuita.
                                                 Cuéntanos acerca de tu proyecto </p><p>y te asesoraremos para llevarlo al 
@@ -300,30 +298,40 @@ export default function ZigzagCarousel() {
                         </div>
 
                         {/* Ejemplo 2 */}
-                        <div className="portfolio">
-                            <div className="row rev">
-                            <div className="col-xl-6 col-md-12">
-                                    <div className="block-text">
+
+                        <section className="about">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-6 col-md-12">
+                                    <div className="block-text no-paddingbottom">
                                         <h3 className="heading wow" data-splitting>Dos Escenas, Un Camino</h3>
-                                        <p className="mb-17">Imaginen una escena familiar, la herencia de propiedades puede 
+                                        <h6 className="sub-heading"><span>El drama de la herencia</span></h6>
+                                        <p className="mb-17">Imagina una escena familiar, la herencia de propiedades puede 
                                         volverse un caos. Ahí es donde la tokenización entra en juego, convirtiendo esas propiedades 
                                         en "tokens". En lugar de enredados desacuerdos, los herederos obtienen fracciones representadas 
                                         por estos tokens. ¡Imagina, una transición sin problemas y justa sin tener que vender 
-                                        propiedades enteras! La tokenización es la solución elegante para herencias sin dramas.</p>
-                                        <p className="mb-26">Imagina que quieres vender tu propiedad, pero los inmuebles no siempre 
+                                        propiedades enteras! La tokenización es la solución elegante para herencias sin dramas</p>
+                                    </div>
+                                    <div className="block-text no-paddingtop">
+                                        <h6 className="sub-heading"><span>Propiedades Inmobiliarias</span></h6>
+                                        <p>Imagina que quieres vender tu propiedad, pero los inmuebles no siempre 
                                         están al alcance de todos. Sin embargo, al tokenizarla y obtener tus "NFTs" o partes de la
                                         propiedad, propones un modelo novedoso además de accesibilidad para participar en el sector 
                                         inmobiliario.</p>
-                                        <h6 className="sub-heading"><span> Y juntos, construir algo más grande.</span></h6>
                                     </div>
                                 </div>
-                                <div className="about__right">
-                                        <div className="images floating-element mobile-absolute2">
-                                            <img className="img1" src="/assets/images/layouts/houseNFT.png" alt="" />
+                                <div className="col-xl-6 col-md-12">
+                                    <div className="about__right">
+                                        <div className="images">
+                                            <img className="img1" src="/assets/images/layouts/hudbuilding.png" alt="" />
+                                            <img className="img3" src="/assets/images/layouts/houseNFT.png" alt="" />
                                         </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                    </section>
+{/* End Ejemplo 2 */}
 
                          {/* Ejemplo 3 */}
                          <div className="shape" />
@@ -510,7 +518,7 @@ export default function ZigzagCarousel() {
                     <div className="row">
                     <div className="col-xl-6 col-md-12">
                             <div className="image portalQuetza" data-aos="fade-left" data-aos-duration={2000}>
-                                <img src="/assets/images/layouts/QuetzaAgave.png" />
+                                <img src="/assets/images/layouts/portalQuetzaAgave.png" />
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
