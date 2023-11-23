@@ -1,12 +1,18 @@
 import Accordion2 from "@/components/elements/Accordion2"
 import Layout from "@/components/layout/Layout"
 import CardSlider2 from "@/components/slider/CardSlider2"
+import CoverVideo, { handleVideoEnded } from "@/components/elements/CoverVideo"
 import { Link as ScrollLink } from 'react-scroll';
-
 import Link from "next/link"
 import { FormLabel, InputLabel, StepLabel } from "@mui/material"
 
-export default function ZigzagCarousel() {
+const ZigzagCarousel = () => {
+    const handlePlayButtonClick = () => {
+      const coverVideo = document.getElementById('video-container');
+      if (coverVideo) {
+        coverVideo.style.display = 'block';
+      }
+    };
 
     return (
         <>
@@ -22,7 +28,15 @@ export default function ZigzagCarousel() {
                                         <div className="block-text">
                                             <h3 className="heading">NFT LAB;<span className="arlo_tm_animation_text_word" /> Tokenización en el mundo real</h3>
                                             <h5>“MINT YOUR DREAMS; Sueña Diferente “</h5>
-                                        </div>
+                                            <div style={{ height: '30px' }}></div>
+                                            
+<button class="action-btn open-button">Chécate el Video</button>
+<dialog class="modal" id="modal">
+<video autoPlay controls onEnded={handleVideoEnded}>
+<source src="assets/videos/intro_web.mp4" type="video/mp4" /></video>
+</dialog>
+</div>
+
                                         <div className="pay">
                                             <p>Todos somos crypto</p>
                                             <div style={{ height: '10px' }}></div>
@@ -626,3 +640,5 @@ export default function ZigzagCarousel() {
         </>
     )
 }
+
+export default ZigzagCarousel;

@@ -407,9 +407,47 @@
 }
   .no-paddingbottom {
     padding-bottom: 0px !important;
-  }
+}
+#modal {
+  position: fixed;
+  top: 0;
+  z-index: 10000;
+  padding: 50px;
+  background: rgb(0 0 0 / 0.5);
+}
+#modal video {
+  width: 100%;
+  height: auto;
+}
+#video-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  padding: 50px;
+  width: 100%;
+  align-items: center;
+  justify-content: center; 
+  display: none;
+  z-index: 1000;
+}
+#video-container video {
+  width: 100%;
+  height: auto;
+}
+#video-container video::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+}
 
 
+#video-overlay {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 1;
+}
 
 
 /* Estilos para pantallas más grandes (web) */

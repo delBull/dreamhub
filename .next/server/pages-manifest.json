@@ -1,1 +1,25 @@
-{"/_app":"pages/_app.js","/_error":"pages/_error.js","/3dcarousel":"pages/3dcarousel.html","/advisor":"pages/advisor.html","/about":"pages/about.html","/blog-details":"pages/blog-details.html","/blog":"pages/blog.html","/cardcarousel":"pages/cardcarousel.html","/contact":"pages/contact.html","/help-center":"pages/help-center.html","/_document":"pages/_document.js","/home-v3":"pages/home-v3.html","/coverflowcarousel":"pages/coverflowcarousel.html","/home-v2":"pages/home-v2.html","/parti-asset":"pages/parti-asset.html","/partner":"pages/partner.html","/":"pages/index.html","/itemcarousel":"pages/itemcarousel.html","/vision-mission":"pages/vision-mission.html","/team":"pages/team.html","/nft":"pages/nft.html","/roadmap":"pages/roadmap.html","/zigzagcarousel":"pages/zigzagcarousel.html","/404":"pages/404.html"}
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/advisor": "pages/advisor.js",
+  "/3dcarousel": "pages/3dcarousel.js",
+  "/blog-details": "pages/blog-details.js",
+  "/blog": "pages/blog.js",
+  "/about": "pages/about.js",
+  "/cardcarousel": "pages/cardcarousel.js",
+  "/help-center": "pages/help-center.js",
+  "/contact": "pages/contact.js",
+  "/home-v2": "pages/home-v2.js",
+  "/": "pages/index.js",
+  "/coverflowcarousel": "pages/coverflowcarousel.js",
+  "/home-v3": "pages/home-v3.js",
+  "/parti-asset": "pages/parti-asset.js",
+  "/itemcarousel": "pages/itemcarousel.js",
+  "/nft": "pages/nft.js",
+  "/partner": "pages/partner.js",
+  "/roadmap": "pages/roadmap.js",
+  "/vision-mission": "pages/vision-mission.js",
+  "/team": "pages/team.js",
+  "/zigzagcarousel": "pages/zigzagcarousel.js"
+}
