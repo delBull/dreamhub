@@ -4,6 +4,7 @@ import CardSlider2 from "@/components/slider/CardSlider2"
 import CoverVideo, { handleVideoEnded } from "@/components/elements/CoverVideo"
 import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
+import { TypeAnimation } from 'react-type-animation';
 import { FormLabel, InputLabel, StepLabel } from "@mui/material"
 
 const ZigzagCarousel = () => {
@@ -23,23 +24,46 @@ const ZigzagCarousel = () => {
                         <div className="shape right" />
                         <div className="container big">
                             <div className="row">
-                                <div className="col-xl-6 col-md-12">
+                                <div className="col-xl-7 col-md-12">
                                     <div className="banner__left">
                                         <div className="block-text">
-                                            <h3 className="heading">NFT LAB;<span className="arlo_tm_animation_text_word" /> Tokenización en el mundo real</h3>
-                                            <h5>“MINT YOUR DREAMS; Sueña Diferente “</h5>
-                                            <div style={{ height: '30px' }}></div>
-                                            
+                                            <h2>NFT MARKETLAB</h2>
+<h2 className="cover-heading">Tokeniza</h2>                                        
+<div className="heading cover-subheading">
+  <TypeAnimation
+    sequence={[
+        'Tu Arte',
+        1000,
+        'Tu Negocio',
+        1000,
+        'Tu Proyecto',
+        1000,
+        'Tu Idea',
+        1000,
+        'Tu Inversión',
+        1000,
+        'Tu Propiedad',
+        1000,
+        'Tu Sueño',
+        1000,
+    ]}
+    speed={50}
+    repeat={Infinity}
+  />
+</div>
+<br/>             
+
 <button class="action-btn open-button">Chécate el Video</button>
 <dialog class="modal" id="modal">
 <video autoPlay controls method="dialog">
 <source src="assets/videos/intro_web.mp4" type="video/mp4" /></video>
 </dialog>
                                        
-                                       </div>
-                                        <div className="pay">
+</div>
+                                        <div style={{ height: '100px' }}></div>
+                                        <div className="pay mobile-padding2">
                                             <p>Todos somos crypto</p>
-                                            <div style={{ height: '10px' }}></div>
+                                            <div style={{ height: '5px' }}></div>
                                             <div className="list">
                                                 <p>Aceptamos:</p>
                                                 <ul>
@@ -51,7 +75,7 @@ const ZigzagCarousel = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-xl-6 col-md-12 mobile-none">
+                                <div className="col-xl-5 col-md-12 mobile-absolute3">
                                     <CardSlider2 />
                                 </div>
                             </div>

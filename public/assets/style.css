@@ -408,6 +408,14 @@
   .no-paddingbottom {
     padding-bottom: 0px !important;
 }
+  .cover-heading {
+  display: inline-block !important;
+}
+  .cover-subheading {
+  display: inline-block !important;
+  margin-left: 10px;
+  font-size: 3em;
+}
 #modal {
   position: fixed;
   top: 0;
@@ -439,8 +447,6 @@
 #video-container video::backdrop {
   background: rgba(0, 0, 0, 0.5);
 }
-
-
 #video-overlay {
   position: absolute;
   top: 0px;
@@ -448,7 +454,6 @@
   cursor: pointer;
   z-index: 1;
 }
-
 
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
@@ -541,6 +546,16 @@
     height: 100vh;
     opacity: .3 !important; 
 }
+.mobile-absolute3 {
+  width: 200% !important;
+  position: absolute !important;
+  top: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  height: 125vh;
+}
   .mobile-coverimg {
     position: absolute;
     top: 0;
@@ -574,9 +589,18 @@
   .mobile-padding {
     padding-top: 100px;
   }
+  .mobile-padding2 {
+    padding-top: 170px;
+  }
   .portalQuetza {
     width: 200%;
     opacity: .3 !important;
     left: -90% !important;
+  }
+  .cover-heading {
+    font-size: 3em;
+  }
+    .cover-subheading {
+    font-size: 2em;
   }
 }
