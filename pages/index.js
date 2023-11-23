@@ -52,27 +52,17 @@ const ZigzagCarousel = () => {
   />
 </div>
 <br/>             
-
+{/*
 <button class="action-btn open-button">Chécate el Video</button>
 <dialog class="modal" id="modal">
 <video autoPlay controls method="dialog">
 <source src="assets/videos/intro_web.mp4" type="video/mp4" /></video>
 </dialog>
-                                       
+*/}
+
+<ScrollLink to="intro" className="action-btn sub-heading"><span>Descubre más de tu "Dreamhub Incubator"</span></ScrollLink>                                     
 </div>
-                                        <div style={{ height: '100px' }}></div>
-                                        <div className="pay mobile-padding2">
-                                            <p>Todos somos crypto</p>
-                                            <div style={{ height: '5px' }}></div>
-                                            <div className="list">
-                                                <p>Aceptamos:</p>
-                                                <ul>
-                                                    <li><Link href="#"><span className="icon-logo-01" /></Link></li>
-                                                    <li><Link href="#"><span className="icon-logo-02" /></Link></li>                                                   
-                                                    <li><Link href="#"><span className="icon-logo-06" /></Link></li>
-                                                </ul>
-                                            </div>
-                                        </div>
+                                       
                                     </div>
                                 </div>
                                 <div className="col-xl-5 col-md-12 mobile-absolute3">

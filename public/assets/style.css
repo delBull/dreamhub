@@ -547,14 +547,9 @@
     opacity: .3 !important; 
 }
 .mobile-absolute3 {
-  position: absolute !important;
-  top: 0;
   right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center; 
-  width: auto !important;
-  height: 115vh;
+  left: 0;
+  bottom: 0;
 }
   .mobile-coverimg {
     position: absolute;
