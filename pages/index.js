@@ -31,12 +31,12 @@ const ZigzagCarousel = () => {
                                             <div style={{ height: '30px' }}></div>
                                             
 <button class="action-btn open-button">Chécate el Video</button>
-<dialog class="modal" id="modal">
+<dialog class="#modal" id="modal">
 <video autoPlay controls onEnded={handleVideoEnded}>
 <source src="assets/videos/intro_web.mp4" type="video/mp4" /></video>
 </dialog>
-</div>
-
+                                       
+                                       </div>
                                         <div className="pay">
                                             <p>Todos somos crypto</p>
                                             <div style={{ height: '10px' }}></div>
