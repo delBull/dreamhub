@@ -547,14 +547,14 @@
     opacity: .3 !important; 
 }
 .mobile-absolute3 {
-  width: 200% !important;
   position: absolute !important;
   top: 0;
   right: 0;
   display: flex;
   align-items: center;
   justify-content: center; 
-  height: 125vh;
+  width: auto !important;
+  height: 115vh;
 }
   .mobile-coverimg {
     position: absolute;
@@ -597,10 +597,13 @@
     opacity: .3 !important;
     left: -90% !important;
   }
-  .cover-heading {
-    font-size: 3em;
-  }
-    .cover-subheading {
+  .cover-title {
     font-size: 2em;
+  }
+  .cover-heading {
+    font-size: 1.8em;
+  }
+  .cover-subheading {
+    font-size: 1.8em;
   }
 }

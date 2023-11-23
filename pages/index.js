@@ -27,7 +27,7 @@ const ZigzagCarousel = () => {
                                 <div className="col-xl-7 col-md-12">
                                     <div className="banner__left">
                                         <div className="block-text">
-                                            <h2>NFT MARKETLAB</h2>
+                                            <h2 className="cover-title">NFT MARKETLAB</h2>
 <h2 className="cover-heading">Tokeniza</h2>                                        
 <div className="heading cover-subheading">
   <TypeAnimation
