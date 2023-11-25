@@ -463,8 +463,15 @@
 .copyright-txt {
   display: inline-block;
   font-size: 11px;
-  padding-left: 30px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
+.somebody-txt {
+  font-size: 18px !important;
+  margin: 10px;
+  color: #fff !important;
+}
+
 
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
@@ -510,6 +517,9 @@
     padding-left: 300px;
     z-index: 1;
   }
+  .cover-title {
+    margin-left: 10px;
+  }
 }
 
 /* Estilos para pantallas más pequeñas (móvil) */
@@ -525,6 +535,9 @@
   body {
     font-size: 14px !important; /* Ejemplo: reduce el tamaño de fuente para pantallas más pequeñas */
     width: 100%;
+  }
+  .somebody-txt {
+    font-size: 14px !important;
   }
   .mobile-head-imgs {
     width: 90% !important; 
@@ -590,7 +603,7 @@
     display: none;
   }
   .mobile-space {
-    margin-top: 20px;
+    margin-top: 80px;
   }
   .mobile-padding {
     padding-top: 100px;

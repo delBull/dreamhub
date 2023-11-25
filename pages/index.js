@@ -1,7 +1,6 @@
 import Accordion2 from "@/components/elements/Accordion2"
 import Layout from "@/components/layout/Layout"
 import CardSlider2 from "@/components/slider/CardSlider2"
-import CoverVideo, { handleVideoEnded } from "@/components/elements/CoverVideo"
 import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
 import { TypeAnimation } from 'react-type-animation';
@@ -27,7 +26,7 @@ const ZigzagCarousel = () => {
                                 <div className="col-xl-7 col-md-12">
                                     <div className="banner__left">
                                         <div className="block-text">
-                                            <h2 className="cover-title">NFT MARKETLAB</h2>
+                                            <h2 className="cover-title">NFT MARKET LAB</h2>
 <p className="heading cover-subheading">Impulsamos</p>                                        
 <div className="heading cover-subheading">
   <TypeAnimation
@@ -67,7 +66,7 @@ const ZigzagCarousel = () => {
                                        
                                     </div>
                                 </div>
-                                <div className="col-xl-5 col-md-12 mobile-absolute3">
+                                <div className="col-xl-5 col-md-12 mobile-absolute3 mobile-none">
                                     <CardSlider2 />
                                 </div>
                             </div>
@@ -89,9 +88,9 @@ const ZigzagCarousel = () => {
                                 <div className="page-title__main">
                                 <div className="web-textalign-right">
                                 <h4>¡Soñadores digitales! 🚀 </h4>
-                                <h6>¿Y si te dijera que existe una industria que cambiará la forma  <br/> en que vemos 
+                                <p>¿Y si te dijera que existe una industria que cambiará la forma  <br/> en que vemos 
                                 el mundo digital? ¡Eso es exactamente <br/>  lo que está haciendo Dreamhub, estamos a las puertas  <br/> de la 
-                                próxima gran revolución Blockchain!</h6>
+                                próxima gran revolución Blockchain!</p>
                                 </div>
                                     <div className="bottom">
                                         <p>Share this page</p>
@@ -121,11 +120,11 @@ const ZigzagCarousel = () => {
                                         </ul>
                                         <div style={{ height: '30px' }}></div>
                                         <h4>El "big why" </h4>
-                                <h6>Estamos impulsando la descentralización a la vanguardia. ¿Por qué? 
+                                <p className="somebody-txt">Estamos impulsando la descentralización a la vanguardia. ¿Por qué? 
                                 Porque creemos en que todos deberían tener el poder para transformar sus aspiraciones en 
                                 realidades digitales, desde emprendedores que buscan nuevas oportunidades, artistas que desean 
                                 compartir su talento, hasta causas humanitarias que necesitan un canal digital para llegar al 
-                                corazón de las personas. ¿Quieres ser parte de esta evolución o te quedas en el pasado?</h6>
+                                corazón de las personas. ¿Quieres ser parte de esta evolución o te quedas en el pasado?</p>
                                     </div>
                                 </div>
                             </div>
@@ -154,16 +153,16 @@ const ZigzagCarousel = () => {
                             <div className="token__main" data-aos="fade-left" data-aos-duration={2000}>
                                 <ul className="token-list">
                                     <li>
-                                            <h6>Transforma tu arte en una oportunidad de inversión para negocios.</h6>
+                                            <p className="somebody-txt">Transforma tu arte en una oportunidad de inversión para negocios.</p>
                                     </li>
                                     <li>
-                                            <h6>Escala tu negocio en el arte de las inversiones tokenizadas en NFT.</h6>
+                                            <p className="somebody-txt">Escala tu negocio en el arte de las inversiones tokenizadas en NFT.</p>
                                     </li>
                                     <li>
-                                            <h6>Haz crecer tus inversiones para negocios con el arte de la tokenización inmobiliaria en NFT.</h6>
+                                            <p className="somebody-txt">Haz crecer tus inversiones para negocios con el arte de la tokenización inmobiliaria en NFT.</p>
                                     </li>
                                     <li> 
-                                        <h6>TRANSFORMA TUS IDEALES EN UNA REALIDAD</h6>
+                                        <p className="somebody-txt">TRANSFORMA TUS IDEALES EN UNA REALIDAD</p>
                                     </li>
                                 </ul>
                             </div>
@@ -353,8 +352,8 @@ const ZigzagCarousel = () => {
                                 <div className="col-xl-6 col-md-12">
                                     <div className="about__right">
                                         <div className="images">
-                                            <img className="img1" src="/assets/images/layouts/hudbuilding.png" alt="" />
-                                            <img className="img3" src="/assets/images/layouts/houseNFT.png" alt="" />
+                                            <img className="img1" src="/assets/images/layouts/nftdepas.png" alt="" />
+                                            <img className="img3 mobile-none" src="/assets/images/layouts/houseNFT.png" alt="" />
                                         </div>
                                     </div>
                                 </div>
@@ -589,7 +588,18 @@ const ZigzagCarousel = () => {
                                             </div>
                                 <div className="col-3 web-divspace2">
                                             <h3 className="heading wow" data-splitting>Guardianes Digitales: Impacto Positivo en el Mundo Animal </h3>
-                                            <h6 className="sub-heading mobile-space"><span> Es una expresión de compasión y responsabilidad digital en un mundo que necesita más de ambas.</span></h6> 
+                                            <h6>
+                                            <TypeAnimation
+                                            style={{ whiteSpace: 'pre-line', height: '195px', display: 'block' }}
+                                            sequence={[
+                                            `Es una expresión de\ncompasión y\nresponsabilida digital en\nun mundo que necesita\nmás de ambas`, // actual line-break inside string literal also gets animated in new line, but ensure there are no leading spaces
+                                            1000,
+                                            '',
+                                            ]}
+                                            repeat={Infinity}
+                                            />
+                                            </h6>
+                                           
                                 </div>
                             </div>
                         </div>
