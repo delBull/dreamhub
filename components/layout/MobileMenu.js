@@ -29,24 +29,22 @@ export default function MobileMenu({ isMobileMenu }) {
                                             <Link href="/">Inicio</Link>
                                             </li>
                                             <li>
-                                            <ScrollLink to="tokenización" smooth={true} duration={100}><span>Tokenización</span></ScrollLink>
+                                            <Link href="/">Servicios</Link>
                                             </li>
-                                            <li>
-                                            <ScrollLink to="dreamhub" smooth={true} duration={100}><span>Agencia</span></ScrollLink>
-                                            </li>
-                                            <li>
-                                            <ScrollLink to="roadmap" smooth={true} duration={100}><span>Roadmap</span></ScrollLink>
-                                            </li>
-                                            <li>
-                                            <ScrollLink to="faq" smooth={true} duration={100}><span>FAQs</span></ScrollLink>
-                                           </li>
-                                           {/*   <li className="menu-item menu-item-has-children">
-                                               {/* <Link href="#">Explora</Link> 
+                                            <li className="menu-item menu-item-has-children">
+                                            <Link href="#">Explora</Link>
                                                 <ul className="sub-menu">                                                
-                                                   <li className="menu-item"><Link href="/vision-mission">Dreamhub</Link></li>
-                                                    <li className="menu-item"><Link href="/about">Tokenización</Link></li> 
+                                                   <li className="menu-item"><Link href="/">Nosotros</Link></li>
+                                                    <li className="menu-item"><Link href="/">Blockchain</Link></li>
+                                                    <li className="menu-item"><Link href="/">Tokenización</Link></li>  
+                                                    <li className="menu-item"><Link href="/">NFTs</Link></li> 
+                                                    <li className="menu-item"><Link href="/">Roadmap</Link></li>
+                                                    <li className="menu-item"><Link href="/">FAQs</Link></li>
                                                 </ul>
-                                            </li> */}
+                                            </li>
+                                            <li>
+                                            <Link href="/">Blog</Link>
+                                            </li>
                 </ul>
             </nav>
         </>

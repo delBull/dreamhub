@@ -26,6 +26,7 @@
         "react-dom": "18.2.0",
         "react-modal": "^3.16.1",
         "react-modal-video": "^2.0.1",
+        "react-native-video-player": "^0.14.0",
         "react-scroll": "^1.9.0",
         "react-type-animation": "^3.2.0",
         "sass": "^1.62.1",

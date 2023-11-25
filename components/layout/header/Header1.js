@@ -27,17 +27,16 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                             <li className="menu-item menu-item-has-children">
                                                <h6>Explora</h6>
                                                 <ul className="sub-menu">                                                
-                                                   <li className="menu-item"><Link href="/vision-mission">Nosotros</Link></li>
-                                                    <li className="menu-item"><Link href="/about">Blockchain</Link></li>
-                                                    <li className="menu-item"><Link href="/about">Tokenización</Link></li>  
-                                                    <li className="menu-item"><Link href="/about">NFTs</Link></li> 
+                                                   <li className="menu-item"><Link href="/">Nosotros</Link></li>
+                                                    <li className="menu-item"><Link href="/">Blockchain</Link></li>
+                                                    <li className="menu-item"><Link href="/">Tokenización</Link></li>  
+                                                    <li className="menu-item"><Link href="/">NFTs</Link></li> 
+                                                    <li className="menu-item"><Link href="/">Roadmap</Link></li>
+                                                    <li className="menu-item"><Link href="/">FAQs</Link></li>
                                                 </ul>
                                             </li>
                                             <li>
-                                            <Link href="/">Roadmap</Link>
-                                            </li>
-                                            <li>
-                                            <Link href="/">FAQs</Link>
+                                            <Link href="/">Blog</Link>
                                             </li>
                                         </ul>
                                     </nav>

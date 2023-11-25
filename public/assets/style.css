@@ -409,12 +409,15 @@
     padding-bottom: 0px !important;
 }
   .cover-heading {
-  display: inline-block !important;
+  display: block !important;
+  font-size: 2em;
+  margin-top: -40px !important;
+  margin-left: 10px;
 }
   .cover-subheading {
   display: inline-block !important;
   margin-left: 10px;
-  font-size: 3em;
+  font-size: 2em;
 }
 #modal {
   position: fixed;
@@ -453,6 +456,14 @@
   right: 0px;
   cursor: pointer;
   z-index: 1;
+}
+.copyright-container {
+  text-align: center;
+}
+.copyright-txt {
+  display: inline-block;
+  font-size: 11px;
+  padding-left: 30px;
 }
 
 /* Estilos para pantallas más grandes (web) */
@@ -600,5 +611,9 @@
   }
   .cover-subheading {
     font-size: 1.8em;
+  }
+  .mobile-btn {
+    font-size: 1em;
+    text-align: center;
   }
 }

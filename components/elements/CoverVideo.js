@@ -15,6 +15,3 @@ if (typeof window !== 'undefined') {
     console.error("Error en la lógica de inicialización del modal:", error);
   }
 }
-
-
-

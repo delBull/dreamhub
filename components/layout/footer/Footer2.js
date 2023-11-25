@@ -64,17 +64,15 @@ export default function Footer2() {
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
-                                    <div className="bottom">
-                                        <p>© {new Date().getFullYear()}, Dreamhub. Trademark by mxHub S.A. de C.V.</p>
-                                        <ul className="list">
-                                            <li><Link href="#">Terms &amp; Condition</Link></li>
-                                            <li><Link href="#">Privacy Policy</Link></li>
-                                            <li><Link href="#">Cookie Policy</Link></li>
-                                        </ul>
-                                    </div>
+                                    </div>  
                                 </div>
                             </div>
+                            <div className="bottom copyright-container">
+                                        <p className="copyright-txt">© {new Date().getFullYear()}, Dreamhub es marca registrada de MXHUB S.A. de C.V.</p>
+                                        <Link className="copyright-txt" href="#">Terms &amp; Condition</Link>
+                                            <Link className="copyright-txt" href="#">Privacy Policy</Link>
+                                            <Link className="copyright-txt" href="#">Cookie Policy</Link>
+                                    </div>
                         </div>
                     </div>
                 </div>

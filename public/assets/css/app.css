@@ -874,7 +874,7 @@ a {
     display: none;
     position: absolute;
     right: 15px;
-    width: 26px;
+    width: 40px;
     height: 26px;
     background-color: transparent;
     cursor: pointer;
@@ -893,7 +893,7 @@ a {
     content: "";
     position: absolute;
     top: 0;
-    height: 3px;
+    height: 2px;
     width: 100%;
     left: 0;
     top: 50%;
@@ -926,7 +926,7 @@ a {
 .header .header__right .mobile-button span {
     position: absolute;
     width: 100%;
-    height: 3px;
+    height: 0px;
     left: 0;
     top: 50%;
     overflow: hidden;

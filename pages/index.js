@@ -28,7 +28,7 @@ const ZigzagCarousel = () => {
                                     <div className="banner__left">
                                         <div className="block-text">
                                             <h2 className="cover-title">NFT MARKETLAB</h2>
-<h2 className="cover-heading">Tokeniza</h2>                                        
+<p className="heading cover-subheading">Impulsamos</p>                                        
 <div className="heading cover-subheading">
   <TypeAnimation
     sequence={[
@@ -51,16 +51,18 @@ const ZigzagCarousel = () => {
     repeat={Infinity}
   />
 </div>
-<br/>             
+<p className="heading cover-heading">en la economía Web3 con estrategias de NFTs que se ajustan y evolucionan continuamente.</p>
+
+
 {/*
-<button class="action-btn open-button">Chécate el Video</button>
-<dialog class="modal" id="modal">
-<video autoPlay controls method="dialog">
+<dialog>
+<video autoPlay controls>
 <source src="assets/videos/intro_web.mp4" type="video/mp4" /></video>
 </dialog>
+<button className="action-btn open-button">Chécate el Video</button>
 */}
 
-<ScrollLink to="intro" className="action-btn sub-heading"><span>Descubre más de tu "Dreamhub Incubator"</span></ScrollLink>                                     
+<ScrollLink to="intro" className="action-btn mobile-btn"><span>Descubre más de tu "Dreamhub Incubator"</span></ScrollLink>  
 </div>
                                        
                                     </div>
@@ -600,10 +602,9 @@ const ZigzagCarousel = () => {
                             <div className="row">
                                 <div className="col-12">
                                     <div className="block-text center">
-                                        <h6 className="sub-heading"><span>No seas un extraño!</span></h6>
-                                        <h4 className="heading">¡Únete a Dreamhub y da vida <br />
-                                        a tus sueños en el mundo digital! 🚀💎
-                                        </h4>
+                                        <p className="heading cover-heading">Te ayudamos a impulsarte en la economía Web3 <br />
+                                        con estrategias de NFTs que se ajustan y evolucionan continuamente. 🚀💎
+                                        </p>
                                     </div>
                                     <div className="touch__main traslucid-card form-mine">
                                         <form action="#" className="form-box">
