@@ -472,7 +472,6 @@
   color: #fff !important;
 }
 
-
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
   .mobile-relative {

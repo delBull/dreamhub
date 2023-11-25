@@ -9,6 +9,7 @@ import "swiper/css/pagination"
 import "../public/assets/css/animate.css"
 // import "/public/css/dist/aos.css"
 import "../public/assets/css/app.css"
+import { PrimeReactProvider } from 'primereact/api';
 
 function MyApp({ Component, pageProps }) {
 
@@ -22,9 +23,12 @@ function MyApp({ Component, pageProps }) {
     return (
         <div className="home-main header-fixed">
             {!loading ? (
+                <PrimeReactProvider>
                 <Component {...pageProps} />
+                </PrimeReactProvider>
             ) : (
                 <Preloader />
+                
             )}
         </div>)
 }

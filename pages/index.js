@@ -5,14 +5,13 @@ import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
 import { TypeAnimation } from 'react-type-animation';
 import { FormLabel, InputLabel, StepLabel } from "@mui/material"
+import { Dialog } from 'primereact/dialog';
+import { Button } from 'primereact/button';
+import React, { useState } from 'react';    
+        
 
 const ZigzagCarousel = () => {
-    const handlePlayButtonClick = () => {
-      const coverVideo = document.getElementById('video-container');
-      if (coverVideo) {
-        coverVideo.style.display = 'block';
-      }
-    };
+    const [visible, setVisible] = useState(false);
 
     return (
         <>
@@ -52,18 +51,14 @@ const ZigzagCarousel = () => {
 </div>
 <p className="heading cover-heading">en la economía Web3 con estrategias de NFTs que se ajustan y evolucionan continuamente.</p>
 
+            <Button className="action-btn" label="Chécate el video" onClick={() => setVisible(true)} />
+            <Dialog header="" visible={visible} style={{ alignItems: 'center', width: '160vh', height: 'auto', background: 'black' }} onHide={() => setVisible(false)}>
+            <video autoPlay controls>
+            <source src="assets/videos/intro_web3.mp4" type="video/mp4"/></video>
+            </Dialog>
 
-{/*
-<dialog>
-<video autoPlay controls>
-<source src="assets/videos/intro_web.mp4" type="video/mp4" /></video>
-</dialog>
-<button className="action-btn open-button">Chécate el Video</button>
-*/}
-
-<ScrollLink to="intro" className="action-btn mobile-btn"><span>Descubre más de tu "Dreamhub Incubator"</span></ScrollLink>  
-</div>
-                                       
+                                     <ScrollLink to="intro" className="action-btn mobile-btn"><span>Descubre más de tu "Dreamhub Incubator"</span></ScrollLink>  
+                                    </div>                           
                                     </div>
                                 </div>
                                 <div className="col-xl-5 col-md-12 mobile-absolute3 mobile-none">
@@ -525,6 +520,9 @@ const ZigzagCarousel = () => {
                                                 <div style={{ height: '20px' }}></div>
                                                 <Link href="" className="action-btn"><span>¿Cómo es el proceso de Tokenización?</span></Link>
                                             </div>
+
+                
+
                                         </div>
                                     </div>
                                 </div>
