@@ -4,14 +4,14 @@ import CardSlider2 from "@/components/slider/CardSlider2"
 import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
 import { TypeAnimation } from 'react-type-animation';
-import { FormLabel, InputLabel, StepLabel } from "@mui/material"
+import { FormLabel } from "@mui/material"
 import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
-import React, { useState } from 'react';    
+import React, { useRef, useState } from 'react';
         
 
 const ZigzagCarousel = () => {
-    const [visible, setVisible] = useState(false);
+    const [visible, setVisible] = useState(false);  
 
     return (
         <>
@@ -51,13 +51,17 @@ const ZigzagCarousel = () => {
 </div>
 <p className="heading cover-heading">en la economía Web3 con estrategias de NFTs que se ajustan y evolucionan continuamente.</p>
 
-            <Button className="action-btn" label="Chécate el video" onClick={() => setVisible(true)} />
+            <ScrollLink to="intro" className="action-btn mobile-btn" style={{ marginRight: '10px' }}><span>Descubre más de tu "Dreamhub Incubator"</span></ScrollLink>  
+
+            <Button className="action-btn play-btn" onClick={() => setVisible(true)}><svg viewBox="0 0 1024 1024" fill="currentColor" height="3.8em" width="3.8em">
+            <path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z" />
+            <path d="M719.4 499.1l-296.1-215A15.9 15.9 0 00398 297v430c0 13.1 14.8 20.5 25.3 12.9l296.1-215a15.9 15.9 0 000-25.8zm-257.6 134V390.9L628.5 512 461.8 633.1z" />
+            </svg></Button>
             <Dialog header="" visible={visible} style={{ alignItems: 'center', width: '160vh', height: 'auto', background: 'black' }} onHide={() => setVisible(false)}>
             <video autoPlay controls>
             <source src="assets/videos/intro_web3.mp4" type="video/mp4"/></video>
             </Dialog>
 
-                                     <ScrollLink to="intro" className="action-btn mobile-btn"><span>Descubre más de tu "Dreamhub Incubator"</span></ScrollLink>  
                                     </div>                           
                                     </div>
                                 </div>
@@ -273,7 +277,7 @@ const ZigzagCarousel = () => {
                                                 Cuéntanos acerca de tu proyecto </p><p>y te asesoraremos para llevarlo al 
                                                 mundo Web3 y la tokenización.</p>
                                                 <div className="mobile-head-imgs">
-                                            <Link href="/" className="action-btn"><span>Agenda con un Experto</span></Link>
+                                            <Link href="/" className="action-btn" style={{ textAlign: 'center'}}><span>Agenda con un Experto</span></Link>
                                             </div>
                                         </div>
                                         <div className="mobile-head-imgs">
@@ -518,10 +522,9 @@ const ZigzagCarousel = () => {
                                                <h5 className="title">Soñadores</h5>
                                                 <p>Para aquellos con grandes sueños pero sin recursos para materializarlos, Dreamhub ofrece una puerta de entrada. Tokenizar sus ideas les permite convertirse en participantes activos en la revolución digital, haciendo realidad sus proyectos de una manera nunca antes vista.</p>
                                                 <div style={{ height: '20px' }}></div>
-                                                <Link href="" className="action-btn"><span>¿Cómo es el proceso de Tokenización?</span></Link>
-                                            </div>
+                                                <Link href="#" className="action-btn" style={{ textAlign: 'center'}}><span>¿Cómo es el proceso de Tokenización?</span></Link>                              
 
-                
+                                            </div>
 
                                         </div>
                                     </div>

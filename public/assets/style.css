@@ -627,5 +627,14 @@
   .mobile-btn {
     font-size: 1em;
     text-align: center;
+    width: 100%;
+    justify-items: center;
+  }
+  .play-btn {
+    margin-top: 10px !important;
+    padding-left: 40% !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
   }
 }
