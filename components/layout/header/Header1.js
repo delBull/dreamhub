@@ -1,8 +1,12 @@
 import Link from "next/link"
 import MobileMenu from "../MobileMenu"
-import { Link as ScrollLink } from 'react-scroll';
+import React, { useState } from 'react';
+import { Tooltip } from 'primereact/tooltip';
+import { Button } from 'primereact/button';
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big }) {
+    const [count, setCount] = useState(0);
+
     return (
         <>
             <header id="header_main" className={`header ${scroll ? "is-fixed is-small" : ""}`}>
@@ -11,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                         <div className="col-12">
                             <div className="header__body">
                                 <div className="header__logo">
-                                    <Link href="/">
+                                    <Link href="#">
                                         <img id="site-logo" src="/assets/images/logo/logo.png" alt="Peson" width={160} height={38} data-retina="assets/images/logo/logo@2x.png" data-width={160} data-height={38} />
                                     </Link>
                                 </div>
@@ -22,18 +26,33 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                             <Link href="/">Inicio</Link>
                                             </li>
                                             <li>
-                                            <Link href="/">Servicios</Link>
+                                            <h6>Servicios</h6>
+                                            <ul className="sub-menu">                                                
+                                                   <li><p style={{color: 'black'}}>Consultoría de Negocios</p></li>
+                                                    <li><p style={{color: 'black'}}>Asesoría Financiera</p></li>
+                                                   <li><p style={{color: 'black'}}>Capacitación Integral</p></li>  
+                                                    <li><p style={{color: 'black'}}>Diseño Estratégico NFTs</p></li>
+                                                    <li><p style={{color: 'black'}}>Diseño Artístico NFTs</p></li>
+                                                    <li><p style={{color: 'black'}}>Campañas de Fidelización</p></li>
+                                                    <li><p style={{color: 'black'}}>Programa de Puntos</p></li>  
+                                                    <li><p style={{color: 'black'}}>NFT Marketign en web3</p></li>
+                                                    <li><p style={{color: 'black'}}>NFT Branding en web3</p></li>
+                                                    <li><p style={{color: 'black'}}>NFT Fundraising en web3</p></li>
+                                                </ul>
                                             </li>
                                             <li className="menu-item menu-item-has-children">
                                                <h6>Explora</h6>
                                                 <ul className="sub-menu">                                                
-                                                   <li className="menu-item"><Link href="/">Nosotros</Link></li>
-                                                    <li className="menu-item"><Link href="/">Blockchain</Link></li>
-                                                    <li className="menu-item"><Link href="/">Tokenización</Link></li>  
-                                                    <li className="menu-item"><Link href="/">NFTs</Link></li> 
+                                                   <li className="menu-item"><Link href="/">Blockchain</Link></li>
                                                     <li className="menu-item"><Link href="/">Roadmap</Link></li>
+                                                   {/* <li className="menu-item"><Link href="/">Tokenización</Link></li>  
+                                                    <li className="menu-item"><Link href="/">NFTs</Link></li> */}
                                                     <li className="menu-item"><Link href="/">FAQs</Link></li>
+                                                    <li className="menu-item"><Link href="/">Ecosistema</Link></li>
                                                 </ul>
+                                            </li>
+                                            <li>
+                                            <Link href="/">Team</Link>
                                             </li>
                                             <li>
                                             <Link href="/">Blog</Link>
