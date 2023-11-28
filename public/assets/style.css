@@ -400,7 +400,7 @@
   top: 0;
   left: -10%;
   z-index: -1;
-  opacity: .9c !important;
+  opacity: .4 !important;
 }
   .no-paddingtop {
     padding-top: 0px !important;
@@ -467,7 +467,9 @@
 .cover-title {
   margin-left: 10px;
 }
-
+.img-overlay {
+  width: 100%;
+}
 
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
@@ -483,7 +485,7 @@
   }
   .mobile-coverimg {
     position: absolute !important;
-    padding-left: 50px !important;
+    margin-left: -30px !important;
     top: 0 !important;
     z-index: 1;
   }

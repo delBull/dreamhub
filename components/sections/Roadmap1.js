@@ -7,15 +7,12 @@ export default function Roadmap1() {
             
 
             <section className="roadmap">
-                        <img src="/assets/images/background/line.png" alt="" className="img-line" />
                         <div className="shape" />
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
                                     <div className="block-text center">
-                                        <h6 className="sub-heading"><span>Road Map</span></h6>
-                                        <h3 className="heading wow" data-splitting>El viaje <br />
-                                            de Dreamhub</h3>
+                                        <h3 className="heading wow" data-splitting>Roadmap</h3>
                                     </div>
                                     <div className="roadmap__main" data-aos="fade-up" data-aos-duration={2000}>
                                         <div className="roadmap-box">

@@ -15,7 +15,7 @@ const ZigzagCarousel = () => {
 
     return (
         <>
-            <Layout headerStyle={1} big footerStyle={2}>
+            <Layout headerStyle={1} big footerStyle={1}>
                 <div>
                     {/* Cover */}
                     <section id="cover" className="banner s4">
@@ -563,7 +563,7 @@ const ZigzagCarousel = () => {
                             </div>
                             <Accordion2 oneCol/>
                             <div style={{ height: '10px' }}></div>
-                            <Link href="/servicios" className="action-btn"><span>Explora los servicios</span></Link>
+                           {/*  <Link href="/servicios" className="action-btn"><span>Explora los servicios</span></Link> */}
                         </div>
                     </div>
                 </div>
@@ -609,7 +609,7 @@ const ZigzagCarousel = () => {
             </section>
  {/* End Causa */}
 
-{/* CTA */}
+{/* CTA
                       <section className="touch create__main">
                         <div className="container">
                             <div className="row">

@@ -1,7 +1,6 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import { Link as ScrollLink } from 'react-scroll';
 export default function MobileMenu({ isMobileMenu }) {
 
     const [isActive, setIsActive] = useState({
@@ -26,7 +25,7 @@ export default function MobileMenu({ isMobileMenu }) {
             <nav id="main-nav-mobi" className="main-nav" style={{ display: `${isMobileMenu ? "block" : "none"}` }}>
                 <ul id="menu-primary-menu" className="menu">
                                             <li>
-                                            <Link href="/">Inicio</Link>
+                                            <Link href="/index.html">Inicio</Link>
                                             </li>
                                             <li>
                                             <Link href="/">Servicios</Link>
@@ -34,16 +33,17 @@ export default function MobileMenu({ isMobileMenu }) {
                                             <li className="menu-item menu-item-has-children">
                                             <Link href="#">Explora</Link>
                                                 <ul className="sub-menu">                                                
-                                                   <li className="menu-item"><Link href="/">Nosotros</Link></li>
-                                                    <li className="menu-item"><Link href="/">Blockchain</Link></li>
-                                                    <li className="menu-item"><Link href="/">Tokenización</Link></li>  
-                                                    <li className="menu-item"><Link href="/">NFTs</Link></li> 
-                                                    <li className="menu-item"><Link href="/">Roadmap</Link></li>
-                                                    <li className="menu-item"><Link href="/">FAQs</Link></li>
+                                                   <li className="menu-item"><Link href="/">Blockchain</Link></li>
+                                                    <li className="menu-item"><Link href="/roadmap">Roadmap</Link></li>
+                                                    <li className="menu-item"><Link href="/help-center">Hub de Ayuda</Link></li>  
+                                                    <li className="menu-item"><Link href="https://agodecosystem.com" target="_blank" >Ecosistema</Link></li> 
                                                 </ul>
                                             </li>
                                             <li>
-                                            <Link href="/">Blog</Link>
+                                            <Link href="/team">Team</Link>
+                                            </li>
+                                            <li>
+                                            <Link href="https://agodecosystem.medium.com" target='_blank'>Blog</Link>
                                             </li>
                 </ul>
             </nav>

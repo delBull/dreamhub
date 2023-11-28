@@ -22,13 +22,13 @@ export default function Footer1() {
                             <div className="footer__bottom">
                                 <div className="center mb--30">
                                     <ul className="list">
-                                        <li><a href="/">Inicio</a></li>
-                                        <li><a href="/vision-mission">Explora</a></li>
-                                        <li><a href="/about">Tokenización</a></li>
+                                        <li><a href="/index.html">Inicio</a></li>
+                                        <li><a href="/">Blockchain</a></li>
                                         <li><a href="/roadmap">Roadmap</a></li>
-                                        <li><a href="/team">Team</a></li>
+                                        <li><a href="/help-center">Hub de Ayuda</a></li>
+                                        <li><a href="https://agodecosystem.com" target="_blank">Ecosistema</a></li>
                                     </ul>
-                                    <p>Copyright © {new Date().getFullYear()}, Dreamhub. Trademark by mxHub S.A. de C.V.</p>
+                                    <p>Copyright © {new Date().getFullYear()}, Dreamhub es marca registrada de AGOD Ecosystem S.A. de C.V.</p>
                                 </div>
                                 <ul className="list-social">
                                     <li><a href="#">

@@ -9,7 +9,7 @@ export default function Footer2() {
                         <div className="col-md-12">
                             <div className="footer__main">
                                 <div className="info-left">
-                                    <Link href="/" className="logo"><img src="assets/images/logo/logo-footer.png" alt="" /></Link>
+                                    <Link href="/index.html" className="logo"><img src="assets/images/logo/logo-footer.png" alt="" /></Link>
                                     <ul className="list-social">
                                         <li><Link href="#">
                                             <svg width={9} height={16} viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,17 +39,17 @@ export default function Footer2() {
                                     <div className="top">
                                         <ul className="widget">
                                             <li><h5 className="title">Explora</h5></li>
-                                            <li><Link href="/nft">Tokenización</Link></li>
                                             <li><Link href="#">Blockchain</Link></li>
-                                            <li><Link href="#">NFTs</Link></li>
-                                            <li><Link href="#">Ecosistema</Link></li>
+                                            <li><Link href="/roadmap">Roadmap</Link></li>
+                                            <li><Link href="/help-center">Hub de Ayuda</Link></li>
+                                            <li><Link href="https://agodecosystem.com" target="_blank">Ecosistema</Link></li>
                                         </ul>
                                         <ul className="widget">
                                             <li><h5 className="title">Dreamhub</h5></li>
-                                            <li><Link href="/about">Nuestro Hub</Link></li>
-                                            <li><Link href="/team">El Equipo</Link></li>
-                                            <li><Link href="#">Roadmap</Link></li>
-                                            <li><Link href="#">FAQ</Link></li>
+                                            <li><Link href="team">El Team</Link></li>
+                                            <li><Link href="https://agodecosystem.medium.com" target="_blank">Blog</Link></li>
+                                            <li><Link href="https://dreamhub.art" target="_blank">dApp</Link></li>
+                                            <li><Link href="https://www.youtube.com/watch?v=j1FtBMzFXco" target="_blank">DACCESS</Link></li>
                                         </ul>
                                         <div className="widget">
                                             <h5 className="title">No seas un extraño</h5>
@@ -68,7 +68,7 @@ export default function Footer2() {
                                 </div>
                             </div>
                             <div className="bottom copyright-container">
-                                        <p className="copyright-txt">© {new Date().getFullYear()}, Dreamhub es marca registrada de MXHUB S.A. de C.V.</p>
+                                        <p className="copyright-txt">© {new Date().getFullYear()}, Dreamhub es marca registrada de AGOD Ecosystem S.A. de C.V.</p>
                                         <Link className="copyright-txt" href="#">Terms &amp; Condition</Link>
                                             <Link className="copyright-txt" href="#">Privacy Policy</Link>
                                             <Link className="copyright-txt" href="#">Cookie Policy</Link>
