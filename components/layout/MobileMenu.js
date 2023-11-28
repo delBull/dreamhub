@@ -46,7 +46,7 @@ export default function MobileMenu({ isMobileMenu }) {
                                             <Link href="https://agodecosystem.medium.com" target='_blank'>Blog</Link>
                                             </li>
                                             <div >
-                                           <Link href="/booking" className="action-btn"><span>Agenda para Tokenizar</span></Link>
+                                           <Link href="/booking" className="action-btn" target="_blank"><span>Agenda para Tokenizar</span></Link>
                                            </div>
                                            <div>
                                            <Link href="https://dreamhub.art" target="_blank" className="action-btn"><span>dApp</span></Link>

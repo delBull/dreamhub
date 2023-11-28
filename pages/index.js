@@ -147,7 +147,7 @@ const ZigzagCarousel = () => {
                                 <h3 className="heading wow" data-splitting>4 formas de éxito en Dreamhub; Incubadora NFT</h3>
                                 <p className="mb-17">Agenda una llamada para aprender cómo combinar arte, negocios e inversiones 
                                 inmobiliarias en nuestro mercado de NFT para soñadores exitosos.</p>
-                                <Link href="/booking" className="action-btn"><span>Da el primer paso</span></Link>
+                                <Link href="/booking" className="action-btn" target="_blank"><span>Da el primer paso</span></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
@@ -279,7 +279,7 @@ const ZigzagCarousel = () => {
                                                 Cuéntanos acerca de tu proyecto </p><p>y te asesoraremos para llevarlo al 
                                                 mundo Web3 y la tokenización.</p>
                                                 <div className="mobile-head-imgs">
-                                            <Link href="/booking" className="action-btn" style={{ textAlign: 'center'}}><span>Agenda con un Experto</span></Link>
+                                            <Link href="/booking" className="action-btn" target="_blank" style={{ textAlign: 'center'}}><span>Agenda con un Experto</span></Link>
                                             </div>
                                         </div>
                                         <div className="mobile-head-imgs">

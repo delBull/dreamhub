@@ -60,7 +60,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                     <div className="mobile-button" onClick={handleMobileMenu}><span /></div>
                                 </div>
                                 <div className="header__action">
-                                    <Link href="/booking" className="action-btn"><span>Agenda para Tokenizar</span></Link>
+                                    <Link href="/booking" className="action-btn" target="_blank"><span>Agenda para Tokenizar</span></Link>
                                     <Link href="https://dreamhub.art" target="_blank" className="action-btn"><span>dApp</span></Link>
                                 </div>
                             </div>

@@ -20,16 +20,13 @@ export default function Team() {
                                 <div className="col-xl-3 col-md-6">
                                     <div className="team-box">
                                         <div className="image">
-                                            <Link href="/team"><img src="/assets/images/layouts/marco.jpg" alt="" /></Link>
+                                            <Link href="/team"><img src="/assets/images/layouts/deltoro.jpg" alt="" /></Link>
                                             <ul className="list-social">
-                                                <li><Link href="#">
-                                                    <span className="icon-facebook" />
+                                                <li><Link href="https://www.linkedin.com/in/marcodeltoro/" target="_blank">
+                                                    <span className="icon-linkedin" />
                                                 </Link></li>
-                                                <li><Link href="#">
+                                                <li><Link href="https://twitter.com/mardeltoro" target="_blank">
                                                     <span className="icon-twiter" />
-                                                </Link></li>
-                                                <li><Link href="#">
-                                                    <span className="icon-plan" />
                                                 </Link></li>
                                             </ul>
                                         </div>
@@ -44,17 +41,14 @@ export default function Team() {
                                 <div className="col-xl-3 col-md-6">
                                     <div className="team-box">
                                         <div className="image">
-                                            <Link href="/team"><img src="/assets/images/layouts/edu.png" alt="" /></Link>
+                                            <Link href="/team"><img src="/assets/images/layouts/master.jpeg" alt="" /></Link>
                                             <ul className="list-social">
-                                                <li><Link href="#">
-                                                    <span className="icon-facebook" />
+                                                <li><Link href="https://www.linkedin.com/in/eduardokukaramakara/">
+                                                    <span className="icon-linkedin" />
                                                 </Link></li>
-                                                <li><Link href="#">
+                                             {/*    <li><Link href="#">
                                                     <span className="icon-twiter" />
-                                                </Link></li>
-                                                <li><Link href="#">
-                                                    <span className="icon-plan" />
-                                                </Link></li>
+                                                     </Link></li> */}
                                             </ul>
                                         </div>
                                         <div className="content">
@@ -68,16 +62,13 @@ export default function Team() {
                                 <div className="col-xl-3 col-md-6">
                                     <div className="team-box">
                                         <div className="image">
-                                            <Link href="/team"><img src="/assets/images/layouts/oscar.png" alt="" /></Link>
+                                            <Link href="/team"><img src="/assets/images/layouts/oscar.jpeg" alt="" /></Link>
                                             <ul className="list-social">
-                                                <li><Link href="#">
-                                                    <span className="icon-facebook" />
-                                                </Link></li>
-                                                <li><Link href="#">
+                                               {/*  <li><Link href="#">
+                                                    <span className="icon-linkedin" />
+                                                </Link></li> */}
+                                                <li><Link href="https://twitter.com/7Trueba">
                                                     <span className="icon-twiter" />
-                                                </Link></li>
-                                                <li><Link href="#">
-                                                    <span className="icon-plan" />
                                                 </Link></li>
                                             </ul>
                                         </div>
@@ -92,18 +83,15 @@ export default function Team() {
                                 <div className="col-xl-3 col-md-6">
                                     <div className="team-box">
                                         <div className="image">
-                                            <Link href="/team"><img src="/assets/images/layouts/erwin.png" alt="" /></Link>
-                                            <ul className="list-social">
+                                            <Link href="/team"><img src="/assets/images/layouts/erwin.jpg" alt="" /></Link>
+                                          {/*   <ul className="list-social">
                                                 <li><Link href="#">
-                                                    <span className="icon-facebook" />
+                                                    <span className="icon-linkedin" />
                                                 </Link></li>
                                                 <li><Link href="#">
                                                     <span className="icon-twiter" />
                                                 </Link></li>
-                                                <li><Link href="#">
-                                                    <span className="icon-plan" />
-                                                </Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </div>
                                         <div className="content">
                                             <Link href="/team" className="h5 name">Erwin Mayoral</Link>
@@ -126,7 +114,7 @@ export default function Team() {
                                             <h4 className="heading">Crea tu portafolio</h4>
                                             <p>Cuéntanos acerca de tu proyecto y te asesoraremos <br/>
                                             para llevarlo al mundo Web3 y la tokenización.</p>
-                                            <Link href="/contact" className="action-btn" style={{ textAlign: 'center'}}><span>Agenda tu Asesoría</span></Link>
+                                            <Link href="/booking" target="_balnk" className="action-btn" style={{ textAlign: 'center'}}><span>Agenda tu Asesoría</span></Link>
                                         </div>
                                         <img className="mobile-none" src="/assets/images/layouts/create.png" />
                                     </div>

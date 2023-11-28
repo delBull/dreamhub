@@ -13,7 +13,7 @@ const Booking = () => {
   }, []);
 
   return (
-    <div className="calendly-inline-widget" data-url="https://calendly.com/dreamhubincubator" style={{ minWidth: '320px', height: '700px' }} />
+    <div className="calendly-inline-widget" data-url="https://calendly.com/dreamhubincubator/tokenizacion-personalizada" style={{ minWidth: '320px', height: '700px' }} />
   );
 };
 
