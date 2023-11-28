@@ -33,7 +33,7 @@ export default function MobileMenu({ isMobileMenu }) {
                                             <li className="menu-item menu-item-has-children">
                                             <Link href="#">Explora</Link>
                                                 <ul className="sub-menu">                                                
-                                                   <li className="menu-item"><Link href="/">Blockchain</Link></li>
+                                                   <li className="menu-item"><Link href="/blockchain">Blockchain</Link></li>
                                                     <li className="menu-item"><Link href="/roadmap">Roadmap</Link></li>
                                                     <li className="menu-item"><Link href="/help-center">Hub de Ayuda</Link></li>  
                                                     <li className="menu-item"><Link href="https://agodecosystem.com" target="_blank" >Ecosistema</Link></li> 

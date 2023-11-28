@@ -4,42 +4,121 @@ import { Link as ScrollLink } from 'react-scroll';
 export default function Vission() {
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="El mundo de Blockchain">
+            <Layout headerStyle={1} big footerStyle={1} breadcrumbTitle="El Mundo de Blockchain">
             <div className="page-visions">
             <div className="block-text center">
-                                        <ScrollLink to="/" className="action-btn" style={{ marginRight: '10px'}}><span>¿Qué es Blockchain?</span></ScrollLink>
-                                        <ScrollLink to="/" className="action-btn" style={{ marginRight: '10px'}}><span>Tokenización</span></ScrollLink>
-                                        <ScrollLink to="/" className="action-btn" style={{ marginRight: '10px'}}><span>NFTs</span></ScrollLink>
+                                        <ScrollLink to="blockchain" className="action-btn" style={{ marginRight: '10px'}}><span>¿Qué es Blockchain?</span></ScrollLink>
+                                        <ScrollLink to="tokenización" className="action-btn" style={{ marginRight: '10px'}}><span>Tokenización</span></ScrollLink>
+                                        <ScrollLink to="nfts" className="action-btn" style={{ marginRight: '10px'}}><span>NFTs</span></ScrollLink>
+                                        <ScrollLink to="security" className="action-btn" style={{ marginRight: '10px'}}><span>Security</span></ScrollLink>
+                                        <ScrollLink to="utility" className="action-btn" style={{ marginRight: '10px'}}><span>Utility</span></ScrollLink>
                                     </div>
-                    <section className="about">
+                    <section id="blockchain" className="about" style={{ paddingBottom: '0px' }}>
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-md-12">
                                     <div className="block-text">
                                         <h6 className="sub-heading"><span>Blockchain</span></h6>
-                                        <h3 className="heading wow" data-splitting>Our Vision</h3>
-                                        <p className="mb-17">Cyfonii aims to build a virtual reality environment, a real metaverse for business activities, where all users can easily bring their business activities to the network environment, conduct the comprehensive digital transformation of business operations, increase outstanding efficiency with the maximum support of technologies.</p>
+                                        <h3 className="heading wow" data-splitting>Bienvenidos a la Revolución Digital</h3>
+                                        <p className="mb-17">Donde Blockchain es el superhéroe que transforma la forma en que compartimos 
+                                        información! Imagina Blockchain como ese diario secreto, pero en lugar de palabras, es un 
+                                        registro inmutable y transparente de transacciones. Es como un superpoder para la seguridad y 
+                                        confianza en línea.</p>
+                                        <p className="mb-17">En términos sencillos, Blockchain es una cadena de bloques conectados, 
+                                        donde cada bloque guarda información y está vinculado al anterior, creando un historial 
+                                        inalterable. Esta tecnología brilla en sectores como las finanzas, la cadena de suministro y más.</p>
+                                        <p className="mb-17">Por ejemplo, piensa en una transacción financiera. En lugar de depender 
+                                        de un banco central, Blockchain descentraliza el proceso, garantizando transparencia y seguridad. 
+                                        Todos los participantes tienen acceso al mismo registro, eliminando intermediarios innecesarios.</p>
+                                        <p className="mb-17">Entonces, ¿por qué es emocionante? Porque abre las puertas a una nueva era 
+                                        de confianza y colaboración. ¡Prepárate para sumergirte en el futuro, donde Blockchain es el 
+                                        superhéroe que redefine la forma en que compartimos y confiamos en la información en línea! 🚀</p>
                                     </div>
+                                    </div>
+                                    <div className="col-xl-6 col-md-12">
+                                    <div className="about__right">
+                                        <div className="images">
+                                            <img className="img1" src="/assets/images/layouts/horseaquiles.png" alt="" />
+                                            <img className="img5" src="/assets/images/layouts/about-04.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                    </div>
+                                    </div>
+                                    </section>
+
+                    <section id="tokenización"  className="about" style={{ paddingBottom: '0px' }}>
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-6 col-md-12">
                                     <div className="block-text">
-                                        <h6 className="sub-heading"><span>Visions &amp; Mission</span></h6>
-                                        <h3 className="heading wow" data-splitting>Our Mission</h3>
-                                        <p>Cyfonii is conceptualized almost like the development of the digital society and digital economy of the world according to the comprehensive digital transformation model (Digital Transformation) in the period of Industry 4.0 taking place very strongly all over the world starting from the digitization period (Digitization) to the goal of building a virtual super universe (Metaverse) is being shaped.</p>
+                                        <h6 className="sub-heading"><span>Tokenización</span></h6>
+                                        <h3 className="heading wow" data-splitting>La Llave Maestra de Infinitas Posibilidades</h3>
+                                        <p className="mb-17">Imagina tus posesiones convirtiéndose en pequeñas joyas digitales, tokens, 
+                                        que representan auténticamente tus activos en nuestra plataforma blockchain.</p>
+                                        <p className="mb-17">Es como si estuviéramos transformando tus posesiones en bloques de 
+                                        construcción digitales, listos para crear algo único y extraordinario. Con la magia de la 
+                                        tokenización, no solo adquieres tecnología avanzada, sino que también te sumerges en un mundo 
+                                        donde compartir, intercambiar y construir se convierten en experiencias revolucionarias</p>
+                                        <p className="mb-17">En términos sencillos, la tokenización te permite convertir lo cotidiano 
+                                        en extraordinario. ¿Recuerdas cuando intercambiabas cromos en el recreo? Ahora imagina que esos 
+                                        cromos son tokens digitales que representan tus propios activos, desde bienes raíces hasta 
+                                        arte digital.</p>
+                                        <p className="mb-17">La verdadera magia está en la capacidad de reinventar tu experiencia 
+                                        cotidiana. Con Dreamhub, no solo tokenizas, sino que también desbloqueas un universo de 
+                                        oportunidades digitales. ¡Prepárate para explorar un nuevo mundo de posibilidades y reinventar 
+                                        la forma en que ves tus activos!</p>
                                     </div>
                                 </div>
                                 <div className="col-xl-6 col-md-12">
                                     <div className="about__right">
                                         <div className="images">
                                             <img className="img1" src="/assets/images/layouts/about-01.png" alt="" />
-                                            <img className="img2" src="/assets/images/layouts/about-02.png" alt="" />
-                                            <img className="img3" src="/assets/images/layouts/about-03.png" alt="" />
-                                            <img className="img4" src="/assets/images/layouts/about-04.png" alt="" />
-                                            <img className="img5" src="/assets/images/layouts/about-05.png" alt="" />
+                                            <img className="img2" src="/assets/images/layouts/float2.png" alt="" />
                                         </div>
                                     </div>
                                 </div>
+                                
                             </div>
                         </div>
                     </section>
+
+                    <section id="nfts"  className="about">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-xl-6 col-md-12">
+                                    <div className="block-text">
+                                        <h6 className="sub-heading"><span>NFTs</span></h6>
+                                        <h3 className="heading wow" data-splitting>Un Mundo de Autenticidad Digital</h3>
+                                        <p className="mb-17">En nuestro increíble Marketplace de Dreamhub! Los NFTs son como tesoros 
+                                        digitales, piezas únicas que representan desde la esencia intangible de una membresía exclusiva 
+                                        hasta fragmentos tangibles de propiedades y negocios.</p>
+                                        <p className="mb-17">Piénsalo como tener tu propio pedacito de historia digital. 
+                                        ¿Recuerdas esos tiempos en los que coleccionabas objetos especiales que te transportaban a 
+                                        mundos mágicos? Bueno, los NFTs son exactamente eso, pero en el universo digital. 
+                                        En nuestro Marketplace, creamos un espacio exclusivo para que artistas, emprendedores y 
+                                        visionarios como tú den vida a proyectos únicos e emocionantes</p>
+                                        <p className="mb-17">Imagina poseer un fragmento de una experiencia única, ya sea un concierto 
+                                        inolvidable, una pieza de arte digital o incluso un pedazo de tu restaurante favorito. 
+                                        En Dreamhub, los NFTs no son solo activos, son experiencias y posesiones digitales únicas que 
+                                        te sumergen en un viaje inigualable. ¡Descubre el poder de la autenticidad digital 
+                                        con nuestros NFTs y da vida a tus sueños de manera única y emocionante! 💎</p>
+                                    </div>
+                                </div>
+                                <div className="col-xl-6 col-md-12">
+                                    <div className="about__right">
+                                        <div className="images">
+                                            <img className="img1" src="/assets/images/layouts/erfeo.png" alt="" />
+                                            <img className="img5" src="/assets/images/layouts/float3.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </section>
+
+{/*
                     <section className="couter">
                         <div className="container">
                             <div className="row">
@@ -150,18 +229,16 @@ export default function Vission() {
                             </div>
                         </div>
                     </section>
+*/}
+
+                    <div style={{ height: '0px' }}></div>
                     <section className="faq">
                         <div className="shape" />
                         <div className="container">
                             <div className="row">
                                 <div className="col-12">
                                     <div className="block-text center">
-                                        <h6 className="sub-heading"><span>FAQs</span></h6>
-                                        <h3 className="heading wow" data-splitting>Frequently
-                                            <br />
-                                            Aksed Questions</h3>
-                                        <p className="mb-17">Below is a list of frequently asked questions and answers from partners and 3D artist</p>
-                                        <p>Please check this FAQ first before contacting us.</p>
+                                        <h4 className="sub-heading"><span>FAQs</span></h4>
                                     </div>
                                     <Accordion />
                                 </div>

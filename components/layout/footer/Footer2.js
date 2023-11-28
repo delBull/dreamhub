@@ -39,7 +39,7 @@ export default function Footer2() {
                                     <div className="top">
                                         <ul className="widget">
                                             <li><h5 className="title">Explora</h5></li>
-                                            <li><Link href="#">Blockchain</Link></li>
+                                            <li><Link href="/blockchain">Blockchain</Link></li>
                                             <li><Link href="/roadmap">Roadmap</Link></li>
                                             <li><Link href="/help-center">Hub de Ayuda</Link></li>
                                             <li><Link href="https://agodecosystem.com" target="_blank">Ecosistema</Link></li>

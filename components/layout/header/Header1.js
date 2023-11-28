@@ -43,7 +43,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                             <li className="menu-item menu-item-has-children">
                                                <h6>Explora</h6>
                                                 <ul className="sub-menu">                                                
-                                                   <li className="menu-item"><Link href="/">Blockchain</Link></li>
+                                                   <li className="menu-item"><Link href="/blockchain">Blockchain</Link></li>
                                                     <li className="menu-item"><Link href="/roadmap">Roadmap</Link></li>
                                                     <li className="menu-item"><Link href="/help-center">Hub de Ayuda</Link></li>
                                                     <li className="menu-item"><Link href="https://agodecosystem.com" target="_blank">Ecosistema</Link></li>
