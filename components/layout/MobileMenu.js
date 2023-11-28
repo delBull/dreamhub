@@ -25,7 +25,7 @@ export default function MobileMenu({ isMobileMenu }) {
             <nav id="main-nav-mobi" className="main-nav" style={{ display: `${isMobileMenu ? "block" : "none"}` }}>
                 <ul id="menu-primary-menu" className="menu">
                                             <li>
-                                            <Link href="/index.html">Inicio</Link>
+                                            <Link href="/">Inicio</Link>
                                             </li>
                                             <li>
                                             <Link href="/">Servicios</Link>

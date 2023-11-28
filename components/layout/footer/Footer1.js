@@ -22,7 +22,7 @@ export default function Footer1() {
                             <div className="footer__bottom">
                                 <div className="center mb--30">
                                     <ul className="list">
-                                        <li><a href="/index.html">Inicio</a></li>
+                                        <li><a href="/">Inicio</a></li>
                                         <li><a href="/blockchain">Blockchain</a></li>
                                         <li><a href="/roadmap">Roadmap</a></li>
                                         <li><a href="/help-center">Hub de Ayuda</a></li>

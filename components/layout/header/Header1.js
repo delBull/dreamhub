@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                         <div className="col-12">
                             <div className="header__body">
                                 <div className="header__logo">
-                                    <Link href="/index.html">
+                                    <Link href="/">
                                         <img id="site-logo" src="/assets/images/logo/logo.png" alt="Peson" width={160} height={38} data-retina="assets/images/logo/logo@2x.png" data-width={160} data-height={38} />
                                     </Link>
                                 </div>
@@ -23,7 +23,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                     <nav id="main-nav" className="main-nav">
                                         <ul id="menu-primary-menu" className="menu">
                                             <li>
-                                            <Link href="/index.html">Inicio</Link>
+                                            <Link href="/">Inicio</Link>
                                             </li>
                                             <li>
                                             <h6>Servicios</h6>

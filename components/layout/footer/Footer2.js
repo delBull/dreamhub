@@ -9,7 +9,7 @@ export default function Footer2() {
                         <div className="col-md-12">
                             <div className="footer__main">
                                 <div className="info-left">
-                                    <Link href="/index.html" className="logo"><img src="assets/images/logo/logo-footer.png" alt="" /></Link>
+                                    <Link href="/" className="logo"><img src="assets/images/logo/logo-footer.png" alt="" /></Link>
                                     <ul className="list-social">
                                         <li><Link href="#">
                                             <svg width={9} height={16} viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
