@@ -147,7 +147,7 @@ const ZigzagCarousel = () => {
                                 <h3 className="heading wow" data-splitting>4 formas de éxito en Dreamhub; Incubadora NFT</h3>
                                 <p className="mb-17">Agenda una llamada para aprender cómo combinar arte, negocios e inversiones 
                                 inmobiliarias en nuestro mercado de NFT para soñadores exitosos.</p>
-                                <Link href="#" className="action-btn"><span>Da el primer paso</span></Link>
+                                <Link href="/booking" className="action-btn"><span>Da el primer paso</span></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-md-12">
@@ -193,7 +193,7 @@ const ZigzagCarousel = () => {
                         <p>¿Quieres sabe más del tema?</p>
                         <div style={{ height: '20px' }}></div>
                         
-                        <ScrollLink to="security" className="action-btn"><span>Adéntrate en la Tokenización</span></ScrollLink>
+                        <Link href="/blockchain" className="action-btn"><span>Adéntrate en la Tokenización</span></Link>
                         </div>
                         
                          {/* cardbox 1 */}
@@ -252,7 +252,7 @@ const ZigzagCarousel = () => {
                                         <div className="info d-flex">
                                             <img src="/assets/images/layouts/avt-06.png" alt="" />
                                             <div>
-                                            <Link href="/nfts" className="action-btn"><span>Quiero saber más!</span></Link>
+                                            <Link href="/blockchain" className="action-btn"><span>Quiero saber más!</span></Link>
                                             </div>
                                         </div>
                                     </div>
@@ -279,7 +279,7 @@ const ZigzagCarousel = () => {
                                                 Cuéntanos acerca de tu proyecto </p><p>y te asesoraremos para llevarlo al 
                                                 mundo Web3 y la tokenización.</p>
                                                 <div className="mobile-head-imgs">
-                                            <Link href="/" className="action-btn" style={{ textAlign: 'center'}}><span>Agenda con un Experto</span></Link>
+                                            <Link href="/booking" className="action-btn" style={{ textAlign: 'center'}}><span>Agenda con un Experto</span></Link>
                                             </div>
                                         </div>
                                         <div className="mobile-head-imgs">
