@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/ViPSkGvGw9TdsrHdJJpfZ/_buildManifest.js",
-    "static/ViPSkGvGw9TdsrHdJJpfZ/_ssgManifest.js"
+    "static/TBdWO1q1n3N1V_2Qb_cNy/_buildManifest.js",
+    "static/TBdWO1q1n3N1V_2Qb_cNy/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -17,10 +17,10 @@
       "static/chunks/121-5b33cd4015d31b48.js",
       "static/chunks/502-172ae205e2399127.js",
       "static/css/ef46db3751d8e999.css",
-      "static/chunks/782-9fcba14fa7689ce9.js",
+      "static/chunks/303-cdab5d670f33f58b.js",
       "static/chunks/261-96a36a48cefead46.js",
       "static/chunks/780-0c958162348eaad4.js",
-      "static/chunks/pages/index-ad5a35d6ff8ef085.js"
+      "static/chunks/pages/index-f36b63feb3dc23d4.js"
     ],
     "/3dcarousel": [
       "static/chunks/webpack-6788627dbeb4f603.js",
@@ -38,7 +38,7 @@
       "static/chunks/webpack-6788627dbeb4f603.js",
       "static/chunks/framework-0c7baedefba6b077.js",
       "static/chunks/main-7af7d5359a6145de.js",
-      "static/css/bfefd26588b99000.css",
+      "static/css/9190399a03539fce.css",
       "static/chunks/pages/_app-dc6fad2c22f9873e.js"
     ],
     "/_error": [
@@ -74,7 +74,7 @@
       "static/chunks/261-96a36a48cefead46.js",
       "static/chunks/780-0c958162348eaad4.js",
       "static/chunks/901-918a102d0cb59aa3.js",
-      "static/chunks/pages/blockchain-a16a530e9d669cf0.js"
+      "static/chunks/pages/blockchain-bf4998ffc8a1b0f9.js"
     ],
     "/blog": [
       "static/chunks/webpack-6788627dbeb4f603.js",
@@ -137,12 +137,12 @@
       "static/chunks/framework-0c7baedefba6b077.js",
       "static/chunks/main-7af7d5359a6145de.js",
       "static/chunks/121-5b33cd4015d31b48.js",
-      "static/chunks/782-9fcba14fa7689ce9.js",
+      "static/chunks/303-cdab5d670f33f58b.js",
       "static/chunks/569-39cefc2fb83832d4.js",
       "static/chunks/780-0c958162348eaad4.js",
       "static/chunks/901-918a102d0cb59aa3.js",
       "static/css/0f9f4fd29e0d7902.css",
-      "static/chunks/pages/help-center-3a321874c67d2e47.js"
+      "static/chunks/pages/help-center-a0f23c73ce699623.js"
     ],
     "/home-v2": [
       "static/chunks/webpack-6788627dbeb4f603.js",

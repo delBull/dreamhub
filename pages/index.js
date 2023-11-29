@@ -7,6 +7,8 @@ import { TypeAnimation } from 'react-type-animation';
 import { FormLabel } from "@mui/material"
 import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
+import { Tooltip } from 'primereact/tooltip';
+import { Badge } from 'primereact/badge';
 import React, { useRef, useState } from 'react';
         
 
@@ -523,11 +525,27 @@ const ZigzagCarousel = () => {
                                             <div className="content">
                                                <h5 className="title">Soñadores</h5>
                                                 <p>Para aquellos con grandes sueños pero sin recursos para materializarlos, Dreamhub ofrece una puerta de entrada. Tokenizar sus ideas les permite convertirse en participantes activos en la revolución digital, haciendo realidad sus proyectos de una manera nunca antes vista.</p>
-                                                <div style={{ height: '20px' }}></div>
-                                                <Link href="#" className="action-btn" style={{ textAlign: 'center'}}><span>¿Cómo es el proceso de Tokenización?</span></Link>                              
+                                                <div style={{ height: '20px' }}></div>                            
+
+                                               
+            <Tooltip target=".custom-target-icon" className="tip-btn" />
+            <Button className="action-btn custom-target-icon pi pi-envelope p-text-secondary p-overlay-badge"
+                data-pr-tooltip={
+                "1: Comienza agendando una reunión con uno de nuestros expertos en tokenización. En este encuentro, podrás discutir tus objetivos, resolver cualquier duda y personalizar tu experiencia según las necesidades de tu proyecto.\n\n" +
+
+                "2: Una vez establecida la conexión con nuestro equipo, selecciona cuidadosamente los activos que planeas tokenizar. Podrían ser propiedades inmobiliarias, obras de arte, derechos de autor u otros elementos valiosos.\n\n" +
+                
+                "3: Cuantifica el valor de estos activos y establece un precio justo. Nuestro equipo te guiará en este proceso, asegurándose de que el precio refleje adecuadamente el valor real de tus activos.\n\n" +
+                
+                "4: Con todo listo, inicia el proceso de venta en nuestra dApp Dreamhub. Este paso implica convertir tus activos en tokens, lo que les otorga la capacidad de ser intercambiados y compartidos digitalmente.\n\n" +
+                
+                "5: Una vez completado, simplemente disfruta de los beneficios de la tokenización. Observa cómo tus activos se transforman en oportunidades digitales, brindándote nuevas formas de interacción y crecimiento en la economía Web3."
+                }
+                data-pr-position="center"
+                style={{  textAlign: 'center', cursor: 'pointer' }}><span>¿Cómo es el proceso de Tokenización?</span> 
+            </Button>
 
                                             </div>
-
                                         </div>
                                     </div>
                                 </div>

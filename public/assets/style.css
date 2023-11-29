@@ -470,7 +470,16 @@
 .img-overlay {
   width: 100%;
 }
-
+.tip-btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 50px;
+  background: white;
+  color: black;
+  border-radius: 15px;
+  font-size: 14px;
+  max-width: 500px;
+}
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
   .mobile-relative {
@@ -632,5 +641,12 @@
     align-items: center;
     justify-content: center;
     width: 100%;
+  }
+  .tip-btn {
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 35px;
+    font-size: 14px;
+    min-width: 450px;
   }
 }
