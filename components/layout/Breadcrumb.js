@@ -11,7 +11,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                             <div className="page-title__body">
                                 <div className="page-title__main">
                                     <h4 className="title">{breadcrumbTitle}</h4>
-                                    <div className="bottom">
+                                   {/* <div className="bottom">
                                         <p>Share this page</p>
                                         <ul className="list-social">
                                             <li><a href="#">
@@ -37,7 +37,7 @@ export default function Breadcrumb({ breadcrumbTitle }) {
                                                 </svg>
                                             </a></li>
                                         </ul>
-                                    </div>
+                                           </div> */}
                                 </div>
                             </div>
                         </div>

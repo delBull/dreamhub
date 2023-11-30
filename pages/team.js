@@ -20,7 +20,7 @@ export default function Team() {
                                 <div className="col-xl-3 col-md-6">
                                     <div className="team-box">
                                         <div className="image">
-                                            <Link href="/team"><img src="/assets/images/layouts/deltoro.jpg" alt="" /></Link>
+                                            <Link href="/team"><img src="/assets/images/layouts/deltoro.png" alt="" /></Link>
                                             <ul className="list-social">
                                                 <li><Link href="https://www.linkedin.com/in/marcodeltoro/" target="_blank">
                                                     <span className="icon-linkedin" />

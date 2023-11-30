@@ -39,7 +39,7 @@ export default function Vission() {
                                     <div className="col-xl-6 col-md-12">
                                     <div className="about__right">
                                         <div className="images">
-                                            <img className="img1" src="/assets/images/layouts/horseaquiles.png" alt="" />
+                                            <img className="img1" src="/assets/images/layouts/horseaquiles.png" style={{ width: '400px' }} />
                                             <img className="img5" src="/assets/images/layouts/about-04.png" alt="" />
                                         </div>
                                     </div>
@@ -109,7 +109,7 @@ export default function Vission() {
                                 <div className="col-xl-6 col-md-12">
                                     <div className="about__right">
                                         <div className="images">
-                                            <img className="img1" src="/assets/images/layouts/erfeo.png" alt="" />
+                                            <img className="img1" src="/assets/images/layouts/erfeo.png" style={{ width: '400px' }}/>
                                             <img className="img5" src="/assets/images/layouts/float3.png" alt="" />
                                         </div>
                                     </div>

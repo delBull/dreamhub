@@ -643,10 +643,9 @@
     width: 100%;
   }
   .tip-btn {
-    margin-right: 20px;
     margin-left: 0px;
     padding: 35px;
     font-size: 14px;
-    min-width: 450px;
+    min-width: 350px;
   }
 }
