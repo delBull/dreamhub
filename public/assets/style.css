@@ -480,6 +480,21 @@
   font-size: 14px;
   max-width: 500px;
 }
+.form-nombre {
+  display: inline-block;
+  width: 250px;
+  margin-right: 10px;
+}
+.form-email {
+  display: inline-block;
+  width: 400px;
+  padding-right: 3px;
+}
+.form-btn {
+  width: 660px;
+  text-align: center;
+}
+
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {
   .mobile-relative {
@@ -647,5 +662,19 @@
     padding: 35px;
     font-size: 14px;
     min-width: 350px;
+  }
+  .form-nombre {
+    width: 310px;
+    display: inline-block;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  .form-email {
+    display: inline-block;
+    width: 310px;
+    align-items: center;
+  }
+  .form-btn {
+    width: 310px;
   }
 }

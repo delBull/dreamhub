@@ -10,13 +10,21 @@ export default function Footer1() {
                             <div className="footer__main">
                                 <div className="block-text center">
                                     <h3 className="heading">No seas un extraño</h3>
-                                    <p>Aprende y vuélvete experto ¡No te pierdas las útlimas noticias!</p>
+                                    <p>Aprende y vuélvete experto ¡No te quedes fuera!</p>
+                                    <p>Con tu entrada a la comunidad Dreamhub, ¡recibes un NFT sorpresa!</p>
                                 </div>
                                 <form action="#" className="form">
                                     <div className="form-group">
+                                        <ul>
+                                            <li className="form-nombre">
+                                        <input type="name" className="form-control" placeholder="Tu nombre" />
+                                         </li>
+                                        <li className="form-email">
                                         <input type="email" className="form-control" placeholder="Tu email" />
+                                        </li>
+                                        </ul>
                                     </div>
-                                    <button className="action-btn"><span>Subscríbete</span></button>
+                                    <button className="action-btn form-btn"><span style={{ width: '100%'}}>Únete a los Dreamers</span></button>
                                 </form>
                             </div>
                             <div className="footer__bottom">
