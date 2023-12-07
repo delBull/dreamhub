@@ -1,14 +1,12 @@
-import Accordion2 from "@/components/elements/Accordion2"
-import Layout from "@/components/layout/Layout"
-import CardSlider2 from "@/components/slider/CardSlider2"
+import Accordion2 from '../components/elements/Accordion2'
+import Layout from '../components/layout/Layout'
+import CardSlider2 from '../components/slider/CardSlider2'
 import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
 import { TypeAnimation } from 'react-type-animation';
-import { FormLabel } from "@mui/material"
 import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
 import { Tooltip } from 'primereact/tooltip';
-import { Badge } from 'primereact/badge';
 import React, { useRef, useState } from 'react';
         
 

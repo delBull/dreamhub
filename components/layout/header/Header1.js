@@ -1,8 +1,6 @@
 import Link from "next/link"
 import MobileMenu from "../MobileMenu"
 import React, { useState } from 'react';
-import { Tooltip } from 'primereact/tooltip';
-import { Button } from 'primereact/button';
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big }) {
     const [count, setCount] = useState(0);

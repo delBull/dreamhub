@@ -1,4 +1,4 @@
-import Preloader from "@/components/elements/Preloader"
+import Preloader from '../components/elements/Preloader'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect, useState } from "react"
