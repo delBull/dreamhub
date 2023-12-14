@@ -1,10 +1,10 @@
-import Accordion from "@/components/elements/Accordion"
-import Layout from "@/components/layout/Layout"
-import BannerSlider3 from "@/components/slider/BannerSlider3"
-import BrandSlider1 from "@/components/slider/BrandSlider1"
-import ProjectSlider3 from "@/components/slider/ProjectSlider3"
-import RoadmapSlider1 from "@/components/slider/RoadmapSlider1"
-import TestimonialSlider1 from "@/components/slider/TestimonialSlider1"
+import Accordion from '../components/elements/Accordion'
+import Layout from '../components/layout/Layout'
+import BannerSlider3 from '../components/slider/BannerSlider3'
+import BrandSlider1 from '../components/slider/BrandSlider1'
+import ProjectSlider3 from '../components/slider/ProjectSlider3'
+import RoadmapSlider1 from '../components/slider/RoadmapSlider1'
+import TestimonialSlider1 from '../components/slider/TestimonialSlider1'
 import Link from "next/link"
 export default function CoverFlowCarousel() {
 

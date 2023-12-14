@@ -1,7 +1,7 @@
-import Accordion from "@/components/elements/Accordion"
-import Layout from "@/components/layout/Layout"
+import Accordion from '../components/elements/Accordion'
+import Layout from '../components/layout/Layout'
 import Link from "next/link"
-import RoadmapSlider1 from "@/components/sections/Roadmap1"
+import RoadmapSlider1 from '../components/sections/Roadmap1'
 export default function Roadmap() {
 
     return (

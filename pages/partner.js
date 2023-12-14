@@ -1,6 +1,6 @@
-import Accordion from "@/components/elements/Accordion"
-import Layout from "@/components/layout/Layout"
-import BrandSlider1 from "@/components/slider/BrandSlider1"
+import Accordion from '../components/elements/Accordion'
+import Layout from '../components/layout/Layout'
+import BrandSlider1 from '../components/slider/BrandSlider1'
 export default function Partner() {
 
     return (

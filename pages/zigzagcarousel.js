@@ -1,9 +1,9 @@
-import Accordion from "@/components/elements/Accordion"
-import Layout from "@/components/layout/Layout"
-import BrandSlider1 from "@/components/slider/BrandSlider1"
-import CardSlider2 from "@/components/slider/CardSlider2"
-import ProjectSlider1 from "@/components/slider/ProjectSlider1"
-import TestimonialSlider1 from "@/components/slider/TestimonialSlider1"
+import Accordion from '../components/elements/Accordion'
+import Layout from '../components/layout/Layout'
+import BrandSlider1 from '../components/slider/BrandSlider1'
+import CardSlider2 from '../components/slider/CardSlider2'
+import ProjectSlider1 from '../components/slider/ProjectSlider1'
+import TestimonialSlider1 from '../components/slider/TestimonialSlider1'
 import Link from "next/link"
 export default function ZigzagCarousel() {
 

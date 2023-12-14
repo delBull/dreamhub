@@ -1,9 +1,9 @@
-import Accordion from "@/components/elements/Accordion"
-import Layout from "@/components/layout/Layout"
-import BrandSlider1 from "@/components/slider/BrandSlider1"
-import CardSlider4 from "@/components/slider/CardSlider4"
-import RoadmapSlider1 from "@/components/slider/RoadmapSlider1"
-import TestimonialSlider2 from "@/components/slider/TestimonialSlider2"
+import Accordion from '../components/elements/Accordion'
+import Layout from '../components/layout/Layout'
+import BrandSlider1 from '../components/slider/BrandSlider1'
+import CardSlider4 from '../components/slider/CardSlider4'
+import RoadmapSlider1 from '../components/slider/RoadmapSlider1'
+import TestimonialSlider2 from '../components/slider/TestimonialSlider2'
 import Link from "next/link"
 export default function ItemCarousel() {
 

@@ -1,6 +1,6 @@
-import Accordion from "@/components/elements/Accordion"
-import VideoPopup from "@/components/elements/VideoPopup"
-import Layout from "@/components/layout/Layout"
+import Accordion from '../components/elements/Accordion'
+import VideoPopup from '../components/elements/VideoPopup'
+import Layout from '../components/layout/Layout'
 import Link from "next/link"
 import { Dialog } from 'primereact/dialog';
 import { Button } from 'primereact/button';
