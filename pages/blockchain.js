@@ -1,5 +1,5 @@
-import Accordion from "@/components/elements/Accordion"
-import Layout from "@/components/layout/Layout"
+import Accordion from '../components/elements/Accordion'
+import Layout from '../components/layout/Layout'
 import { Link as ScrollLink } from 'react-scroll';
 import Link from "next/link"
 export default function Vission() {
