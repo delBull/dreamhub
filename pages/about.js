@@ -1,6 +1,6 @@
-import Layout from "@/components/layout/Layout"
-import BrandSlider1 from "@/components/slider/BrandSlider1"
-import TeamSlider1 from "@/components/slider/TeamSlider1"
+import Layout from '../components/layout/Layout'
+import BrandSlider1 from '../components/slider/BrandSlider1'
+import TeamSlider1 from '../components/slider/TeamSlider1'
 import Link from "next/link"
 export default function About() {
 

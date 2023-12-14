@@ -1,5 +1,5 @@
-import Accordion from "@/components/elements/Accordion"
-import Layout from "@/components/layout/Layout"
+import Accordion from '../components/elements/Accordion'
+import Layout from '../components/layout/Layout'
 import BrandSlider1 from "@/components/slider/BrandSlider1"
 import Link from "next/link"
 export default function Advisor() {
