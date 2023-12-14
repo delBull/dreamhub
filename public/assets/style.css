@@ -494,6 +494,13 @@
   width: 660px;
   text-align: center;
 }
+.mytoast {
+  background-color: rgb(39, 254, 161);
+  border-radius: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: black;
+}
 
 /* Estilos para pantallas más grandes (web) */
 @media only screen and (min-width: 768px) {

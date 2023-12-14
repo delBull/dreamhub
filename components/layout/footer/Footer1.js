@@ -1,3 +1,5 @@
+import SignupForm from "src/components/signup-form";
+
 
 export default function Footer1() {
     return (
@@ -7,7 +9,8 @@ export default function Footer1() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12">
-                            <div className="footer__main">
+                            
+                          {/*  <div className="footer__main">
                                 <div className="block-text center">
                                     <h3 className="heading">No seas un extraño</h3>
                                     <p>Aprende y vuélvete experto ¡No te quedes fuera!</p>
@@ -26,7 +29,10 @@ export default function Footer1() {
                                     </div>
                                     <button className="action-btn form-btn"><span style={{ width: '100%'}}>Únete a los Dreamers</span></button>
                                 </form>
-                            </div>
+                                    </div> */}
+
+                            <SignupForm />
+
                             <div className="footer__bottom">
                                 <div className="center mb--30">
                                     <ul className="list">
