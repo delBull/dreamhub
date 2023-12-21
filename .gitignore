@@ -1,7 +1,8 @@
 # dependencies
-/ node_modules
-/ .pnp
-.pnp.js
+node_modules/
+.next/
+.swc/
+.*.env
 
 # testing
 /coverage
@@ -10,5 +11,4 @@
 #  /build
 
 # misc
-.DS Storenp
-node_modules
+.DS_Store
