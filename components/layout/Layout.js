@@ -5,6 +5,7 @@ import PageHead from './PageHead'
 import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
 import Header1 from "./header/Header1"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumbTitle, children, big }) {
     const [scroll, setScroll] = useState(0)
@@ -44,6 +45,7 @@ export default function Layout({ headerStyle, footerStyle, headTitle, breadcrumb
                 {footerStyle == 2 ? < Footer2 /> : null}
 
                 <BackToTop />
+                <SpeedInsights />
             </div>
         </>
     )

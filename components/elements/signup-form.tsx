@@ -1,70 +1,68 @@
 "use client";
 
 import { Toast } from 'primereact/toast';
-import React, { useRef } from 'react';
+import React, { FormEvent, useRef } from 'react';
 import { useState } from 'react';
-
-function isInputNamedElement(e: Element): e is HTMLInputElement & { name: string } {
-  return 'value' in e && 'name' in e
-}
 
 const SignupForm = () => {
   const [state, setState] = useState<string>();
 
-  async function handleOnSubmit(e: React.SyntheticEvent<HTMLFormElement>) {
-    e.preventDefault();
+  async function handleOnSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
 
-    const formData: Record<string, string> = {};
+    try {
+      const formData = new FormData(event.currentTarget);
+      setState('loading');
 
-    Array.from(e.currentTarget.elements).filter(isInputNamedElement).forEach((field) => {
-        if (!field.name) return;
-        formData[field.name] = field.value;
-    });
+      const response = await fetch('/api/email', {
+        method: 'POST',
+        body: JSON.stringify(Object.fromEntries(formData)),
+      });
 
-    setState('loading');
-
-    await fetch('/api/email', {
-      method: 'POST',
-      body: JSON.stringify({
-        firstName: formData.firstName,
-        email: formData.email
-      })
-    })
-
-    setState('ready');
+      if (!response.ok) {
+        throw new Error('Error al enviar el formulario.')
+      } else {
+        showMessage(toastBottomCenter, 'success');
+      }
+      
+      setState('ready');
+      
+    } catch (error) {
+      console.error(error);
+      // TODO: Add error message
+    }
   }
 
- 
+
   const toastBottomCenter = useRef(null);
 
-  const showMessage = (event, ref, severity) => {
-      const label = event.target.innerText;
+  const showMessage = (ref, severity) => {
 
-      ref.current.show({ summary: '¡Bien hecho!', detail: "Bienvenido a DHUB", life: 4000, contentStyleClass: 'background: white' });
+    ref.current.show({ summary: '¡Bien hecho!', detail: "Bienvenido a DHUB", life: 4000, severity });
   };
 
   return (
-                              <div className="footer__main">
-                                <div className="block-text center">
-                                    <h3 className="heading">No seas un extraño</h3>
-                                    <p>Aprende y vuélvete experto ¡No te quedes fuera!</p>
-                                    <p>Con tu entrada a la comunidad Dreamhub, ¡recibes un NFT sorpresa!</p>
-                                </div>
-                                <form action="#" className="form" onSubmit={handleOnSubmit}>
-                                    <div className="form-group">
-                                        <ul>
-                                            <li className="form-nombre">
-                                        <input id="firstName" name="firstName" type="firstName" className="form-control" placeholder="Tu nombre" />
-                                         </li>
-                                        <li className="form-email">
-                                        <input id="email" name="email" type="email" className="form-control" placeholder="Tu email" />
-                                        </li>
-                                        </ul>
-                                    </div>
-                                    <Toast ref={toastBottomCenter} position="bottom-center" className='mytoast' />
-                                    <button onClick={(e) => showMessage(e, toastBottomCenter, 'info')} className="action-btn form-btn"><span style={{ width: '100%'}}>Únete a los Dreamers</span></button>
-                                </form>
-                            </div>
+    <div className="footer__main">
+      <div className="block-text center">
+        <h3 className="heading">No seas un extraño</h3>
+        <p>Aprende y vuélvete experto ¡No te quedes fuera!</p>
+        <p>Con tu entrada a la comunidad Dreamhub, ¡recibes un NFT sorpresa!</p>
+      </div>
+      <form className="form" onSubmit={handleOnSubmit}>
+        <div className="form-group">
+          <ul>
+            <li className="form-nombre">
+              <input id="firstName" name="firstName" type="firstName" className="form-control" placeholder="Tu nombre" required />
+            </li>
+            <li className="form-email">
+              <input id="email" name="email" type="email" className="form-control" placeholder="Tu email" required />
+            </li>
+          </ul>
+        </div>
+        <Toast ref={toastBottomCenter} position="bottom-center" />
+        <button type='submit' className="action-btn form-btn"><span style={{ width: '100%' }}>Únete a los Dreamers</span></button>
+      </form>
+    </div>
   )
 }
 

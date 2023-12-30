@@ -1,13 +1,24 @@
 import { Resend } from 'resend';
 
 import SubscribedEmail from '../../components/emails/subscribed';
-import { NextApiRequest, NextApiResponse } from 'next';
+import type { NextApiRequest, NextApiResponse } from 'next';
+import { z } from "zod";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
+const schema = z.object({
+    firstName: z.string(),
+    email: z.string().email()
+});
+
 export default async function POST(request: NextApiRequest, response: NextApiResponse) {
-    const data = request.body;
-    const { firstName, email } = JSON.parse(data);
+    const parsed = schema.safeParse(JSON.parse(request.body));
+
+    if (!parsed.success) {
+        return response.status(400).json(parsed.error);
+    }
+
+    const { firstName, email} = parsed.data;
     
     try {
         await resend.emails.send({
