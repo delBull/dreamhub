@@ -1,4 +1,4 @@
-import SignupForm from "../../elements/signup-form";
+import SignupForm from "../../elements/SignupForm";
 
 
 export default function Footer1() {

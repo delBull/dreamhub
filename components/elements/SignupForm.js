@@ -1,18 +1,21 @@
-"use client";
-
 import { Toast } from 'primereact/toast';
-import React, { FormEvent, useRef } from 'react';
+import React, { useRef } from 'react';
 import { useState } from 'react';
 
 const SignupForm = () => {
-  const [state, setState] = useState<string>();
+  const toastBottomCenter = useRef(null);
+  const [firstName, setFirstName] = useState("");
+  const [email, setEmail] = useState("");
 
-  async function handleOnSubmit(event: FormEvent<HTMLFormElement>) {
+  async function handleOnSubmit(event) {
     event.preventDefault();
+
+    if (!firstName || !email) {
+      return;
+    }
 
     try {
       const formData = new FormData(event.currentTarget);
-      setState('loading');
 
       const response = await fetch('/api/email', {
         method: 'POST',
@@ -22,24 +25,21 @@ const SignupForm = () => {
       if (!response.ok) {
         throw new Error('Error al enviar el formulario.')
       } else {
-        showMessage(toastBottomCenter, 'success');
+        showSuccess();
       }
-      
-      setState('ready');
-      
     } catch (error) {
       console.error(error);
-      // TODO: Add error message
+      showError();
     }
   }
 
+  const showSuccess = () => {
+    toastBottomCenter.current.show({ severity: 'success', summary: '¡Bien hecho!', detail: 'Bienvenido a DHUB', life: 4000 });
+  }
 
-  const toastBottomCenter = useRef(null);
-
-  const showMessage = (ref, severity) => {
-
-    ref.current.show({ summary: '¡Bien hecho!', detail: "Bienvenido a DHUB", life: 4000, severity });
-  };
+  const showError = () => {
+    toastBottomCenter.current.show({ severity: 'error', summary: 'Error', detail: 'Ha ocurrido un problema al enviar el formulario, inténtalo más tarde', life: 30000 });
+  }
 
   return (
     <div className="footer__main">
@@ -52,16 +52,16 @@ const SignupForm = () => {
         <div className="form-group">
           <ul>
             <li className="form-nombre">
-              <input id="firstName" name="firstName" type="firstName" className="form-control" placeholder="Tu nombre" required />
+              <input value={firstName} onChange={e => setFirstName(e.target.value)} id="firstName" name="firstName" type="firstName" className="form-control" placeholder="Tu nombre" required />
             </li>
             <li className="form-email">
-              <input id="email" name="email" type="email" className="form-control" placeholder="Tu email" required />
+              <input value={email} onChange={e => setEmail(e.target.value)} id="email" name="email" type="email" className="form-control" placeholder="Tu email" required />
             </li>
           </ul>
         </div>
-        <Toast ref={toastBottomCenter} position="bottom-center" />
         <button type='submit' className="action-btn form-btn"><span style={{ width: '100%' }}>Únete a los Dreamers</span></button>
       </form>
+      <Toast ref={toastBottomCenter} position="bottom-center" />
     </div>
   )
 }

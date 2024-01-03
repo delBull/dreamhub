@@ -18,8 +18,8 @@ export default async function POST(request: NextApiRequest, response: NextApiRes
         return response.status(400).json(parsed.error);
     }
 
-    const { firstName, email} = parsed.data;
-    
+    const { firstName, email } = parsed.data;
+
     try {
         await resend.emails.send({
             from: 'DHUB <no-reply@subscribers.dreamhub.art>',

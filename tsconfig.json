@@ -27,8 +27,10 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
-, "components/email-template.tsx", "pages/send-email.tsx"  ],
+    "**/*.tsx",
+    "components/email-template.tsx",
+    "pages/send-email.tsx",
+  ],
   "exclude": [
     "node_modules"
   ]
