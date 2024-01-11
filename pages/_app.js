@@ -7,11 +7,8 @@ import 'swiper/css/free-mode'
 import "swiper/css/navigation"
 import "swiper/css/pagination"
 import "../public/assets/css/animate.css"
-// import "/public/css/dist/aos.css"
-import "../public/assets/css/app.css"
-
+import "public/assets/css/app.css"
 import "primereact/resources/themes/lara-light-indigo/theme.css";  //theme
-import "primereact/resources/primereact.min.css";                  //core css
 import { PrimeReactProvider } from 'primereact/api';
 
 function MyApp({ Component, pageProps }) {

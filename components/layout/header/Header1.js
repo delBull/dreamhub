@@ -1,7 +1,8 @@
 import Link from "next/link"
 import MobileMenu from "../MobileMenu"
 import React, { useState } from 'react';
-
+import { Tooltip } from 'primereact/tooltip';
+        
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big }) {
     const [count, setCount] = useState(0);
 
@@ -38,7 +39,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                                     <li><p style={{color: 'black'}}>NFT Fundraising en web3</p></li>
                                                 </ul>
                                             </li>
-                                            <li className="menu-item menu-item-has-children">
+                                            <li className="menu-item menu-item-has-children explore" data-pr-tooltip="coming soon">
                                                <h6>Explora</h6>
                                                 <ul className="sub-menu">                                                
                                                    <li className="menu-item"><Link href="/blockchain">Blockchain</Link></li>
@@ -46,20 +47,23 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                                     <li className="menu-item"><Link href="/help-center">Hub de Ayuda</Link></li>
                                                     <li className="menu-item"><Link href="https://agodecosystem.com" target="_blank">Ecosistema</Link></li>
                                                 </ul>
+                                                <Tooltip target=".explore" style={{padding: 10}} mouseTrack mouseTrackLeft={15} />
                                             </li>
                                             <li>
                                             <Link href="/team">Team</Link>
                                             </li>
-                                            <li>
-                                            <Link href="https://agodecosystem.medium.com" target="_blank">Blog</Link>
+                                            <li className="blog"  data-pr-tooltip="coming soon" data-pr-position="bottom">
+                                            <Link href="#">Blog</Link>
                                             </li>
+                                            <Tooltip target=".blog" />
                                         </ul>
                                     </nav>
                                     <div className="mobile-button" onClick={handleMobileMenu}><span /></div>
                                 </div>
                                 <div className="header__action">
                                     <Link href="/booking" className="action-btn" target="_blank"><span>Agenda para Tokenizar</span></Link>
-                                    <Link href="https://dreamhub.art" target="_blank" className="action-btn"><span>dApp</span></Link>
+                                    <Link href="#" className="action-btn dapp" data-pr-tooltip="coming soon" data-pr-position="bottom"><span>dApp</span></Link>
+                                    <Tooltip target=".dapp" />
                                 </div>
                             </div>
                         </div>
