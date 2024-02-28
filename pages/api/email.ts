@@ -22,7 +22,7 @@ export default async function POST(request: NextApiRequest, response: NextApiRes
 
     try {
         await resend.emails.send({
-            from: 'DHUB <no-reply@subscribers.dreamhub.art>',
+            from: 'DHUB <no-reply@subscribers.dreamhub.agency>',
             to: [email],
             subject: 'La tokenización ha comenzado',
             react: SubscribedEmail({
