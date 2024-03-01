@@ -39,13 +39,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                                                     <li><p style={{color: 'black'}}>NFT Fundraising en web3</p></li>
                                                 </ul>
                                             </li>
-                                            <li className="menu-item menu-item-has-children explore" data-pr-tooltip="coming soon">
+                                            <li className="menu-item menu-item-has-children explore" >
                                                <h6>Explora</h6>
                                                 <ul className="sub-menu">                                                
                                                    <li className="menu-item"><Link href="/blockchain">Blockchain</Link></li>
                                                     <li className="menu-item"><Link href="/roadmap">Roadmap</Link></li>
                                                     <li className="menu-item"><Link href="/help-center">Hub de Ayuda</Link></li>
-                                                    <li className="menu-item"><Link href="https://agodecosystem.com" target="_blank">Ecosistema</Link></li>
+                                                    {/* <li className="menu-item"><Link href="https://agodecosystem.com" target="_blank">Ecosistema</Link></li>*/}
                                                 </ul>
                                                 <Tooltip target=".explore" style={{padding: 10}} mouseTrack mouseTrackLeft={15} />
                                             </li>
