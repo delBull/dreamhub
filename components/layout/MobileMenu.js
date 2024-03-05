@@ -35,22 +35,18 @@ export default function MobileMenu({ isMobileMenu }) {
                                                 <ul className="sub-menu">                                                
                                                    <li className="menu-item"><Link href="/blockchain">Blockchain</Link></li>
                                                     <li className="menu-item"><Link href="/roadmap">Roadmap</Link></li>
-                                                    <li className="menu-item"><Link href="/help-center">Hub de Ayuda</Link></li>  
-                                                    <li className="menu-item"><Link href="https://agodecosystem.com" target="_blank" >Ecosistema</Link></li> 
+                                                    <li className="menu-item"><Link href="/help-center">Hub de Ayuda</Link></li>
                                                 </ul>
                                             </li>
                                             <li>
                                             <Link href="/team">Team</Link>
                                             </li>
-                                            <li>
-                                            <Link href="https://agodecosystem.medium.com" target='_blank'>Blog</Link>
-                                            </li>
                                             <div >
                                            <Link href="/booking" className="action-btn" target="_blank"><span>Agenda para Tokenizar</span></Link>
                                            </div>
-                                           <div>
-                                           <Link href="https://dreamhub.art" target="_blank" className="action-btn"><span>dApp</span></Link>
-                                           </div>
+                                          {/* <div>
+                                           <Link href="#" target="_blank" className="action-btn"  data-pr-tooltip="coming soon" data-pr-position="bottom"><span>dApp</span></Link>
+                                              </div> */}
                                           </ul>
             </nav>
         </>
