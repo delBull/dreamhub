@@ -15,7 +15,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, big })
                             <div className="header__body">
                                 <div className="header__logo">
                                     <Link href="/">
-                                        <img id="site-logo" src="/assets/images/logo/logo.png" alt="Peson" width={160} height={38} data-retina="assets/images/logo/logo@2x.png" data-width={160} data-height={38} />
+                                        <img id="site-logo" src="/assets/images/logo/logo.png" alt="Peson" height={40} data-retina="assets/images/logo/logo@2x.png" data-height={40} />
                                     </Link>
                                 </div>
                                 <div className="header__right">
