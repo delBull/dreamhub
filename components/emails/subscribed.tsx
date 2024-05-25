@@ -34,7 +34,7 @@ import { Text } from "@react-email/text";
             <Container className="border border-solid border-[#eaeaea] rounded my-[40px] mx-auto p-[20px] w-[465px]">
               <Section className="mt-[32px]">
                 <Img
-                  src={`/logo.png`}
+                  src="https://www.dreamhub.agency/assets/images/logo/favicon.png"
                   width="40"
                   height="37"
                   alt="Vercel"
@@ -48,23 +48,25 @@ import { Text } from "@react-email/text";
                 Hola {firstName},
               </Text>
               <Text className="text-black text-[14px] leading-[24px]">
-                Tu camino a la <strong>Tokenización</strong> comienza ahora.
+              En el corazón de Dreamhub, <strong>la Tokenización</strong> es la llave que transforma tus activos en 
+              oportunidades digitales. Con nosotros, no solo obtienes tecnología, sino la magia de compartir, intercambiar 
+              y construir algo verdaderamente extraordinario. ¡Es el poder de reinventar lo cotidiano! 🚀
               </Text>
               <Section>
                 <Row>
                   <Column align="right">
-                    <Img className="rounded-full" src={`assets/images/logo/favicon.png`} width="64" height="64" />
+                    <Img className="rounded-full" src={`https://www.dreamhub.agency/assets/images/logo/arte.png`} width="64" height="64" />
                   </Column>
                   <Column align="center">
                     <Img
-                      src={`assets/images/icon/Line.png`}
+                      src={`https://www.dreamhub.agency/assets/images/logo/lightline.png`}
                       width="12"
                       height="9"
                       alt="invited you to"
                     />
                   </Column>
                   <Column align="left">
-                    <Img className="rounded-full" src={`assets/images/item/portal1.png`} width="64" height="64" />
+                    <Img className="rounded-full" src={`https://www.dreamhub.agency/assets/images/item/triangulo.png`} width="64" height="64" />
                   </Column>
                 </Row>
               </Section>

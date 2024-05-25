@@ -34,7 +34,7 @@ const SignupForm = () => {
   }
 
   const showSuccess = () => {
-    toastBottomCenter.current.show({ severity: 'success', summary: '¡Bien hecho!', detail: 'Bienvenido a DHUB', life: 4000 });
+    toastBottomCenter.current.show({ severity: 'success', summary: '¡Bien hecho!', detail: 'Ya eres parte de Dreamhub', life: 4000 });
   }
 
   const showError = () => {
