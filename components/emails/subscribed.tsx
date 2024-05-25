@@ -55,11 +55,11 @@ import { Text } from "@react-email/text";
               <Section>
                 <Row>
                   <Column align="right">
-                    <Img className="rounded-full" src={`https://www.dreamhub.agency/assets/images/logo/arte.png`} width="64" height="64" />
+                    <Img className="rounded-full" src={`https://www.dreamhub.agency/assets/item/logo/arte.png`} width="64" height="64" />
                   </Column>
                   <Column align="center">
                     <Img
-                      src={`https://www.dreamhub.agency/assets/images/logo/lightline.png`}
+                      src={`https://www.dreamhub.agency/assets/images/item/lightline.png`}
                       width="12"
                       height="9"
                       alt="invited you to"
