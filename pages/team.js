@@ -62,7 +62,7 @@ export default function Team() {
                                 <div className="col-xl-3 col-md-6">
                                     <div className="team-box">
                                         <div className="image">
-                                            <Link href="/team"><img src="/assets/images/layouts/oscar.jpeg" alt="" /></Link>
+                                            <Link href="/team"><img src="/assets/images/layouts/oscar.png" alt="" /></Link>
                                             <ul className="list-social">
                                                {/*  <li><Link href="#">
                                                     <span className="icon-linkedin" />
@@ -83,7 +83,7 @@ export default function Team() {
                                 <div className="col-xl-3 col-md-6">
                                     <div className="team-box">
                                         <div className="image">
-                                            <Link href="/team"><img src="/assets/images/layouts/erwin.jpg" alt="" /></Link>
+                                            <Link href="/team"><img src="/assets/images/layouts/daniel.jpg" alt="" /></Link>
                                           {/*   <ul className="list-social">
                                                 <li><Link href="#">
                                                     <span className="icon-linkedin" />
@@ -94,7 +94,7 @@ export default function Team() {
                                             </ul> */}
                                         </div>
                                         <div className="content">
-                                            <Link href="/team" className="h5 name">Erwin Mayoral</Link>
+                                            <Link href="/team" className="h5 name">Daniel Olvera</Link>
                                             <p className="postion">
                                                 Operations & Real Estate Expert
                                             </p>
