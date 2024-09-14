@@ -450,6 +450,16 @@
   cursor: pointer;
   z-index: 1;
 }
+svg.p-icon.p-dialog-header-close-icon {
+  color: black;
+}
+.p-dialog-header {
+  width: 150px;
+}
+button.p-dialog-header-icon.p-dialog-header-close.p-link {
+  width: 150px;
+  padding-left: 4rem;
+}
 .copyright-container {
   text-align: center;
 }
@@ -473,8 +483,8 @@
 .tip-btn {
   margin-left: 10px;
   margin-right: 10px;
-  padding: 50px;
-  background: white;
+  padding: 20px;
+  background: rgb(89, 92, 116);
   color: black;
   border-radius: 15px;
   font-size: 14px;
