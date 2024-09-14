@@ -31,7 +31,7 @@ export default function Footer1() {
                                 </form>
                                     </div> */}
 
-                            <SignupForm />
+                          {/*  <SignupForm /> */}
 
                             <div className="footer__bottom">
                                 <div className="center mb--30">
